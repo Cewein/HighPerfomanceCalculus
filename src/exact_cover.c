@@ -220,6 +220,7 @@ int choose_next_item(struct context_t *ctx)
         return best_item;
 }
 
+//need to be modify to output the time for the current processor it's being applyed on
 void progress_report(const struct context_t *ctx)
 {
         double now = wtime();
@@ -514,8 +515,11 @@ struct context_t * backtracking_setup(const struct instance_t *instance)
         return ctx;
 }
 
+//todo make this function no recursive, it would simplify a lot of things for the parallelisation
+//the best thing would be to put in a for
 void solve(const struct instance_t *instance, struct context_t *ctx)
 {
+
         ctx->nodes++;
         if (ctx->nodes == next_report)
                 progress_report(ctx);
@@ -523,8 +527,10 @@ void solve(const struct instance_t *instance, struct context_t *ctx)
                 solution_found(instance, ctx);
                 return;                         /* succès : plus d'objet actif */
         }
+
         int chosen_item = choose_next_item(ctx);
         struct sparse_array_t *active_options = ctx->active_options[chosen_item];
+
         if (sparse_array_empty(active_options))
                 return;           /* échec : impossible de couvrir chosen_item */
         cover(instance, ctx, chosen_item);
@@ -533,8 +539,12 @@ void solve(const struct instance_t *instance, struct context_t *ctx)
         for (int k = 0; k < active_options->len; k++) {
                 int option = active_options->p[k];
                 ctx->child_num[ctx->level] = k;
+                //maybe make this function return a value instead of taking pointer
                 choose_option(instance, ctx, option, chosen_item);
+
+                //monkas
                 solve(instance, ctx);
+
                 if (ctx->solutions >= max_solutions)
                         return;
                 unchoose_option(instance, ctx, option, chosen_item);
@@ -545,6 +555,7 @@ void solve(const struct instance_t *instance, struct context_t *ctx)
 
 int main(int argc, char **argv)
 {
+        //no need to parrallelise here
         struct option longopts[5] = {
                 {"in", required_argument, NULL, 'i'},
                 {"progress-report", required_argument, NULL, 'v'},
@@ -575,11 +586,14 @@ int main(int argc, char **argv)
                 usage(argv);
         next_report = report_delta;
 
-
+        //need to parallelise here
         struct instance_t * instance = load_matrix(in_filename);
         struct context_t * ctx = backtracking_setup(instance);
         start = wtime();
+
+        //important part
         solve(instance, ctx);
+
         printf("FINI. Trouvé %lld solutions en %.1fs\n", ctx->solutions, 
                         wtime() - start);
         exit(EXIT_SUCCESS);
