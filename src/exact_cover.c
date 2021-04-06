@@ -3,9 +3,10 @@
 #include <stdbool.h>
 #include <string.h>
 #include <stdlib.h>
-#include <err.h>
+#include <errors.h>
 #include <getopt.h>
 #include <sys/time.h>
+#include <omp.h>
 
 
 double start = 0.0;
