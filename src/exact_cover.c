@@ -3,7 +3,7 @@
 #include <stdbool.h>
 #include <string.h>
 #include <stdlib.h>
-#include <errors.h>
+#include <err.h>
 #include <getopt.h>
 #include <sys/time.h>
 #include <omp.h>
@@ -310,6 +310,7 @@ struct instance_t * load_matrix(const char *filename)
         if (n_it == 0 || n_op == 0)
                 errx(1, "Impossible d'avoir 0 objets ou 0 options");
         instance->n_items = n_it;
+        instance->n_primary = 0;
         instance->n_options = n_op;
         instance->item_name = malloc(n_it * sizeof(char *));
         instance->ptr = malloc((n_op + 1) * sizeof(int));
