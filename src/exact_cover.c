@@ -517,11 +517,14 @@ struct context_t * backtracking_setup(const struct instance_t *instance)
         return ctx;
 }
 
-//todo make this function no recursive, it would simplify a lot of things for the parallelisation
+//todo make this function as task it would simplify a lot of things for the parallelisation
 //the best thing would be to put in a for
+
 void solve(const struct instance_t *instance, struct context_t *ctx)
 {
-
+        if (ctx->solutions >= max_solutions)
+                return;
+                
         ctx->nodes++;
         if (ctx->nodes == next_report)
                 progress_report(ctx);
@@ -538,17 +541,17 @@ void solve(const struct instance_t *instance, struct context_t *ctx)
         cover(instance, ctx, chosen_item);
         ctx->num_children[ctx->level] = active_options->len;
 
+        #pragma omp parallel
         for (int k = 0; k < active_options->len; k++) {
                 int option = active_options->p[k];
                 ctx->child_num[ctx->level] = k;
                 //maybe make this function return a value instead of taking pointer
                 choose_option(instance, ctx, option, chosen_item);
 
-                //monkas
+                #pragma omp task shared(instance) shared(ctx)
                 solve(instance, ctx);
 
-                if (ctx->solutions >= max_solutions)
-                        return;
+                #pragma omp taskwait
                 unchoose_option(instance, ctx, option, chosen_item);
         }
 
