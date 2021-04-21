@@ -1,0 +1,27 @@
+CXX = g++
+CXXFLAGS = -g1 -O3
+LDFLAGS =
+LDLIBS = -lSAM -lmpfr -lgmp
+SAMDIR = ../SAM_r1613/src/
+RM = rm -f
+SRC_TEST = division_sam.cpp main.cpp
+SRC_NEWTON = division_sam.cpp main_newton.cpp
+OBJ_TEST = $(SRC_TEST:.cpp=.o)
+OBJ_NEWTON = $(SRC_NEWTON:.cpp=.o)
+OBJFLAGS = -Wall -Wno-c++11-extensions
+
+all : test newton
+
+newton : $(OBJ_NEWTON)
+	$(CXX) $(CXXFLAGS) -o $@ $^ -I $(SAMDIR) -L $(SAMDIR) $(LDLIBS)
+
+test : $(OBJ_TEST)
+	$(CXX) $(CXXFLAGS) -o $@ $^ -I $(SAMDIR) -L $(SAMDIR) $(LDLIBS)
+
+%.o: %.cpp
+	$(CXX) $(OBJFLAGS) $(CXXFLAGS) -c $< -I $(SAMDIR) -L $(SAMDIR)
+
+clear :
+	$(RM) test newton $(OBJ_TEST) $(OBJ_NEWTON)
+
+.PHONY : clear all
