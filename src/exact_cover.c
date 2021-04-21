@@ -214,6 +214,7 @@ int choose_next_item(struct context_t *ctx)
         int best_item = -1;
         int best_options = 0x7fffffff;
         struct sparse_array_t *active_items = ctx->active_items;
+        #pragma omp parallel for
         for (int i = 0; i < active_items->len; i++) {
                 int item = active_items->p[i];
                 struct sparse_array_t *active_options = ctx->active_options[item];
@@ -221,7 +222,7 @@ int choose_next_item(struct context_t *ctx)
                 if (k < best_options) {
                         best_item = item;
                         best_options = k;
-                }
+                      }
         }
         return best_item;
 }
@@ -254,7 +255,6 @@ void cover(const struct instance_t *instance, struct context_t *ctx, int item)
         if (item_is_primary(instance, item))
                 sparse_array_remove(ctx->active_items, item);
         struct sparse_array_t *active_options = ctx->active_options[item];
-        #pragma omp simd
         for (int i = 0; i < active_options->len; i++) {
                 int option = active_options->p[i];
                 deactivate(instance, ctx, option, item);
@@ -547,19 +547,17 @@ void solve(const struct instance_t *instance, struct context_t *ctx,int depth)
         ctx->num_children[ctx->level] = active_options->len;
 
         for (int k = 0; k < active_options->len; k++) {
-                int option = active_options->p[k];
-                ctx->child_num[ctx->level] = k;
 
                 #pragma omp task
                 {
+                  int option = active_options->p[k];
+                  ctx->child_num[ctx->level] = k;
                   choose_option(instance, ctx, option, chosen_item); // task ? -> non
                   solve(instance, ctx, depth++); //pas ca
                   unchoose_option(instance, ctx, option, chosen_item);
                 }
                 #pragma omp taskwait
         }
-
-
         uncover(instance, ctx, chosen_item);                      /* backtrack */
 }
 
