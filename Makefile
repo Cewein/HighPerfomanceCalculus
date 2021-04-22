@@ -1,5 +1,5 @@
 CC = gcc
-CCFLAGS = -O3 -fopenmp -Wall -Wextra
+CCFLAGS = -O2 -fopenmp -Wall -Wextra
 SRC = ./src/exact_cover.c
 OBJ = $(SRC:.c=.o)
 RM = rm -f

@@ -8,7 +8,6 @@
 #include <getopt.h>
 #include <sys/time.h>
 #include <omp.h>
-
 /* changelog :
 2021-04-12 18:30, instance->n_primary was not properly initialized
 */
@@ -132,7 +131,8 @@ void sparse_array_add(struct sparse_array_t *S, int x)
 
 void sparse_array_remove(struct sparse_array_t *S, int x)
 {
-        int j = S->q[x];
+
+int j = S->q[x];
         int n = S->len - 1;
         // échange p[j] et p[n]
         int y = S->p[n];
@@ -146,11 +146,13 @@ void sparse_array_remove(struct sparse_array_t *S, int x)
 
 void sparse_array_unremove(struct sparse_array_t *S)
 {
+  #pragma omp atomic update
         S->len++;
 }
 
 void sparse_array_unadd(struct sparse_array_t *S)
 {
+  #pragma omp atomic update
         S->len--;
 }
 
@@ -185,7 +187,6 @@ void choose_option(const struct instance_t *instance, struct context_t *ctx,
 {
         ctx->chosen_options[ctx->level] = option;
         ctx->level++;
-        #pragma omp simd
         for (int p = instance->ptr[option]; p < instance->ptr[option + 1]; p++) {
                 int item = instance->options[p];
                 if (item == chosen_item)
@@ -214,7 +215,6 @@ int choose_next_item(struct context_t *ctx)
         int best_item = -1;
         int best_options = 0x7fffffff;
         struct sparse_array_t *active_items = ctx->active_items;
-        #pragma omp parallel for
         for (int i = 0; i < active_items->len; i++) {
                 int item = active_items->p[i];
                 struct sparse_array_t *active_options = ctx->active_options[item];
@@ -222,7 +222,7 @@ int choose_next_item(struct context_t *ctx)
                 if (k < best_options) {
                         best_item = item;
                         best_options = k;
-                      }
+                }
         }
         return best_item;
 }
@@ -252,10 +252,11 @@ void deactivate(const struct instance_t *instance, struct context_t *ctx,
 
 void cover(const struct instance_t *instance, struct context_t *ctx, int item)
 {
-        if (item_is_primary(instance, item))
+if (item_is_primary(instance, item))
                 sparse_array_remove(ctx->active_items, item);
-        struct sparse_array_t *active_options = ctx->active_options[item];
+struct sparse_array_t *active_options = ctx->active_options[item];
         for (int i = 0; i < active_options->len; i++) {
+
                 int option = active_options->p[i];
                 deactivate(instance, ctx, option, item);
         }
@@ -522,12 +523,8 @@ struct context_t * backtracking_setup(const struct instance_t *instance)
         return ctx;
 }
 
-void solve(const struct instance_t *instance, struct context_t *ctx,int depth)
+void solve(const struct instance_t *instance, struct context_t *ctx)
 {
-
-        if (ctx->solutions >= max_solutions)
-            return;
-
         ctx->nodes++;
         if (ctx->nodes == next_report)
                 progress_report(ctx);
@@ -535,29 +532,23 @@ void solve(const struct instance_t *instance, struct context_t *ctx,int depth)
                 solution_found(instance, ctx);
                 return;                         /* succès : plus d'objet actif */
         }
-
         int chosen_item = choose_next_item(ctx);
         struct sparse_array_t *active_options = ctx->active_options[chosen_item];
-
         if (sparse_array_empty(active_options))
                 return;           /* échec : impossible de couvrir chosen_item */
         cover(instance, ctx, chosen_item);
-
-        //⟨Branchement sur les options actives de l’objet choisi 18b⟩
         ctx->num_children[ctx->level] = active_options->len;
-
+        printf("len opt : %d\tlevel : %d\n", active_options->len,ctx->level);
         for (int k = 0; k < active_options->len; k++) {
-
-                #pragma omp task
-                {
-                  int option = active_options->p[k];
-                  ctx->child_num[ctx->level] = k;
-                  choose_option(instance, ctx, option, chosen_item); // task ? -> non
-                  solve(instance, ctx, depth++); //pas ca
-                  unchoose_option(instance, ctx, option, chosen_item);
-                }
-                #pragma omp taskwait
+                int option = active_options->p[k];
+                ctx->child_num[ctx->level] = k;
+                choose_option(instance, ctx, option, chosen_item);
+                solve(instance, ctx);
+                if (ctx->solutions >= max_solutions)
+                      return;
+                unchoose_option(instance, ctx, option, chosen_item);
         }
+
         uncover(instance, ctx, chosen_item);                      /* backtrack */
 }
 
@@ -593,17 +584,21 @@ int main(int argc, char **argv)
                 usage(argv);
         next_report = report_delta;
 
-
+        //charge le probleme dans l'instance
         struct instance_t * instance = load_matrix(in_filename);
+
+        //charge l'etat actuel de la procedure de recherche
         struct context_t * ctx = backtracking_setup(instance);
         start = wtime();
-
-        #pragma omp parallel
-        #pragma omp single
-        {
-          solve(instance, ctx,0);
+        //lance la recherche
+        /*
+        code chiant à trouver
+        #pragma omp parallel for
+        for (size_t i = 0; i < nb_fils; i++) {
+          solve(instances[i], ctxs[i]);
         }
-
+        */
+        solve(instance,ctx);
         printf("FINI. Trouvé %lld solutions en %.1fs\n", ctx->solutions,
                         wtime() - start);
         exit(EXIT_SUCCESS);
