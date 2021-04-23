@@ -527,8 +527,7 @@ struct context_t * backtracking_setup(const struct instance_t *instance)
 void solve(const struct instance_t *instance, struct context_t *ctx)
 {
         ctx->nodes++;
-        if (ctx->nodes == next_report)
-                progress_report(ctx);
+        //if (ctx->nodes == next_report) progress_report(ctx);
         if (sparse_array_empty(ctx->active_items)) {
                 solution_found(instance, ctx);
                 return;                         /* succès : plus d'objet actif */
@@ -570,17 +569,14 @@ int createParaArray(const struct instance_t *instance, struct context_t *ctx, st
         //create the array of context that need to be process
         *arr = malloc(sizeof(struct context_t) * active_options->len);
 
-
+        printf("len opt : %d\tlevel : %d\n", active_options->len,ctx->level);
         for (int k = 0; k < active_options->len; k++) {
                 int option = active_options->p[k];
                 ctx->child_num[ctx->level] = k;
-                choose_option(instance, ctx, option, chosen_item);
                 (*arr)[k] = *ctx;
-                //printf("level : %d\tchosen opt : %d\tctx node:%d\n", ctx->level, ctx->chosen_options[ctx->level],ctx->child_num[ctx->level]);
-
+                printf("level : %d\tchosen opt : %d\tctx node:%d\n", ctx->level, ctx->chosen_options[ctx->level],ctx->child_num[ctx->level]);
+                choose_option(instance, ctx, option, chosen_item);
                 solve(instance, ctx);
-
-
                 unchoose_option(instance, ctx, option, chosen_item);
         }
 
@@ -651,23 +647,15 @@ int main(int argc, char **argv)
 
         if(arr != NULL)
         {
-                start = wtime();
-                solve(instance, &(arr[1]));
+                printf("Starting to do parallelise section\n");
+                for(int i  = chunkSize * rank; i < chunkSize * (rank + 1);i++)
+                {
+                        start = wtime();
+                        solve(instance, &(arr[i]));
+                        printf("FINI. Trouvé %lld solutions en %.1fs sur process rank %d\n", arr[i].solutions, wtime() - start, rank);
+                }
         }
                 
-
-        
-        //lance la recherche
-        /*
-        code chiant à trouver
-        for (size_t i = 0; i < nb_fils; i++) {
-          solve(instances[i], ctxs[i]);
-        }
-        */
-        //solve(instance,ctx);
-        printf("FINI. Trouvé %lld solutions en %.1fs sur process rank %d\n", arr[1].solutions,
-                        wtime() - start, rank);
-
         if(arr != NULL)
                 free(arr);
 

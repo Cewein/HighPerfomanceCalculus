@@ -1,0 +1,18 @@
+len opt : 15	level : 0
+level : 1	chosen opt : 21959	ctx node:0
+level : 1	chosen opt : 116	ctx node:12
+level : 1	chosen opt : 98	ctx node:12
+level : 1	chosen opt : 94	ctx node:12
+level : 1	chosen opt : 100	ctx node:12
+level : 1	chosen opt : 47	ctx node:12
+level : 1	chosen opt : 68	ctx node:12
+level : 1	chosen opt : 18	ctx node:12
+level : 1	chosen opt : 28	ctx node:12
+level : 1	chosen opt : 83	ctx node:12
+level : 1	chosen opt : 32	ctx node:12
+level : 1	chosen opt : 29	ctx node:12
+level : 1	chosen opt : 45	ctx node:12
+level : 1	chosen opt : 90	ctx node:12
+level : 1	chosen opt : 96	ctx node:12
+FINI. Trouvé 2027025 solutions en 1.1s sur process rank 0
+
