@@ -13,5 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: install mpi
+    - run: sudo apt install libopenmpi
     - name: make
       run: make
