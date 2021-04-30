@@ -581,15 +581,15 @@ void launchPara(const struct instance_t *instance, struct context_t *ctx, int cp
 
 int main(int argc, char **argv)
 {
-        /*
-         //MPI variable
+        
+        //MPI variable
         int rank, p;
-        //MPI_Status status;
+        MPI_Status status;
 
         //init MPI
         MPI_Init(&argc, &argv);
         MPI_Comm_size(MPI_COMM_WORLD, &p); //total number of process
-        MPI_Comm_rank(MPI_COMM_WORLD, &rank); //rank of the acutal process*/
+        MPI_Comm_rank(MPI_COMM_WORLD, &rank); //rank of the acutal process
 
         struct option longopts[5] = {
                 {"in", required_argument, NULL, 'i'},
@@ -627,22 +627,34 @@ int main(int argc, char **argv)
         long long count = 0;
         double countTime = wtime();
 
-        int nbCpu = omp_get_max_threads();
+        
+        start = wtime();
+        struct context_t * ctx = backtracking_setup(instance);
+        launchPara(instance, ctx, rank, p);
+        double time = wtime() - start;
+        printf("FINI. Trouvé %lld solutions en %.1fs pour proc %d\n", ctx->solutions, time,rank);
+        count += ctx->solutions;
+        
 
-        #pragma omp parallel for shared(instance, count)
-        for(int i = 0; i < nbCpu; i++)
+        if(rank != 0)
         {
-                start = wtime();
-                struct context_t * ctx = backtracking_setup(instance);
-                launchPara(instance, ctx, i, nbCpu);
-                double time = wtime() - start;
-                printf("FINI. Trouvé %lld solutions en %.1fs pour proc %d\n", ctx->solutions, time,i);
-                count += ctx->solutions;
+                MPI_Send(&(ctx->solutions), 1, MPI_LONG_LONG, 0, 501,MPI_COMM_WORLD);
+                MPI_Send(&time, 1, MPI_DOUBLE, 0, 733,MPI_COMM_WORLD);
+
+        }
+        else
+        {
+                for (int i = 1; i < p; i++)
+                {
+                        long long countTmp = 0;
+                        MPI_Recv(&countTmp, 1, MPI_LONG_LONG, i, 501, MPI_COMM_WORLD, &status);
+                        count += countTmp;
+                }
+                
+                printf("TOTAL : %lld for %.1fs\n", count, wtime() - countTime);
         }
 
-        printf("TOTAL : %lld for %.1fs\n", count, wtime() - countTime);
-
-        return EXIT_SUCCESS;
+        MPI_Finalize();
 }
 
 
