@@ -1,0 +1,19 @@
+name: C CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: install mpi
+      run: sudo apt-get install libopenmpi-dev openmpi-bin libhdf5-openmpi-dev
+    - name: make
+      run: make
