@@ -9,6 +9,7 @@
 #include <sys/time.h>
 
 #include <mpi/mpi.h>
+#include <omp.h>
 
 /* changelog :
 2021-04-12 18:30, instance->n_primary was not properly initialized
@@ -626,7 +627,7 @@ int main(int argc, char **argv)
         long long count = 0;
         double countTime = wtime();
 
-        int nbCpu = 4;
+        int nbCpu = omp_get_max_threads();
 
         #pragma omp parallel for shared(instance, count)
         for(int i = 0; i < nbCpu; i++)
