@@ -8,7 +8,7 @@ cmake_minimum_required(VERSION 3.9)
 # C compiler on the system will be used
 project(HPC C)
 
-SET(CMAKE_C_FLAGS  "-Wall -pedantic -lm -O3 -funroll-loops")
+SET(CMAKE_C_FLAGS  "-Wall -pedantic -lm -O3")
 
 find_package(MPI REQUIRED)
 # add this line only when you are using openmpi which has a different c++ bindings

@@ -1,4 +1,4 @@
-//Le fichier parallelisé
+//Le fichier original fourni par C. Bouillaguet
 #include <ctype.h>
 #include <stdio.h>
 #include <stdbool.h>
@@ -7,8 +7,12 @@
 #include <err.h>
 #include <getopt.h>
 #include <sys/time.h>
+
 #include <mpi/mpi.h>
 
+/* changelog :
+2021-04-12 18:30, instance->n_primary was not properly initialized
+*/
 
 double start = 0.0;
 
@@ -31,7 +35,7 @@ struct instance_t {
 struct sparse_array_t {
         int len;           // nombre d'éléments stockés
         int capacity;      // taille maximale
-        int *p;            // contenu de l'ensemble = p[0:len]
+        int *p;            // contenu de l'ensemble = p[0:len] 
         int *q;            // taille capacity (tout comme p)
 };
 
@@ -43,14 +47,14 @@ struct context_t {
         int *num_children;                        // nombre de fils à explorer
         int level;                                // nombre d'options choisies
         long long nodes;                          // nombre de noeuds explorés
-        long long solutions;                      // nombre de solutions trouvées
+        long long solutions;                      // nombre de solutions trouvées 
 };
 
 static const char DIGITS[62] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
-                                'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j',
+                                'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 
                                 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't',
                                 'u', 'v', 'w', 'x', 'y', 'z',
-                                'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J',
+                                'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 
                                 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T',
                                 'U', 'V', 'W', 'X', 'Y', 'Z'};
 
@@ -129,10 +133,9 @@ void sparse_array_add(struct sparse_array_t *S, int x)
 
 void sparse_array_remove(struct sparse_array_t *S, int x)
 {
-
-int j = S->q[x];
+        int j = S->q[x];
         int n = S->len - 1;
-        // échange p[j] et p[n]
+        // échange p[j] et p[n] 
         int y = S->p[n];
         S->p[n] = x;
         S->p[j] = y;
@@ -164,7 +167,7 @@ void solution_found(const struct instance_t *instance, struct context_t *ctx)
         ctx->solutions++;
         if (!print_solutions)
                 return;
-        printf("Trouvé une nouvelle solution au niveau %d après %lld noeuds\n",
+        printf("Trouvé une nouvelle solution au niveau %d après %lld noeuds\n", 
                         ctx->level, ctx->nodes);
         printf("Options : \n");
         for (int i = 0; i < ctx->level; i++) {
@@ -178,7 +181,7 @@ void solution_found(const struct instance_t *instance, struct context_t *ctx)
 
 void cover(const struct instance_t *instance, struct context_t *ctx, int item);
 
-void choose_option(const struct instance_t *instance, struct context_t *ctx,
+void choose_option(const struct instance_t *instance, struct context_t *ctx, 
                         int option, int chosen_item)
 {
         ctx->chosen_options[ctx->level] = option;
@@ -193,7 +196,7 @@ void choose_option(const struct instance_t *instance, struct context_t *ctx,
 
 void uncover(const struct instance_t *instance, struct context_t *ctx, int item);
 
-void unchoose_option(const struct instance_t *instance, struct context_t *ctx,
+void unchoose_option(const struct instance_t *instance, struct context_t *ctx, 
                         int option, int chosen_item)
 {
         for (int p = instance->ptr[option + 1] - 1; p >= instance->ptr[option]; p--) {
@@ -215,7 +218,7 @@ int choose_next_item(struct context_t *ctx)
                 int item = active_items->p[i];
                 struct sparse_array_t *active_options = ctx->active_options[item];
                 int k = active_options->len;
-                if (k < best_options) {
+                if (k <= best_options) {
                         best_item = item;
                         best_options = k;
                 }
@@ -226,7 +229,7 @@ int choose_next_item(struct context_t *ctx)
 void progress_report(const struct context_t *ctx)
 {
         double now = wtime();
-        printf("Exploré %lld noeuds, trouvé %lld solutions, temps écoulé %.1fs. ",
+        printf("Exploré %lld noeuds, trouvé %lld solutions, temps écoulé %.1fs. ", 
                         ctx->nodes, ctx->solutions, now - start);
         int i = 0;
         for (int k = 0; k < ctx->level; k++) {
@@ -243,23 +246,22 @@ void progress_report(const struct context_t *ctx)
         next_report += report_delta;
 }
 
-void deactivate(const struct instance_t *instance, struct context_t *ctx,
+void deactivate(const struct instance_t *instance, struct context_t *ctx, 
                         int option, int covered_item);
 
 void cover(const struct instance_t *instance, struct context_t *ctx, int item)
 {
         if (item_is_primary(instance, item))
-                        sparse_array_remove(ctx->active_items, item);
+                sparse_array_remove(ctx->active_items, item);
         struct sparse_array_t *active_options = ctx->active_options[item];
         for (int i = 0; i < active_options->len; i++) {
-
                 int option = active_options->p[i];
                 deactivate(instance, ctx, option, item);
         }
 }
 
 
-void deactivate(const struct instance_t *instance, struct context_t *ctx,
+void deactivate(const struct instance_t *instance, struct context_t *ctx, 
                         int option, int covered_item)
 {
         for (int k = instance->ptr[option]; k < instance->ptr[option+1]; k++) {
@@ -271,7 +273,7 @@ void deactivate(const struct instance_t *instance, struct context_t *ctx,
 }
 
 
-void reactivate(const struct instance_t *instance, struct context_t *ctx,
+void reactivate(const struct instance_t *instance, struct context_t *ctx, 
                         int option, int uncovered_item);
 
 void uncover(const struct instance_t *instance, struct context_t *ctx, int item)
@@ -286,7 +288,7 @@ void uncover(const struct instance_t *instance, struct context_t *ctx, int item)
 }
 
 
-void reactivate(const struct instance_t *instance, struct context_t *ctx,
+void reactivate(const struct instance_t *instance, struct context_t *ctx, 
                         int option, int uncovered_item)
 {
         for (int k = instance->ptr[option + 1] - 1; k >= instance->ptr[option]; k--) {
@@ -388,7 +390,7 @@ struct instance_t * load_matrix(const char *filename)
                 i++;
         }
         if (current_item != instance->n_items)
-                errx(1, "Incohérence : %d objets attendus mais seulement %d fournis\n",
+                errx(1, "Incohérence : %d objets attendus mais seulement %d fournis\n", 
                                 instance->n_items, current_item);
         if (instance->n_primary == 0)
                 instance->n_primary = instance->n_items;
@@ -444,7 +446,7 @@ struct instance_t * load_matrix(const char *filename)
                         // détecte les objets répétés
                         for (int k = instance->ptr[current_option]; k < p; k++)
                                 if (item_number == instance->options[k])
-                                        errx(1, "Objet %s répété dans l'option %d\n",
+                                        errx(1, "Objet %s répété dans l'option %d\n", 
                                                         instance->item_name[item_number], current_option);
                         instance->options[p] = item_number;
                         p++;
@@ -474,12 +476,12 @@ struct instance_t * load_matrix(const char *filename)
                 i++;
         }
         if (current_option != instance->n_options)
-                errx(1, "Incohérence : %d options attendues mais seulement %d fournies\n",
+                errx(1, "Incohérence : %d options attendues mais seulement %d fournies\n", 
                                 instance->n_options, current_option);
 
 
         fclose(in);
-        fprintf(stderr, "Lu %d objets (%d principaux) et %d options\n",
+        fprintf(stderr, "Lu %d objets (%d principaux) et %d options\n", 
                 instance->n_items, instance->n_primary, instance->n_options);
         return instance;
 }
@@ -504,15 +506,10 @@ struct context_t * backtracking_setup(const struct instance_t *instance)
                 err(1, "impossible d'allouer le contexte");
         ctx->active_items = sparse_array_init(n);
         for (int item = 0; item < instance->n_primary; item++)
-        {
                 sparse_array_add(ctx->active_items, item);
-        }
 
         for (int item = 0; item < n; item++)
-        {
                 ctx->active_options[item] = sparse_array_init(m);
-        }
-        
         for (int option = 0; option < m; option++)
                 for (int k = instance->ptr[option]; k < instance->ptr[option + 1]; k++) {
                         int item = instance->options[k];
@@ -527,7 +524,8 @@ struct context_t * backtracking_setup(const struct instance_t *instance)
 void solve(const struct instance_t *instance, struct context_t *ctx)
 {
         ctx->nodes++;
-        //if (ctx->nodes == next_report) progress_report(ctx);
+        if (ctx->nodes == next_report)
+                progress_report(ctx);
         if (sparse_array_empty(ctx->active_items)) {
                 solution_found(instance, ctx);
                 return;                         /* succès : plus d'objet actif */
@@ -538,64 +536,59 @@ void solve(const struct instance_t *instance, struct context_t *ctx)
                 return;           /* échec : impossible de couvrir chosen_item */
         cover(instance, ctx, chosen_item);
         ctx->num_children[ctx->level] = active_options->len;
-        //if(ctx->level < 1) printf("len opt : %d\tlevel : %d\n", active_options->len,ctx->level);
-        for (int k = 0; k < active_options->len; k++) {
-                        int option = active_options->p[k];
-                        ctx->child_num[ctx->level] = k;
-                        choose_option(instance, ctx, option, chosen_item);
-                        //if(ctx->level < 2) printf("level : %d\tchosen opt : %d\tctx node:%d\n", ctx->level, ctx->chosen_options[ctx->level],ctx->child_num[ctx->level]);
-                        solve(instance, ctx);
-                        if (ctx->solutions >= max_solutions)
-                        return;
-                        unchoose_option(instance, ctx, option, chosen_item);
-        }
-        uncover(instance, ctx, chosen_item);                      /* backtrack */
-}
-
-int createParaArray(const struct instance_t *instance, struct context_t *ctx, struct context_t **arr)
-{
-        ctx->nodes++;
-        if (sparse_array_empty(ctx->active_items)) {
-                solution_found(instance, ctx);
-                return 0;                         /* succès : plus d'objet actif */
-        }
-        int chosen_item = choose_next_item(ctx);
-        struct sparse_array_t *active_options = ctx->active_options[chosen_item];
-        if (sparse_array_empty(active_options))
-                return 0;           /* échec : impossible de couvrir chosen_item */
-        cover(instance, ctx, chosen_item);
-        ctx->num_children[ctx->level] = active_options->len;
-
-        //create the array of context that need to be process
-        *arr = malloc(sizeof(struct context_t) * active_options->len);
-
-        printf("len opt : %d\tlevel : %d\n", active_options->len,ctx->level);
         for (int k = 0; k < active_options->len; k++) {
                 int option = active_options->p[k];
                 ctx->child_num[ctx->level] = k;
-                (*arr)[k] = *ctx;
-                printf("level : %d\tchosen opt : %d\tctx node:%d\n", ctx->level, ctx->chosen_options[ctx->level],ctx->child_num[ctx->level]);
                 choose_option(instance, ctx, option, chosen_item);
                 solve(instance, ctx);
+                if (ctx->solutions >= max_solutions)
+                        return;
                 unchoose_option(instance, ctx, option, chosen_item);
         }
 
         uncover(instance, ctx, chosen_item);                      /* backtrack */
+}
 
-        return active_options->len;
+void launchPara(const struct instance_t *instance, struct context_t *ctx, int cpuRank,int nbCpu)
+{
+        ctx->nodes++;
+        if (ctx->nodes == next_report)
+                progress_report(ctx);
+        if (sparse_array_empty(ctx->active_items)) {
+                solution_found(instance, ctx);
+                return;                         /* succès : plus d'objet actif */
+        }
+        int chosen_item = choose_next_item(ctx);
+        struct sparse_array_t *active_options = ctx->active_options[chosen_item];
+        if (sparse_array_empty(active_options))
+                return;           /* échec : impossible de couvrir chosen_item */
+        cover(instance, ctx, chosen_item);
+        ctx->num_children[ctx->level] = active_options->len;
+        for (int k = cpuRank; k < active_options->len; k += nbCpu) 
+        {
+                int option = active_options->p[k];
+                ctx->child_num[ctx->level] = k;
+                choose_option(instance, ctx, option, chosen_item);
+                solve(instance, ctx);
+                if (ctx->solutions >= max_solutions)
+                        return;
+                unchoose_option(instance, ctx, option, chosen_item);
+        }
+
+        uncover(instance, ctx, chosen_item);                      /* backtrack */
 }
 
 int main(int argc, char **argv)
 {
-        //MPI variable
+        /*
+         //MPI variable
         int rank, p;
         //MPI_Status status;
 
         //init MPI
         MPI_Init(&argc, &argv);
         MPI_Comm_size(MPI_COMM_WORLD, &p); //total number of process
-        MPI_Comm_rank(MPI_COMM_WORLD, &rank); //rank of the acutal process
-        
+        MPI_Comm_rank(MPI_COMM_WORLD, &rank); //rank of the acutal process*/
 
         struct option longopts[5] = {
                 {"in", required_argument, NULL, 'i'},
@@ -618,7 +611,7 @@ int main(int argc, char **argv)
                         break;
                 case 'v':
                         report_delta = atoll(optarg);
-                        break;
+                        break;          
                 default:
                         errx(1, "Unknown option\n");
                 }
@@ -627,37 +620,29 @@ int main(int argc, char **argv)
                 usage(argv);
         next_report = report_delta;
 
-        //charge le probleme dans l'instance
+
         struct instance_t * instance = load_matrix(in_filename);
 
-        //charge l'etat actuel de la procedure de recherche
-        struct context_t * ctx = backtracking_setup(instance);
+        long long count = 0;
+        double countTime = wtime();
 
-        //array for parallelisation
-        struct context_t * arr = NULL;
-        int size = 0;
+        int nbCpu = 4;
 
-        //ce code est merdique il faut l'amerliorer. je vous laisse faire ça
-        // quand on auras trouver ça on auras fini de para le truc je pense :issou:
-        size = createParaArray(instance,ctx,&arr);
-
-        int chunkSize = size/p;
-
-        
-
-        if(arr != NULL)
+        #pragma omp parallel for shared(instance, count)
+        for(int i = 0; i < nbCpu; i++)
         {
-                printf("Starting to do parallelise section\n");
-                for(int i  = chunkSize * rank; i < chunkSize * (rank + 1);i++)
-                {
-                        start = wtime();
-                        solve(instance, &(arr[i]));
-                        printf("FINI. Trouvé %lld solutions en %.1fs sur process rank %d\n", arr[i].solutions, wtime() - start, rank);
-                }
+                start = wtime();
+                struct context_t * ctx = backtracking_setup(instance);
+                launchPara(instance, ctx, i, nbCpu);
+                double time = wtime() - start;
+                printf("FINI. Trouvé %lld solutions en %.1fs pour fake proc %d\n", ctx->solutions, time,i);
+                count += ctx->solutions;
         }
-                
-        if(arr != NULL)
-                free(arr);
 
-        MPI_Finalize();
+        printf("TOTAL : %lld for %.1fs\n", count, wtime() - countTime);
+
+        return EXIT_SUCCESS;
 }
+
+
+
