@@ -1,0 +1,7 @@
+Exploré 1000000 noeuds, trouvé 499997 solutions, temps écoulé 0.3s. 0* X* E* 0g 78 
+Exploré 2000000 noeuds, trouvé 999998 solutions, temps écoulé 0.6s. s* 6* T* 2g 
+FINI. Trouvé 917357 solutions en 0.6s pour proc 1
+FINI. Trouvé 916646 solutions en 0.6s pour proc 2
+FINI. Trouvé 899639 solutions en 0.6s pour proc 3
+FINI. Trouvé 1479955 solutions en 0.8s pour proc 0
+TOTAL : 4213597 for 0.8s

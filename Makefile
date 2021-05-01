@@ -11,6 +11,9 @@ RM = rm -f
 
 all : exact_cover_omp exact_cover_seq exact_cover_mpi
 
+test :
+	./launch_tests.sh
+
 exact_cover_omp : $(OBJ_OMP)
 	$(CC) $(CCFLAGS) -o $@ $^
 
@@ -24,6 +27,8 @@ exact_cover_mpi : $(OBJ_MPI)
 	$(CC) $(CCFLAGS) -c $^ -o $@
 
 clean :
-	$(RM) $(OBJ_SEQ) $(OBJ_OMP) exact_cover_mpi exact_cover_omp exact_cover_seq
+	$(RM) $(OBJ_SEQ) $(OBJ_OMP) $(OBJ_MPI) exact_cover_mpi exact_cover_omp exact_cover_seq
 
 .PHONY : clean all
+
+.SILENT: clean test
