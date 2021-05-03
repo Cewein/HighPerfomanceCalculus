@@ -8,6 +8,9 @@
 #include <getopt.h>
 #include <sys/time.h>
 
+#include <mpi/mpi.h>
+#include <omp.h>
+
 /* changelog :
 2021-04-12 18:30, instance->n_primary was not properly initialized
 */
@@ -216,7 +219,7 @@ int choose_next_item(struct context_t *ctx)
                 int item = active_items->p[i];
                 struct sparse_array_t *active_options = ctx->active_options[item];
                 int k = active_options->len;
-                if (k < best_options) {
+                if (k <= best_options) {
                         best_item = item;
                         best_options = k;
                 }
@@ -547,8 +550,47 @@ void solve(const struct instance_t *instance, struct context_t *ctx)
         uncover(instance, ctx, chosen_item);                      /* backtrack */
 }
 
+void launchPara(const struct instance_t *instance, struct context_t *ctx, int cpuRank,int nbCpu)
+{
+        ctx->nodes++;
+        if (ctx->nodes == next_report)
+                progress_report(ctx);
+        if (sparse_array_empty(ctx->active_items)) {
+                solution_found(instance, ctx);
+                return;                         /* succès : plus d'objet actif */
+        }
+        int chosen_item = choose_next_item(ctx);
+        struct sparse_array_t *active_options = ctx->active_options[chosen_item];
+        if (sparse_array_empty(active_options))
+                return;           /* échec : impossible de couvrir chosen_item */
+        cover(instance, ctx, chosen_item);
+        ctx->num_children[ctx->level] = active_options->len;
+        for (int k = cpuRank; k < active_options->len; k += nbCpu) 
+        {
+                int option = active_options->p[k];
+                ctx->child_num[ctx->level] = k;
+                choose_option(instance, ctx, option, chosen_item);
+                solve(instance, ctx);
+                if (ctx->solutions >= max_solutions)
+                        return;
+                unchoose_option(instance, ctx, option, chosen_item);
+        }
+
+        uncover(instance, ctx, chosen_item);                      /* backtrack */
+}
+
 int main(int argc, char **argv)
 {
+        /*
+         //MPI variable
+        int rank, p;
+        //MPI_Status status;
+
+        //init MPI
+        MPI_Init(&argc, &argv);
+        MPI_Comm_size(MPI_COMM_WORLD, &p); //total number of process
+        MPI_Comm_rank(MPI_COMM_WORLD, &rank); //rank of the acutal process*/
+
         struct option longopts[5] = {
                 {"in", required_argument, NULL, 'i'},
                 {"progress-report", required_argument, NULL, 'v'},
@@ -581,12 +623,26 @@ int main(int argc, char **argv)
 
 
         struct instance_t * instance = load_matrix(in_filename);
-        struct context_t * ctx = backtracking_setup(instance);
-        start = wtime();
-        solve(instance, ctx);
-        printf("TOTAL. Trouvé %lld solutions en %.1fs\n", ctx->solutions, 
-                        wtime() - start);
-        exit(EXIT_SUCCESS);
+
+        long long count = 0;
+        double countTime = wtime();
+
+        int nbCpu = omp_get_max_threads();
+
+        #pragma omp parallel for shared(instance, count)
+        for(int i = 0; i < nbCpu; i++)
+        {
+                start = wtime();
+                struct context_t * ctx = backtracking_setup(instance);
+                launchPara(instance, ctx, i, nbCpu);
+                double time = wtime() - start;
+                printf("FINI. Trouvé %lld solutions en %.1fs pour proc %d\n", ctx->solutions, time,i);
+                count += ctx->solutions;
+        }
+
+        printf("TOTAL : %lld solutions in %.1fs\n", count, wtime() - countTime);
+
+        return EXIT_SUCCESS;
 }
 
 

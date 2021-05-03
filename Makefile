@@ -1,7 +1,7 @@
 CC = gcc
 MPI = mpicc
 CCFLAGS = -O3 -fopenmp -Wall -Wextra
-SRC_OMP = ./src/exact_cover.c
+SRC_OMP = ./src/exact_cover_omp.c
 OBJ_OMP = $(SRC_OMP:.c=.o)
 SRC_SEQ = ./src/exact_cover_originel.c
 OBJ_SEQ = $(SRC_SEQ:.c=.o)

@@ -1,0 +1,420 @@
+Exploré 1000000 noeuds, trouvé 414817 solutions, temps écoulé 0.1s. 3j 0h 3f 0d 9b 89 47 25 13 
+Exploré 2000000 noeuds, trouvé 829636 solutions, temps écoulé 0.2s. 1j 0h 6f 1d 8b 89 27 05 13 
+Exploré 3000000 noeuds, trouvé 1244457 solutions, temps écoulé 0.3s. 1j 0h 9f 2d 7b 79 67 45 
+Exploré 4000000 noeuds, trouvé 1659276 solutions, temps écoulé 0.4s. 1j 0h cf 3d 6b 79 47 25 03 
+Exploré 5000000 noeuds, trouvé 2074095 solutions, temps écoulé 0.5s. 0j 1h 0f 4d 5b 79 27 05 03 
+Exploré 6000000 noeuds, trouvé 2488915 solutions, temps écoulé 0.6s. 0j 1h 3f 5d 4b 69 67 35 13 
+Exploré 7000000 noeuds, trouvé 2903735 solutions, temps écoulé 0.7s. 0j 1h 6f 6d 3b 69 47 15 23 
+Exploré 8000000 noeuds, trouvé 3318555 solutions, temps écoulé 0.8s. 0j 1h 9f 7d 2b 69 27 
+Exploré 9000000 noeuds, trouvé 3733374 solutions, temps écoulé 0.9s. 1j 1h cf 8d 1b 59 67 35 03 
+Exploré 10000000 noeuds, trouvé 4148193 solutions, temps écoulé 1.0s. 1j 2h 0f 9d 0b 59 47 15 03 
+Exploré 11000000 noeuds, trouvé 4563014 solutions, temps écoulé 1.1s. 1j 2h 3f 9d ab 59 17 45 23 
+Exploré 12000000 noeuds, trouvé 4977834 solutions, temps écoulé 1.2s. 1j 2h 6f ad 9b 49 67 35 
+Exploré 13000000 noeuds, trouvé 5392653 solutions, temps écoulé 1.3s. 1j 2h 9f bd 8b 49 47 15 03 
+Exploré 14000000 noeuds, trouvé 5807473 solutions, temps écoulé 1.4s. 1j 2h cf cd 7b 49 17 45 13 
+Exploré 15000000 noeuds, trouvé 6222292 solutions, temps écoulé 1.5s. 1j 3h 1f 0d 6b 39 67 25 13 
+Exploré 16000000 noeuds, trouvé 6637111 solutions, temps écoulé 1.6s. 1j 3h 4f 1d 5b 39 47 05 13 
+Exploré 17000000 noeuds, trouvé 7051931 solutions, temps écoulé 1.7s. 0j 3h 7f 2d 4b 39 17 35 23 
+Exploré 18000000 noeuds, trouvé 7466751 solutions, temps écoulé 1.8s. 0j 3h af 3d 3b 29 67 25 03 
+Exploré 19000000 noeuds, trouvé 7881570 solutions, temps écoulé 1.9s. 0j 3h df 4d 2b 29 47 05 03 
+Exploré 20000000 noeuds, trouvé 8296390 solutions, temps écoulé 2.0s. 0j 4h 1f 5d 1b 29 17 35 13 
+Exploré 21000000 noeuds, trouvé 8711210 solutions, temps écoulé 2.2s. 0j 4h 4f 6d 0b 19 67 15 23 
+Exploré 22000000 noeuds, trouvé 9126030 solutions, temps écoulé 2.3s. 1j 4h 7f 6d ab 19 47 05 
+Exploré 23000000 noeuds, trouvé 9540849 solutions, temps écoulé 2.4s. 0j 4h af 7d 9b 19 17 35 03 
+Exploré 24000000 noeuds, trouvé 9955669 solutions, temps écoulé 2.5s. 0j 4h df 8d 8b 09 67 15 13 
+Exploré 25000000 noeuds, trouvé 10370489 solutions, temps écoulé 2.6s. 1j 5h 1f 9d 7b 09 37 45 23 
+Exploré 26000000 noeuds, trouvé 10785308 solutions, temps écoulé 2.7s. 1j 5h 4f ad 6b 09 17 25 23 
+Exploré 27000000 noeuds, trouvé 11200128 solutions, temps écoulé 2.8s. 1j 5h 7f bd 4b 89 67 15 03 
+Exploré 28000000 noeuds, trouvé 11614948 solutions, temps écoulé 2.9s. 1j 5h af cd 3b 89 37 45 13 
+Exploré 29000000 noeuds, trouvé 12029767 solutions, temps écoulé 3.0s. 1j 5h ef 0d 2b 89 17 25 13 
+Exploré 30000000 noeuds, trouvé 12444587 solutions, temps écoulé 3.1s. 1j 6h 2f 1d 1b 79 67 05 23 
+Exploré 31000000 noeuds, trouvé 12859407 solutions, temps écoulé 3.2s. 1j 6h 5f 2d 0b 79 37 45 
+Exploré 32000000 noeuds, trouvé 13274226 solutions, temps écoulé 3.3s. 1j 6h 8f 2d ab 79 17 25 03 
+Exploré 33000000 noeuds, trouvé 13689046 solutions, temps écoulé 3.4s. 1j 6h bf 3d 9b 69 67 05 13 
+Exploré 34000000 noeuds, trouvé 14103866 solutions, temps écoulé 3.5s. 1j 6h ef 4d 8b 69 37 35 23 
+Exploré 35000000 noeuds, trouvé 14518685 solutions, temps écoulé 3.6s. 1j 7h 2f 5d 7b 69 17 15 23 
+Exploré 36000000 noeuds, trouvé 14933505 solutions, temps écoulé 3.7s. 1j 7h 5f 6d 6b 59 67 05 03 
+Exploré 37000000 noeuds, trouvé 15348325 solutions, temps écoulé 3.8s. 1j 7h 8f 7d 5b 59 37 35 13 
+Exploré 38000000 noeuds, trouvé 15763144 solutions, temps écoulé 3.9s. 1j 7h bf 8d 4b 59 17 15 13 
+Exploré 39000000 noeuds, trouvé 16177965 solutions, temps écoulé 4.0s. 1j 7h ef 9d 3b 49 67 
+Exploré 40000000 noeuds, trouvé 16592784 solutions, temps écoulé 4.1s. 1j 8h 2f ad 2b 49 37 35 
+Exploré 41000000 noeuds, trouvé 17007603 solutions, temps écoulé 4.2s. 1j 8h 5f bd 1b 49 17 15 03 
+Exploré 42000000 noeuds, trouvé 17422423 solutions, temps écoulé 4.3s. 1j 8h 8f cd 0b 39 57 45 13 
+Exploré 43000000 noeuds, trouvé 17837243 solutions, temps écoulé 4.4s. 1j 8h bf cd ab 39 37 25 23 
+Exploré 44000000 noeuds, trouvé 18252062 solutions, temps écoulé 4.5s. 1j 9h 0f 0d 9b 39 17 05 23 
+Exploré 45000000 noeuds, trouvé 18666882 solutions, temps écoulé 4.6s. 1j 9h 3f 1d 8b 29 57 45 03 
+Exploré 46000000 noeuds, trouvé 19081701 solutions, temps écoulé 4.7s. 1j 9h 6f 2d 7b 29 37 25 03 
+Exploré 47000000 noeuds, trouvé 19496521 solutions, temps écoulé 4.8s. 1j 9h 9f 3d 6b 29 17 05 13 
+Exploré 48000000 noeuds, trouvé 19911341 solutions, temps écoulé 4.9s. 1j 9h cf 4d 5b 19 57 35 23 
+Exploré 49000000 noeuds, trouvé 20326160 solutions, temps écoulé 5.0s. 1j ah 0f 5d 4b 19 37 15 23 
+Exploré 50000000 noeuds, trouvé 20740980 solutions, temps écoulé 5.1s. 1j ah 3f 6d 3b 19 17 05 
+Exploré 51000000 noeuds, trouvé 21155800 solutions, temps écoulé 5.2s. 1j ah 6f 7d 2b 09 57 35 13 
+Exploré 52000000 noeuds, trouvé 21570619 solutions, temps écoulé 5.3s. 1j ah 9f 8d 1b 09 37 15 13 
+Exploré 53000000 noeuds, trouvé 21985439 solutions, temps écoulé 5.4s. 1j ah cf 9d 0b 09 07 45 23 
+Exploré 54000000 noeuds, trouvé 22400259 solutions, temps écoulé 5.5s. 1j bh 0f 9d 9b 89 57 35 03 
+Exploré 55000000 noeuds, trouvé 22815079 solutions, temps écoulé 5.6s. 1j bh 3f ad 8b 89 37 15 13 
+Exploré 56000000 noeuds, trouvé 23229899 solutions, temps écoulé 5.7s. 1j bh 6f bd 7b 89 07 45 23 
+Exploré 57000000 noeuds, trouvé 23644719 solutions, temps écoulé 5.8s. 1j bh 9f cd 6b 79 57 35 
+Exploré 58000000 noeuds, trouvé 24059538 solutions, temps écoulé 5.9s. 1j bh df 0d 5b 79 37 15 
+Exploré 59000000 noeuds, trouvé 24474357 solutions, temps écoulé 6.0s. 1j ch 1f 1d 4b 79 07 45 03 
+Exploré 60000000 noeuds, trouvé 24889177 solutions, temps écoulé 6.1s. 1j ch 4f 2d 3b 69 57 25 13 
+Exploré 61000000 noeuds, trouvé 25303996 solutions, temps écoulé 6.2s. 1j ch 7f 3d 2b 69 37 05 13 
+Exploré 62000000 noeuds, trouvé 25718816 solutions, temps écoulé 6.3s. 1j ch af 4d 1b 69 07 35 23 
+Exploré 63000000 noeuds, trouvé 26133636 solutions, temps écoulé 6.5s. 1j ch df 5d 0b 59 57 25 03 
+Exploré 64000000 noeuds, trouvé 26548455 solutions, temps écoulé 6.6s. 1j dh 1f 5d ab 59 37 05 03 
+Exploré 65000000 noeuds, trouvé 26963275 solutions, temps écoulé 6.7s. 1j dh 4f 6d 9b 59 07 35 13 
+Exploré 66000000 noeuds, trouvé 27378095 solutions, temps écoulé 6.8s. 1j dh 7f 7d 8b 49 57 15 23 
+Exploré 67000000 noeuds, trouvé 27792915 solutions, temps écoulé 6.9s. 1j dh af 8d 7b 49 37 05 
+Exploré 68000000 noeuds, trouvé 28207734 solutions, temps écoulé 7.1s. 1j dh df 9d 6b 49 07 35 03 
+Exploré 69000000 noeuds, trouvé 28622554 solutions, temps écoulé 7.2s. 1j eh 1f ad 5b 39 57 15 13 
+Exploré 70000000 noeuds, trouvé 29037374 solutions, temps écoulé 7.3s. 1j eh 4f bd 4b 39 27 45 23 
+Exploré 71000000 noeuds, trouvé 29452193 solutions, temps écoulé 7.4s. 1j eh 7f cd 3b 39 07 25 23 
+Exploré 72000000 noeuds, trouvé 29867013 solutions, temps écoulé 7.5s. 1j eh bf 0d 2b 29 57 15 
+Exploré 73000000 noeuds, trouvé 30281832 solutions, temps écoulé 7.6s. 1j eh ef 1d 1b 29 27 45 03 
+Exploré 74000000 noeuds, trouvé 30696651 solutions, temps écoulé 7.7s. 1j fh 2f 2d 0b 29 07 25 03 
+Exploré 75000000 noeuds, trouvé 31111472 solutions, temps écoulé 7.8s. 1j fh 5f 2d ab 19 57 05 23 
+Exploré 76000000 noeuds, trouvé 31526292 solutions, temps écoulé 7.9s. 1j fh 8f 3d 9b 19 27 45 
+Exploré 77000000 noeuds, trouvé 31941111 solutions, temps écoulé 8.0s. 1j fh bf 4d 8b 19 07 25 03 
+Exploré 78000000 noeuds, trouvé 32355931 solutions, temps écoulé 8.1s. 1j fh ef 5d 7b 09 57 05 13 
+Exploré 79000000 noeuds, trouvé 32770750 solutions, temps écoulé 8.2s. 1j gh 2f 6d 6b 09 27 35 13 
+Exploré 80000000 noeuds, trouvé 33185570 solutions, temps écoulé 8.4s. 1j gh 5f 7d 5b 09 07 15 23 
+Exploré 81000000 noeuds, trouvé 33600390 solutions, temps écoulé 8.5s. 1j gh 8f 8d 3b 89 57 05 03 
+Exploré 82000000 noeuds, trouvé 34015210 solutions, temps écoulé 8.6s. 1j gh bf 9d 2b 89 27 35 13 
+Exploré 83000000 noeuds, trouvé 34430029 solutions, temps écoulé 8.7s. 1j gh ef ad 1b 89 07 15 13 
+Exploré 84000000 noeuds, trouvé 34844849 solutions, temps écoulé 8.8s. 5j 0h 2f bd 0b 79 47 45 23 
+Exploré 85000000 noeuds, trouvé 35259669 solutions, temps écoulé 8.9s. 5j 0h 5f bd ab 79 27 35 
+Exploré 86000000 noeuds, trouvé 35674488 solutions, temps écoulé 9.0s. 5j 0h 8f cd 9b 79 07 15 03 
+Exploré 87000000 noeuds, trouvé 36089308 solutions, temps écoulé 9.1s. 5j 0h cf 0d 8b 69 47 45 13 
+Exploré 88000000 noeuds, trouvé 36504127 solutions, temps écoulé 9.2s. 5j 1h 0f 1d 7b 69 27 25 13 
+Exploré 89000000 noeuds, trouvé 36918946 solutions, temps écoulé 9.3s. 5j 1h 3f 2d 6b 69 07 05 13 
+Exploré 90000000 noeuds, trouvé 37333767 solutions, temps écoulé 9.4s. 5j 1h 6f 3d 5b 59 47 45 
+Exploré 91000000 noeuds, trouvé 37748586 solutions, temps écoulé 9.5s. 5j 1h 9f 4d 4b 59 27 25 03 
+Exploré 92000000 noeuds, trouvé 38163405 solutions, temps écoulé 9.6s. 5j 1h cf 5d 3b 59 07 05 03 
+Exploré 93000000 noeuds, trouvé 38578225 solutions, temps écoulé 9.7s. 5j 2h 0f 6d 2b 49 47 35 13 
+Exploré 94000000 noeuds, trouvé 38993045 solutions, temps écoulé 9.8s. 5j 2h 3f 7d 1b 49 27 15 23 
+Exploré 95000000 noeuds, trouvé 39407865 solutions, temps écoulé 9.9s. 5j 2h 6f 8d 0b 49 07 
+Exploré 96000000 noeuds, trouvé 39822685 solutions, temps écoulé 10.0s. 5j 2h 9f 8d ab 39 47 35 13 
+Exploré 97000000 noeuds, trouvé 40237504 solutions, temps écoulé 10.1s. 5j 2h cf 9d 9b 39 27 15 13 
+Exploré 98000000 noeuds, trouvé 40652324 solutions, temps écoulé 10.2s. 5j 3h 0f ad 8b 29 67 45 23 
+Exploré 99000000 noeuds, trouvé 41067144 solutions, temps écoulé 10.3s. 5j 3h 3f bd 7b 29 47 35 
+Exploré 100000000 noeuds, trouvé 41481963 solutions, temps écoulé 10.4s. 5j 3h 6f cd 6b 29 27 15 03 
+Exploré 101000000 noeuds, trouvé 41896783 solutions, temps écoulé 10.5s. 6j 3h af 0d 5b 19 67 45 13 
+Exploré 102000000 noeuds, trouvé 42311602 solutions, temps écoulé 10.6s. 6j 3h df 1d 4b 19 47 25 13 
+Exploré 103000000 noeuds, trouvé 42726421 solutions, temps écoulé 10.7s. 6j 4h 1f 2d 3b 19 27 05 13 
+Exploré 104000000 noeuds, trouvé 43141242 solutions, temps écoulé 10.8s. 6j 4h 4f 3d 2b 09 67 45 
+Exploré 105000000 noeuds, trouvé 43556061 solutions, temps écoulé 10.9s. 6j 4h 7f 4d 1b 09 47 25 03 
+Exploré 106000000 noeuds, trouvé 43970880 solutions, temps écoulé 11.0s. 6j 4h af 5d 0b 09 27 05 03 
+Exploré 107000000 noeuds, trouvé 44385702 solutions, temps écoulé 11.1s. 6j 4h df 5d 9b 89 67 45 
+Exploré 108000000 noeuds, trouvé 44800521 solutions, temps écoulé 11.2s. 6j 5h 1f 6d 8b 89 47 25 
+Exploré 109000000 noeuds, trouvé 45215340 solutions, temps écoulé 11.3s. 6j 5h 4f 7d 7b 89 27 05 03 
+Exploré 110000000 noeuds, trouvé 45630160 solutions, temps écoulé 11.4s. 6j 5h 7f 8d 6b 79 67 35 13 
+Exploré 111000000 noeuds, trouvé 46044980 solutions, temps écoulé 11.5s. 6j 5h af 9d 5b 79 47 15 23 
+Exploré 112000000 noeuds, trouvé 46459800 solutions, temps écoulé 11.6s. 6j 5h df ad 4b 79 27 
+Exploré 113000000 noeuds, trouvé 46874619 solutions, temps écoulé 11.7s. 6j 6h 1f bd 3b 69 67 35 03 
+Exploré 114000000 noeuds, trouvé 47289438 solutions, temps écoulé 11.8s. 6j 6h 4f cd 2b 69 47 15 03 
+Exploré 115000000 noeuds, trouvé 47704258 solutions, temps écoulé 11.9s. 6j 6h 8f 0d 1b 69 17 45 13 
+Exploré 116000000 noeuds, trouvé 48119078 solutions, temps écoulé 12.0s. 6j 6h bf 1d 0b 59 67 25 23 
+Exploré 117000000 noeuds, trouvé 48533898 solutions, temps écoulé 12.1s. 6j 6h ef 1d ab 59 47 15 
+Exploré 118000000 noeuds, trouvé 48948717 solutions, temps écoulé 12.2s. 6j 7h 2f 2d 9b 59 17 45 03 
+Exploré 119000000 noeuds, trouvé 49363537 solutions, temps écoulé 12.3s. 6j 7h 5f 3d 8b 49 67 25 13 
+Exploré 120000000 noeuds, trouvé 49778356 solutions, temps écoulé 12.4s. 6j 7h 8f 4d 7b 49 47 05 13 
+Exploré 121000000 noeuds, trouvé 50193176 solutions, temps écoulé 12.5s. 6j 7h bf 5d 6b 49 17 35 23 
+Exploré 122000000 noeuds, trouvé 50607996 solutions, temps écoulé 12.6s. 6j 7h ef 6d 5b 39 67 25 03 
+Exploré 123000000 noeuds, trouvé 51022815 solutions, temps écoulé 12.7s. 6j 8h 2f 7d 4b 39 47 05 03 
+Exploré 124000000 noeuds, trouvé 51437635 solutions, temps écoulé 12.8s. 6j 8h 5f 8d 3b 39 17 35 13 
+Exploré 125000000 noeuds, trouvé 51852455 solutions, temps écoulé 12.9s. 6j 8h 8f 9d 2b 29 67 15 23 
+Exploré 126000000 noeuds, trouvé 52267275 solutions, temps écoulé 13.0s. 6j 8h bf ad 1b 29 47 
+Exploré 127000000 noeuds, trouvé 52682094 solutions, temps écoulé 13.1s. 6j 8h ef bd 0b 29 17 35 03 
+Exploré 128000000 noeuds, trouvé 53096914 solutions, temps écoulé 13.1s. 6j 9h 2f bd ab 19 67 15 13 
+Exploré 129000000 noeuds, trouvé 53511734 solutions, temps écoulé 13.2s. 6j 9h 5f cd 9b 19 37 45 23 
+Exploré 130000000 noeuds, trouvé 53926553 solutions, temps écoulé 13.3s. 6j 9h 9f 0d 8b 19 17 25 23 
+Exploré 131000000 noeuds, trouvé 54341373 solutions, temps écoulé 13.4s. 6j 9h cf 1d 7b 09 67 15 
+Exploré 132000000 noeuds, trouvé 54756192 solutions, temps écoulé 13.5s. 6j ah 0f 2d 6b 09 37 45 03 
+Exploré 133000000 noeuds, trouvé 55171011 solutions, temps écoulé 13.6s. 6j ah 3f 3d 5b 09 17 25 03 
+Exploré 134000000 noeuds, trouvé 55585832 solutions, temps écoulé 13.7s. 6j ah 6f 4d 3b 89 67 05 23 
+Exploré 135000000 noeuds, trouvé 56000652 solutions, temps écoulé 13.8s. 6j ah 9f 5d 2b 89 37 45 
+Exploré 136000000 noeuds, trouvé 56415471 solutions, temps écoulé 13.9s. 6j ah cf 6d 1b 89 17 25 03 
+Exploré 137000000 noeuds, trouvé 56830290 solutions, temps écoulé 14.0s. 6j bh 0f 7d 0b 79 67 05 03 
+Exploré 138000000 noeuds, trouvé 57245111 solutions, temps écoulé 14.1s. 6j bh 3f 7d ab 79 37 35 23 
+Exploré 139000000 noeuds, trouvé 57659930 solutions, temps écoulé 14.2s. 6j bh 6f 8d 9b 79 17 15 23 
+Exploré 140000000 noeuds, trouvé 58074750 solutions, temps écoulé 14.3s. 6j bh 9f 9d 8b 69 67 05 03 
+Exploré 141000000 noeuds, trouvé 58489570 solutions, temps écoulé 14.4s. 6j bh cf ad 7b 69 37 35 13 
+Exploré 142000000 noeuds, trouvé 58904389 solutions, temps écoulé 14.5s. 6j ch 0f bd 6b 69 17 15 13 
+Exploré 143000000 noeuds, trouvé 59319209 solutions, temps écoulé 14.6s. 6j ch 3f cd 5b 59 57 45 23 
+Exploré 144000000 noeuds, trouvé 59734028 solutions, temps écoulé 14.8s. 6j ch 7f 0d 4b 59 37 25 23 
+Exploré 145000000 noeuds, trouvé 60148848 solutions, temps écoulé 14.9s. 6j ch af 1d 3b 59 17 15 
+Exploré 146000000 noeuds, trouvé 60563668 solutions, temps écoulé 15.0s. 6j ch df 2d 2b 49 57 45 13 
+Exploré 147000000 noeuds, trouvé 60978487 solutions, temps écoulé 15.1s. 6j dh 1f 3d 1b 49 37 25 13 
+Exploré 148000000 noeuds, trouvé 61393306 solutions, temps écoulé 15.2s. 6j dh 4f 4d 0b 49 17 05 13 
+Exploré 149000000 noeuds, trouvé 61808127 solutions, temps écoulé 15.3s. 6j dh 7f 4d ab 39 57 45 03 
+Exploré 150000000 noeuds, trouvé 62222946 solutions, temps écoulé 15.4s. 6j dh af 5d 9b 39 37 25 03 
+Exploré 151000000 noeuds, trouvé 62637766 solutions, temps écoulé 15.5s. 6j dh df 6d 8b 39 17 05 13 
+Exploré 152000000 noeuds, trouvé 63052586 solutions, temps écoulé 15.6s. 6j eh 1f 7d 7b 29 57 35 23 
+Exploré 153000000 noeuds, trouvé 63467405 solutions, temps écoulé 15.7s. 6j eh 4f 8d 6b 29 37 15 23 
+Exploré 154000000 noeuds, trouvé 63882225 solutions, temps écoulé 15.8s. 6j eh 7f 9d 5b 29 17 05 
+Exploré 155000000 noeuds, trouvé 64297045 solutions, temps écoulé 15.9s. 6j eh af ad 4b 19 57 35 13 
+Exploré 156000000 noeuds, trouvé 64711864 solutions, temps écoulé 16.0s. 6j eh df bd 3b 19 37 15 13 
+Exploré 157000000 noeuds, trouvé 65126684 solutions, temps écoulé 16.1s. 6j fh 1f cd 2b 19 07 45 23 
+Exploré 158000000 noeuds, trouvé 65541503 solutions, temps écoulé 16.2s. 6j fh 5f 0d 1b 09 57 25 23 
+Exploré 159000000 noeuds, trouvé 65956323 solutions, temps écoulé 16.3s. 6j fh 8f 1d 0b 09 37 15 
+Exploré 160000000 noeuds, trouvé 66371143 solutions, temps écoulé 16.4s. 6j fh bf 1d ab 09 07 45 13 
+Exploré 161000000 noeuds, trouvé 66785963 solutions, temps écoulé 16.5s. 6j fh ef 2d 8b 89 57 25 23 
+Exploré 162000000 noeuds, trouvé 67200782 solutions, temps écoulé 16.6s. 6j gh 2f 3d 7b 89 37 05 23 
+Exploré 163000000 noeuds, trouvé 67615602 solutions, temps écoulé 16.7s. 6j gh 5f 4d 6b 89 07 45 03 
+Exploré 164000000 noeuds, trouvé 68030422 solutions, temps écoulé 16.8s. 6j gh 8f 5d 5b 79 57 25 13 
+Exploré 165000000 noeuds, trouvé 68445241 solutions, temps écoulé 16.9s. 6j gh bf 6d 4b 79 37 05 13 
+Exploré 166000000 noeuds, trouvé 68860061 solutions, temps écoulé 17.0s. 6j gh ef 7d 3b 79 07 35 23 
+Exploré 167000000 noeuds, trouvé 69274880 solutions, temps écoulé 17.1s. aj 0h 2f 8d 2b 69 57 15 23 
+Exploré 168000000 noeuds, trouvé 69689700 solutions, temps écoulé 17.2s. aj 0h 5f 9d 1b 69 37 05 
+Exploré 169000000 noeuds, trouvé 70104519 solutions, temps écoulé 17.3s. aj 0h 8f ad 0b 69 07 35 03 
+Exploré 170000000 noeuds, trouvé 70519340 solutions, temps écoulé 17.4s. aj 0h bf ad ab 59 57 15 23 
+Exploré 171000000 noeuds, trouvé 70934160 solutions, temps écoulé 17.5s. aj 0h ef bd 9b 59 37 
+Exploré 172000000 noeuds, trouvé 71348979 solutions, temps écoulé 17.6s. aj 1h 2f cd 8b 59 07 35 
+Exploré 173000000 noeuds, trouvé 71763798 solutions, temps écoulé 17.7s. aj 1h 6f 0d 7b 49 57 15 03 
+Exploré 174000000 noeuds, trouvé 72178618 solutions, temps écoulé 17.8s. aj 1h 9f 1d 6b 49 27 45 13 
+Exploré 175000000 noeuds, trouvé 72593437 solutions, temps écoulé 17.9s. aj 1h cf 2d 5b 49 07 25 13 
+Exploré 176000000 noeuds, trouvé 73008257 solutions, temps écoulé 18.0s. aj 2h 0f 3d 4b 39 57 05 23 
+Exploré 177000000 noeuds, trouvé 73423077 solutions, temps écoulé 18.1s. aj 2h 3f 4d 3b 39 27 45 
+Exploré 178000000 noeuds, trouvé 73837896 solutions, temps écoulé 18.2s. aj 2h 6f 5d 2b 39 07 25 03 
+Exploré 179000000 noeuds, trouvé 74252716 solutions, temps écoulé 18.3s. aj 2h 9f 6d 1b 29 57 05 13 
+Exploré 180000000 noeuds, trouvé 74667536 solutions, temps écoulé 18.4s. aj 2h cf 7d 0b 29 27 35 23 
+Exploré 181000000 noeuds, trouvé 75082355 solutions, temps écoulé 18.5s. aj 3h 0f 7d ab 29 07 15 23 
+Exploré 182000000 noeuds, trouvé 75497175 solutions, temps écoulé 18.6s. aj 3h 3f 8d 9b 19 57 05 03 
+Exploré 183000000 noeuds, trouvé 75911995 solutions, temps écoulé 18.7s. aj 3h 6f 9d 8b 19 27 35 13 
+Exploré 184000000 noeuds, trouvé 76326814 solutions, temps écoulé 18.8s. aj 3h 9f ad 7b 19 07 15 13 
+Exploré 185000000 noeuds, trouvé 76741635 solutions, temps écoulé 18.9s. aj 3h cf bd 6b 09 57 
+Exploré 186000000 noeuds, trouvé 77156454 solutions, temps écoulé 19.0s. aj 4h 0f cd 5b 09 27 35 
+Exploré 187000000 noeuds, trouvé 77571273 solutions, temps écoulé 19.1s. aj 4h 4f 0d 4b 09 07 15 
+Exploré 188000000 noeuds, trouvé 77986093 solutions, temps écoulé 19.2s. aj 4h 7f 1d 2b 89 47 45 13 
+Exploré 189000000 noeuds, trouvé 78400913 solutions, temps écoulé 19.3s. aj 4h af 2d 1b 89 27 25 23 
+Exploré 190000000 noeuds, trouvé 78815732 solutions, temps écoulé 19.4s. aj 4h df 3d 0b 89 07 05 23 
+Exploré 191000000 noeuds, trouvé 79230552 solutions, temps écoulé 19.5s. aj 5h 1f 3d ab 79 47 45 03 
+Exploré 192000000 noeuds, trouvé 79645372 solutions, temps écoulé 19.6s. aj 5h 4f 4d 9b 79 27 25 13 
+Exploré 193000000 noeuds, trouvé 80060191 solutions, temps écoulé 19.7s. aj 5h 7f 5d 8b 79 07 05 13 
+Exploré 194000000 noeuds, trouvé 80475012 solutions, temps écoulé 19.8s. aj 5h af 6d 7b 69 47 45 
+Exploré 195000000 noeuds, trouvé 80889831 solutions, temps écoulé 19.9s. aj 5h df 7d 6b 69 27 25 03 
+Exploré 196000000 noeuds, trouvé 81304650 solutions, temps écoulé 20.0s. aj 6h 1f 8d 5b 69 07 05 03 
+Exploré 197000000 noeuds, trouvé 81719470 solutions, temps écoulé 20.1s. aj 6h 4f 9d 4b 59 47 35 13 
+Exploré 198000000 noeuds, trouvé 82134290 solutions, temps écoulé 20.2s. aj 6h 7f ad 3b 59 27 15 23 
+Exploré 199000000 noeuds, trouvé 82549110 solutions, temps écoulé 20.3s. aj 6h af bd 2b 59 07 
+Exploré 200000000 noeuds, trouvé 82963929 solutions, temps écoulé 20.4s. aj 6h df cd 1b 49 47 35 03 
+Exploré 201000000 noeuds, trouvé 83378748 solutions, temps écoulé 20.5s. aj 7h 2f 0d 0b 49 27 15 03 
+Exploré 202000000 noeuds, trouvé 83793569 solutions, temps écoulé 20.6s. aj 7h 5f 0d ab 39 67 45 23 
+Exploré 203000000 noeuds, trouvé 84208388 solutions, temps écoulé 20.7s. aj 7h 8f 1d 9b 39 47 25 23 
+Exploré 204000000 noeuds, trouvé 84623208 solutions, temps écoulé 20.8s. aj 7h bf 2d 8b 39 27 15 
+Exploré 205000000 noeuds, trouvé 85038028 solutions, temps écoulé 20.9s. aj 7h ef 3d 7b 29 67 45 13 
+Exploré 206000000 noeuds, trouvé 85452847 solutions, temps écoulé 21.0s. aj 8h 2f 4d 6b 29 47 25 13 
+Exploré 207000000 noeuds, trouvé 85867666 solutions, temps écoulé 21.1s. aj 8h 5f 5d 5b 29 27 05 13 
+Exploré 208000000 noeuds, trouvé 86282487 solutions, temps écoulé 21.2s. aj 8h 8f 6d 4b 19 67 45 
+Exploré 209000000 noeuds, trouvé 86697306 solutions, temps écoulé 21.3s. aj 8h bf 7d 3b 19 47 25 03 
+Exploré 210000000 noeuds, trouvé 87112125 solutions, temps écoulé 21.4s. aj 8h ef 8d 2b 19 27 05 03 
+Exploré 211000000 noeuds, trouvé 87526945 solutions, temps écoulé 21.5s. aj 9h 2f 9d 1b 09 67 35 13 
+Exploré 212000000 noeuds, trouvé 87941765 solutions, temps écoulé 21.6s. aj 9h 5f ad 0b 09 47 15 23 
+Exploré 213000000 noeuds, trouvé 88356585 solutions, temps écoulé 21.7s. aj 9h 8f ad ab 09 27 05 
+Exploré 214000000 noeuds, trouvé 88771405 solutions, temps écoulé 21.8s. aj 9h bf bd 8b 89 67 35 13 
+Exploré 215000000 noeuds, trouvé 89186225 solutions, temps écoulé 21.9s. aj 9h ef cd 7b 89 47 15 23 
+Exploré 216000000 noeuds, trouvé 89601044 solutions, temps écoulé 22.0s. aj ah 3f 0d 6b 89 17 45 23 
+Exploré 217000000 noeuds, trouvé 90015864 solutions, temps écoulé 22.1s. aj ah 6f 1d 5b 79 67 35 
+Exploré 218000000 noeuds, trouvé 90430683 solutions, temps écoulé 22.2s. aj ah 9f 2d 4b 79 47 15 03 
+Exploré 219000000 noeuds, trouvé 90845503 solutions, temps écoulé 22.3s. aj ah cf 3d 3b 79 17 45 13 
+Exploré 220000000 noeuds, trouvé 91260322 solutions, temps écoulé 22.4s. aj bh 0f 4d 2b 69 67 25 13 
+Exploré 221000000 noeuds, trouvé 91675142 solutions, temps écoulé 22.5s. 8j bh 3f 5d 1b 69 47 05 23 
+Exploré 222000000 noeuds, trouvé 92089962 solutions, temps écoulé 22.6s. 8j bh 6f 6d 0b 69 17 45 
+Exploré 223000000 noeuds, trouvé 92504782 solutions, temps écoulé 22.7s. 8j bh 9f 6d ab 59 67 25 13 
+Exploré 224000000 noeuds, trouvé 92919601 solutions, temps écoulé 22.8s. aj bh cf 7d 9b 59 47 05 13 
+Exploré 225000000 noeuds, trouvé 93334421 solutions, temps écoulé 22.9s. 8j ch 0f 8d 8b 59 17 35 23 
+Exploré 226000000 noeuds, trouvé 93749241 solutions, temps écoulé 23.0s. 8j ch 3f 9d 7b 49 67 25 
+Exploré 227000000 noeuds, trouvé 94164060 solutions, temps écoulé 23.2s. 8j ch 6f ad 6b 49 47 05 03 
+Exploré 228000000 noeuds, trouvé 94578880 solutions, temps écoulé 23.3s. 8j ch 9f bd 5b 49 17 35 13 
+Exploré 229000000 noeuds, trouvé 94993700 solutions, temps écoulé 23.4s. 8j ch cf cd 4b 39 67 15 23 
+Exploré 230000000 noeuds, trouvé 95408519 solutions, temps écoulé 23.5s. 8j dh 1f 0d 3b 39 37 45 23 
+Exploré 231000000 noeuds, trouvé 95823338 solutions, temps écoulé 23.6s. 8j dh 4f 1d 2b 39 17 25 23 
+Exploré 232000000 noeuds, trouvé 96238158 solutions, temps écoulé 23.7s. 8j dh 7f 2d 1b 29 67 15 03 
+Exploré 233000000 noeuds, trouvé 96652978 solutions, temps écoulé 23.8s. 8j dh af 3d 0b 29 37 45 13 
+Exploré 234000000 noeuds, trouvé 97067798 solutions, temps écoulé 23.9s. 8j dh df 3d ab 29 17 25 23 
+Exploré 235000000 noeuds, trouvé 97482617 solutions, temps écoulé 24.0s. 8j eh 1f 4d 9b 19 67 05 23 
+Exploré 236000000 noeuds, trouvé 97897437 solutions, temps écoulé 24.1s. 8j eh 4f 5d 8b 19 37 45 03 
+Exploré 237000000 noeuds, trouvé 98312256 solutions, temps écoulé 24.2s. 8j eh 7f 6d 7b 19 17 25 03 
+Exploré 238000000 noeuds, trouvé 98727076 solutions, temps écoulé 24.3s. 8j eh af 7d 6b 09 67 05 13 
+Exploré 239000000 noeuds, trouvé 99141896 solutions, temps écoulé 24.4s. 8j eh df 8d 5b 09 37 35 23 
+Exploré 240000000 noeuds, trouvé 99556715 solutions, temps écoulé 24.5s. 8j fh 1f 9d 4b 09 17 15 23 
+Exploré 241000000 noeuds, trouvé 99971535 solutions, temps écoulé 24.6s. 8j fh 4f ad 2b 89 67 05 03 
+Exploré 242000000 noeuds, trouvé 100386355 solutions, temps écoulé 24.7s. 8j fh 7f bd 1b 89 37 35 13 
+Exploré 243000000 noeuds, trouvé 100801175 solutions, temps écoulé 24.8s. 8j fh af cd 0b 89 17 15 23 
+Exploré 244000000 noeuds, trouvé 101215995 solutions, temps écoulé 24.9s. 8j fh df cd ab 79 67 05 03 
+Exploré 245000000 noeuds, trouvé 101630814 solutions, temps écoulé 25.0s. 8j gh 2f 0d 9b 79 37 35 03 
+Exploré 246000000 noeuds, trouvé 102045633 solutions, temps écoulé 25.1s. 8j gh 5f 1d 8b 79 17 15 03 
+Exploré 247000000 noeuds, trouvé 102460454 solutions, temps écoulé 25.2s. 8j gh 8f 2d 7b 69 57 45 23 
+Exploré 248000000 noeuds, trouvé 102875273 solutions, temps écoulé 25.3s. 8j gh bf 3d 6b 69 37 25 23 
+Exploré 249000000 noeuds, trouvé 103290093 solutions, temps écoulé 25.4s. 8j gh ef 4d 5b 69 17 15 
+Exploré 250000000 noeuds, trouvé 103704912 solutions, temps écoulé 25.5s. cj 0h 2f 5d 4b 59 57 45 03 
+Exploré 251000000 noeuds, trouvé 104119731 solutions, temps écoulé 25.6s. cj 0h 5f 6d 3b 59 37 25 03 
+Exploré 252000000 noeuds, trouvé 104534551 solutions, temps écoulé 25.7s. cj 0h 8f 7d 2b 59 17 05 13 
+Exploré 253000000 noeuds, trouvé 104949371 solutions, temps écoulé 25.8s. cj 0h bf 8d 1b 49 57 35 23 
+Exploré 254000000 noeuds, trouvé 105364191 solutions, temps écoulé 25.9s. cj 0h ef 9d 0b 49 37 25 
+Exploré 255000000 noeuds, trouvé 105779010 solutions, temps écoulé 26.0s. cj 1h 2f 9d ab 49 17 05 03 
+Exploré 256000000 noeuds, trouvé 106193830 solutions, temps écoulé 26.1s. cj 1h 5f ad 9b 39 57 35 13 
+Exploré 257000000 noeuds, trouvé 106608650 solutions, temps écoulé 26.2s. cj 1h 8f bd 8b 39 37 15 23 
+Exploré 258000000 noeuds, trouvé 107023470 solutions, temps écoulé 26.3s. cj 1h bf cd 7b 39 17 
+Exploré 259000000 noeuds, trouvé 107438289 solutions, temps écoulé 26.4s. cj 2h 0f 0d 6b 29 57 35 
+Exploré 260000000 noeuds, trouvé 107853108 solutions, temps écoulé 26.5s. cj 2h 3f 1d 5b 29 37 15 03 
+Exploré 261000000 noeuds, trouvé 108267928 solutions, temps écoulé 26.6s. cj 2h 6f 2d 4b 29 07 45 13 
+Exploré 262000000 noeuds, trouvé 108682748 solutions, temps écoulé 26.7s. cj 2h 9f 3d 3b 19 57 25 23 
+Exploré 263000000 noeuds, trouvé 109097567 solutions, temps écoulé 26.8s. cj 2h cf 4d 2b 19 37 05 23 
+Exploré 264000000 noeuds, trouvé 109512387 solutions, temps écoulé 26.9s. cj 3h 0f 5d 1b 19 07 45 
+Exploré 265000000 noeuds, trouvé 109927206 solutions, temps écoulé 27.0s. cj 3h 3f 6d 0b 09 57 25 03 
+Exploré 266000000 noeuds, trouvé 110342026 solutions, temps écoulé 27.1s. cj 3h 6f 6d ab 09 37 05 13 
+Exploré 267000000 noeuds, trouvé 110756846 solutions, temps écoulé 27.2s. cj 3h 9f 7d 9b 09 07 35 23 
+Exploré 268000000 noeuds, trouvé 111171666 solutions, temps écoulé 27.3s. cj 3h cf 8d 7b 89 57 25 03 
+Exploré 269000000 noeuds, trouvé 111586485 solutions, temps écoulé 27.4s. cj 4h 0f 9d 6b 89 37 05 03 
+Exploré 270000000 noeuds, trouvé 112001305 solutions, temps écoulé 27.5s. cj 4h 3f ad 5b 89 07 35 13 
+Exploré 271000000 noeuds, trouvé 112416125 solutions, temps écoulé 27.6s. cj 4h 6f bd 4b 79 57 15 23 
+Exploré 272000000 noeuds, trouvé 112830945 solutions, temps écoulé 27.7s. cj 4h 9f cd 3b 79 37 05 
+Exploré 273000000 noeuds, trouvé 113245764 solutions, temps écoulé 27.8s. cj 4h df 0d 2b 79 07 35 03 
+Exploré 274000000 noeuds, trouvé 113660583 solutions, temps écoulé 27.9s. cj 5h 1f 1d 1b 69 57 15 03 
+Exploré 275000000 noeuds, trouvé 114075403 solutions, temps écoulé 28.0s. cj 5h 4f 2d 0b 69 27 45 13 
+Exploré 276000000 noeuds, trouvé 114490223 solutions, temps écoulé 28.1s. cj 5h 7f 2d ab 69 07 25 23 
+Exploré 277000000 noeuds, trouvé 114905043 solutions, temps écoulé 28.2s. cj 5h af 3d 9b 59 57 15 03 
+Exploré 278000000 noeuds, trouvé 115319863 solutions, temps écoulé 28.3s. cj 5h df 4d 8b 59 27 45 13 
+Exploré 279000000 noeuds, trouvé 115734682 solutions, temps écoulé 28.3s. ej 6h 1f 5d 7b 59 07 25 13 
+Exploré 280000000 noeuds, trouvé 116149502 solutions, temps écoulé 28.4s. ej 6h 4f 6d 6b 49 57 05 23 
+Exploré 281000000 noeuds, trouvé 116564322 solutions, temps écoulé 28.5s. ej 6h 7f 7d 5b 49 27 45 
+Exploré 282000000 noeuds, trouvé 116979141 solutions, temps écoulé 28.6s. cj 6h af 8d 4b 49 07 25 03 
+Exploré 283000000 noeuds, trouvé 117393961 solutions, temps écoulé 28.7s. ej 6h df 9d 3b 39 57 05 13 
+Exploré 284000000 noeuds, trouvé 117808780 solutions, temps écoulé 28.8s. ej 7h 1f ad 2b 39 27 35 13 
+Exploré 285000000 noeuds, trouvé 118223600 solutions, temps écoulé 28.9s. ej 7h 4f bd 1b 39 07 15 23 
+Exploré 286000000 noeuds, trouvé 118638420 solutions, temps écoulé 29.0s. ej 7h 7f cd 0b 29 57 05 
+Exploré 287000000 noeuds, trouvé 119053240 solutions, temps écoulé 29.1s. ej 7h af cd ab 29 27 35 13 
+Exploré 288000000 noeuds, trouvé 119468059 solutions, temps écoulé 29.2s. ej 7h ef 0d 9b 29 07 15 13 
+Exploré 289000000 noeuds, trouvé 119882879 solutions, temps écoulé 29.4s. ej 8h 2f 1d 8b 19 47 45 23 
+Exploré 290000000 noeuds, trouvé 120297698 solutions, temps écoulé 29.4s. ej 8h 5f 2d 7b 19 27 25 23 
+Exploré 291000000 noeuds, trouvé 120712518 solutions, temps écoulé 29.5s. ej 8h 8f 3d 6b 19 07 15 
+Exploré 292000000 noeuds, trouvé 121127338 solutions, temps écoulé 29.6s. ej 8h bf 4d 5b 09 47 45 13 
+Exploré 293000000 noeuds, trouvé 121542157 solutions, temps écoulé 29.7s. ej 8h ef 5d 4b 09 27 25 13 
+Exploré 294000000 noeuds, trouvé 121956976 solutions, temps écoulé 29.9s. ej 9h 2f 6d 3b 09 07 05 13 
+Exploré 295000000 noeuds, trouvé 122371797 solutions, temps écoulé 30.0s. ej 9h 5f 7d 1b 89 47 45 03 
+Exploré 296000000 noeuds, trouvé 122786616 solutions, temps écoulé 30.1s. ej 9h 8f 8d 0b 89 27 25 03 
+Exploré 297000000 noeuds, trouvé 123201436 solutions, temps écoulé 30.2s. ej 9h bf 8d ab 89 07 05 13 
+Exploré 298000000 noeuds, trouvé 123616257 solutions, temps écoulé 30.3s. ej 9h ef 9d 9b 79 47 45 
+Exploré 299000000 noeuds, trouvé 124031076 solutions, temps écoulé 30.4s. ej ah 2f ad 8b 79 27 25 
+Exploré 300000000 noeuds, trouvé 124445895 solutions, temps écoulé 30.5s. ej ah 5f bd 7b 79 07 05 03 
+Exploré 301000000 noeuds, trouvé 124860715 solutions, temps écoulé 30.6s. ej ah 8f cd 6b 69 47 35 13 
+Exploré 302000000 noeuds, trouvé 125275534 solutions, temps écoulé 30.7s. cj ah cf 0d 5b 69 27 15 13 
+Exploré 303000000 noeuds, trouvé 125690354 solutions, temps écoulé 30.8s. cj bh 0f 1d 4b 59 67 45 23 
+Exploré 304000000 noeuds, trouvé 126105174 solutions, temps écoulé 30.9s. cj bh 3f 2d 3b 59 47 35 
+Exploré 305000000 noeuds, trouvé 126519993 solutions, temps écoulé 31.0s. cj bh 6f 3d 2b 59 27 15 03 
+Exploré 306000000 noeuds, trouvé 126934813 solutions, temps écoulé 31.1s. cj bh 9f 4d 1b 49 67 45 13 
+Exploré 307000000 noeuds, trouvé 127349633 solutions, temps écoulé 31.3s. cj bh cf 5d 0b 49 47 25 23 
+Exploré 308000000 noeuds, trouvé 127764452 solutions, temps écoulé 31.4s. cj ch 0f 5d ab 49 27 05 23 
+Exploré 309000000 noeuds, trouvé 128179272 solutions, temps écoulé 31.5s. cj ch 3f 6d 9b 39 67 45 03 
+Exploré 310000000 noeuds, trouvé 128594092 solutions, temps écoulé 31.6s. cj ch 6f 7d 8b 39 47 25 13 
+Exploré 311000000 noeuds, trouvé 129008911 solutions, temps écoulé 31.7s. cj ch 9f 8d 7b 39 27 05 13 
+Exploré 312000000 noeuds, trouvé 129423732 solutions, temps écoulé 31.8s. cj ch cf 9d 6b 29 67 45 
+Exploré 313000000 noeuds, trouvé 129838551 solutions, temps écoulé 31.9s. cj dh 0f ad 5b 29 47 25 
+Exploré 314000000 noeuds, trouvé 130253370 solutions, temps écoulé 32.0s. cj dh 3f bd 4b 29 27 05 03 
+Exploré 315000000 noeuds, trouvé 130668190 solutions, temps écoulé 32.1s. ej dh 6f cd 3b 19 67 35 13 
+Exploré 316000000 noeuds, trouvé 131083009 solutions, temps écoulé 32.2s. ej dh af 0d 2b 19 47 15 13 
+Exploré 317000000 noeuds, trouvé 131497829 solutions, temps écoulé 32.3s. ej dh df 1d 1b 19 17 45 23 
+Exploré 318000000 noeuds, trouvé 131912649 solutions, temps écoulé 32.5s. ej eh 1f 2d 0b 09 67 35 
+Exploré 319000000 noeuds, trouvé 132327468 solutions, temps écoulé 32.6s. ej eh 4f 2d ab 09 47 15 03 
+Exploré 320000000 noeuds, trouvé 132742288 solutions, temps écoulé 32.7s. ej eh 7f 3d 9b 09 17 45 13 
+Exploré 321000000 noeuds, trouvé 133157109 solutions, temps écoulé 32.8s. ej eh af 4d 7b 89 67 35 
+Exploré 322000000 noeuds, trouvé 133571928 solutions, temps écoulé 32.9s. ej eh df 5d 6b 89 47 15 03 
+Exploré 323000000 noeuds, trouvé 133986747 solutions, temps écoulé 33.0s. ej fh 1f 6d 5b 89 17 45 03 
+Exploré 324000000 noeuds, trouvé 134401567 solutions, temps écoulé 33.1s. ej fh 4f 7d 4b 79 67 25 13 
+Exploré 325000000 noeuds, trouvé 134816387 solutions, temps écoulé 33.2s. cj fh 7f 8d 3b 79 47 05 23 
+Exploré 326000000 noeuds, trouvé 135231207 solutions, temps écoulé 33.3s. ej fh af 9d 2b 79 17 45 
+Exploré 327000000 noeuds, trouvé 135646026 solutions, temps écoulé 33.4s. ej fh df ad 1b 69 67 25 03 
+Exploré 328000000 noeuds, trouvé 136060845 solutions, temps écoulé 33.5s. ej gh 1f bd 0b 69 47 05 03 
+Exploré 329000000 noeuds, trouvé 136475666 solutions, temps écoulé 33.6s. ej gh 4f bd ab 69 17 35 23 
+Exploré 330000000 noeuds, trouvé 136890486 solutions, temps écoulé 33.7s. ej gh 7f cd 9b 59 67 25 
+Exploré 331000000 noeuds, trouvé 137305305 solutions, temps écoulé 33.8s. ej gh bf 0d 8b 59 47 05 
+Exploré 332000000 noeuds, trouvé 137720124 solutions, temps écoulé 33.9s. ej gh ef 1d 7b 59 17 35 03 
+Exploré 333000000 noeuds, trouvé 138134943 solutions, temps écoulé 34.0s. ij 0h 2f 2d 6b 49 67 15 03 
+Exploré 334000000 noeuds, trouvé 138549763 solutions, temps écoulé 34.1s. ij 0h 5f 3d 5b 49 37 45 13 
+Exploré 335000000 noeuds, trouvé 138964583 solutions, temps écoulé 34.2s. ij 0h 8f 4d 4b 49 17 25 23 
+FINI. Trouvé 137837700 solutions en 34.2s pour proc 3
+Exploré 336000000 noeuds, trouvé 139379403 solutions, temps écoulé 34.3s. ij 0h bf 5d 3b 39 67 15 
+Exploré 337000000 noeuds, trouvé 139794222 solutions, temps écoulé 34.4s. ij 0h ef 6d 2b 39 37 45 03 
+Exploré 338000000 noeuds, trouvé 140209041 solutions, temps écoulé 34.5s. ij 1h 2f 7d 1b 39 17 25 03 
+Exploré 339000000 noeuds, trouvé 140623861 solutions, temps écoulé 34.6s. ij 1h 5f 8d 0b 29 67 05 13 
+Exploré 340000000 noeuds, trouvé 141038682 solutions, temps écoulé 34.7s. ij 1h 8f 8d ab 29 37 45 
+Exploré 341000000 noeuds, trouvé 141453501 solutions, temps écoulé 34.8s. ij 1h bf 9d 9b 29 17 25 03 
+Exploré 342000000 noeuds, trouvé 141868321 solutions, temps écoulé 34.9s. gj 1h ef ad 8b 19 67 05 13 
+Exploré 343000000 noeuds, trouvé 142283140 solutions, temps écoulé 35.0s. ij 2h 2f bd 7b 19 37 35 13 
+Exploré 344000000 noeuds, trouvé 142697960 solutions, temps écoulé 35.1s. ij 2h 5f cd 6b 19 17 15 23 
+Exploré 345000000 noeuds, trouvé 143112780 solutions, temps écoulé 35.2s. ij 2h 9f 0d 5b 09 67 
+Exploré 346000000 noeuds, trouvé 143527599 solutions, temps écoulé 35.2s. ij 2h cf 1d 4b 09 37 35 03 
+Exploré 347000000 noeuds, trouvé 143942418 solutions, temps écoulé 35.3s. ij 3h 0f 2d 3b 09 17 15 03 
+Exploré 348000000 noeuds, trouvé 144357239 solutions, temps écoulé 35.4s. ij 3h 3f 3d 1b 89 57 45 23 
+Exploré 349000000 noeuds, trouvé 144772058 solutions, temps écoulé 35.5s. ij 3h 6f 4d 0b 89 37 25 23 
+Exploré 350000000 noeuds, trouvé 145186878 solutions, temps écoulé 35.6s. gj 3h 9f 4d ab 89 17 15 03 
+Exploré 351000000 noeuds, trouvé 145601698 solutions, temps écoulé 35.7s. gj 3h cf 5d 9b 79 57 45 13 
+Exploré 352000000 noeuds, trouvé 146016517 solutions, temps écoulé 35.8s. gj 4h 0f 6d 8b 79 37 25 13 
+Exploré 353000000 noeuds, trouvé 146431337 solutions, temps écoulé 35.9s. gj 4h 3f 7d 7b 79 17 05 23 
+Exploré 354000000 noeuds, trouvé 146846157 solutions, temps écoulé 36.0s. gj 4h 6f 8d 6b 69 57 45 03 
+Exploré 355000000 noeuds, trouvé 147260976 solutions, temps écoulé 36.1s. gj 4h 9f 9d 5b 69 37 25 03 
+Exploré 356000000 noeuds, trouvé 147675796 solutions, temps écoulé 36.2s. gj 4h cf ad 4b 69 17 05 13 
+Exploré 357000000 noeuds, trouvé 148090616 solutions, temps écoulé 36.3s. gj 5h 0f bd 3b 59 57 35 23 
+Exploré 358000000 noeuds, trouvé 148505435 solutions, temps écoulé 36.4s. gj 5h 3f cd 2b 59 37 15 23 
+Exploré 359000000 noeuds, trouvé 148920255 solutions, temps écoulé 36.5s. gj 5h 7f 0d 1b 59 17 
+Exploré 360000000 noeuds, trouvé 149335074 solutions, temps écoulé 36.6s. gj 5h af 1d 0b 49 57 35 03 
+Exploré 361000000 noeuds, trouvé 149749894 solutions, temps écoulé 36.7s. gj 5h df 1d ab 49 37 15 13 
+Exploré 362000000 noeuds, trouvé 150164714 solutions, temps écoulé 36.8s. gj 6h 1f 2d 9b 49 07 45 23 
+Exploré 363000000 noeuds, trouvé 150579534 solutions, temps écoulé 36.9s. gj 6h 4f 3d 8b 39 57 35 
+Exploré 364000000 noeuds, trouvé 150994353 solutions, temps écoulé 37.0s. gj 6h 7f 4d 7b 39 37 15 03 
+Exploré 365000000 noeuds, trouvé 151409173 solutions, temps écoulé 37.1s. ij 6h af 5d 6b 39 07 45 13 
+Exploré 366000000 noeuds, trouvé 151823993 solutions, temps écoulé 37.2s. ij 6h df 6d 5b 29 57 25 23 
+Exploré 367000000 noeuds, trouvé 152238812 solutions, temps écoulé 37.3s. ij 7h 1f 7d 4b 29 37 05 23 
+Exploré 368000000 noeuds, trouvé 152653632 solutions, temps écoulé 37.4s. ij 7h 4f 8d 3b 29 07 45 
+Exploré 369000000 noeuds, trouvé 153068451 solutions, temps écoulé 37.5s. gj 7h 7f 9d 2b 19 57 25 03 
+Exploré 370000000 noeuds, trouvé 153483271 solutions, temps écoulé 37.6s. gj 7h af ad 1b 19 37 05 13 
+Exploré 371000000 noeuds, trouvé 153898091 solutions, temps écoulé 37.7s. ij 7h df bd 0b 19 07 35 23 
+Exploré 372000000 noeuds, trouvé 154312911 solutions, temps écoulé 37.8s. ij 8h 1f bd ab 09 57 25 
+Exploré 373000000 noeuds, trouvé 154727730 solutions, temps écoulé 37.9s. gj 8h 4f cd 9b 09 37 05 03 
+Exploré 374000000 noeuds, trouvé 155142549 solutions, temps écoulé 38.0s. gj 8h 8f 0d 8b 09 07 35 03 
+Exploré 375000000 noeuds, trouvé 155557370 solutions, temps écoulé 38.1s. gj 8h bf 1d 6b 89 57 15 23 
+Exploré 376000000 noeuds, trouvé 155972190 solutions, temps écoulé 38.2s. gj 8h ef 2d 5b 89 37 
+Exploré 377000000 noeuds, trouvé 156387009 solutions, temps écoulé 38.3s. gj 9h 2f 3d 4b 89 07 35 
+Exploré 378000000 noeuds, trouvé 156801828 solutions, temps écoulé 38.4s. gj 9h 5f 4d 3b 79 57 15 03 
+Exploré 379000000 noeuds, trouvé 157216648 solutions, temps écoulé 38.5s. gj 9h 8f 5d 2b 79 27 45 13 
+Exploré 380000000 noeuds, trouvé 157631468 solutions, temps écoulé 38.6s. gj 9h bf 6d 1b 79 07 25 23 
+Exploré 381000000 noeuds, trouvé 158046288 solutions, temps écoulé 38.7s. gj 9h ef 7d 0b 69 57 15 
+Exploré 382000000 noeuds, trouvé 158461107 solutions, temps écoulé 38.8s. gj ah 2f 7d ab 69 27 45 03 
+Exploré 383000000 noeuds, trouvé 158875927 solutions, temps écoulé 38.9s. gj ah 5f 8d 9b 69 07 25 13 
+Exploré 384000000 noeuds, trouvé 159290747 solutions, temps écoulé 39.0s. gj ah 8f 9d 8b 59 57 05 23 
+Exploré 385000000 noeuds, trouvé 159705567 solutions, temps écoulé 39.1s. gj ah bf ad 7b 59 27 45 
+Exploré 386000000 noeuds, trouvé 160120386 solutions, temps écoulé 39.3s. gj ah ef bd 6b 59 07 25 03 
+Exploré 387000000 noeuds, trouvé 160535205 solutions, temps écoulé 39.4s. ij bh 2f cd 5b 49 57 05 03 
+Exploré 388000000 noeuds, trouvé 160950025 solutions, temps écoulé 39.5s. gj bh 6f 0d 4b 49 27 35 13 
+Exploré 389000000 noeuds, trouvé 161364844 solutions, temps écoulé 39.6s. gj bh 9f 1d 3b 49 07 15 13 
+Exploré 390000000 noeuds, trouvé 161779665 solutions, temps écoulé 39.7s. gj bh cf 2d 2b 39 57 
+Exploré 391000000 noeuds, trouvé 162194484 solutions, temps écoulé 39.8s. ij ch 0f 3d 1b 39 27 35 
+Exploré 392000000 noeuds, trouvé 162609303 solutions, temps écoulé 39.9s. ij ch 3f 4d 0b 39 07 15 03 
+Exploré 393000000 noeuds, trouvé 163024124 solutions, temps écoulé 40.0s. ij ch 6f 4d ab 29 47 45 23 
+Exploré 394000000 noeuds, trouvé 163438943 solutions, temps écoulé 40.1s. ij ch 9f 5d 9b 29 27 25 23 
+Exploré 395000000 noeuds, trouvé 163853763 solutions, temps écoulé 40.2s. ij ch cf 6d 8b 29 07 15 
+Exploré 396000000 noeuds, trouvé 164268582 solutions, temps écoulé 40.3s. ij dh 0f 7d 7b 19 47 45 03 
+Exploré 397000000 noeuds, trouvé 164683402 solutions, temps écoulé 40.4s. ij dh 3f 8d 6b 19 27 25 13 
+Exploré 398000000 noeuds, trouvé 165098221 solutions, temps écoulé 40.5s. ij dh 6f 9d 5b 19 07 05 13 
+Exploré 399000000 noeuds, trouvé 165513042 solutions, temps écoulé 40.6s. ij dh 9f ad 4b 09 47 45 
+Exploré 400000000 noeuds, trouvé 165927861 solutions, temps écoulé 40.7s. gj dh cf bd 3b 09 27 25 03 
+Exploré 401000000 noeuds, trouvé 166342680 solutions, temps écoulé 40.8s. gj eh 0f cd 2b 09 07 05 03 
+Exploré 402000000 noeuds, trouvé 166757500 solutions, temps écoulé 40.9s. gj eh 4f 0d 0b 89 47 35 13 
+Exploré 403000000 noeuds, trouvé 167172320 solutions, temps écoulé 41.0s. gj eh 7f 0d ab 89 27 15 23 
+Exploré 404000000 noeuds, trouvé 167587140 solutions, temps écoulé 41.1s. ij eh af 1d 9b 89 07 05 
+Exploré 405000000 noeuds, trouvé 168001960 solutions, temps écoulé 41.2s. ij eh df 2d 8b 79 47 35 13 
+Exploré 406000000 noeuds, trouvé 168416779 solutions, temps écoulé 41.3s. ij fh 1f 3d 7b 79 27 15 13 
+Exploré 407000000 noeuds, trouvé 168831599 solutions, temps écoulé 41.4s. ij fh 4f 4d 6b 69 67 45 23 
+Exploré 408000000 noeuds, trouvé 169246419 solutions, temps écoulé 41.5s. ij fh 7f 5d 5b 69 47 35 
+Exploré 409000000 noeuds, trouvé 169661238 solutions, temps écoulé 41.6s. ij fh af 6d 4b 69 27 15 03 
+Exploré 410000000 noeuds, trouvé 170076058 solutions, temps écoulé 41.7s. ij fh df 7d 3b 59 67 45 13 
+Exploré 411000000 noeuds, trouvé 170490877 solutions, temps écoulé 41.8s. ij gh 1f 8d 2b 59 47 25 13 
+Exploré 412000000 noeuds, trouvé 170905697 solutions, temps écoulé 41.9s. ij gh 4f 9d 1b 59 27 05 23 
+Exploré 413000000 noeuds, trouvé 171320517 solutions, temps écoulé 42.0s. gj gh 7f ad 0b 49 67 45 03 
+Exploré 414000000 noeuds, trouvé 171735337 solutions, temps écoulé 42.1s. gj gh af ad ab 49 47 25 13 
+Exploré 415000000 noeuds, trouvé 172150156 solutions, temps écoulé 42.2s. gj gh df bd 9b 49 27 05 13 
+FINI. Trouvé 172297125 solutions en 42.2s pour proc 0
+FINI. Trouvé 172297125 solutions en 42.2s pour proc 2
+FINI. Trouvé 172297125 solutions en 42.5s pour proc 1
+TOTAL : 654729075 solutions in 42.5s
