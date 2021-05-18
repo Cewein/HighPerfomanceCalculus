@@ -1,0 +1,20 @@
+CC = gcc
+CCFLAGS = -O3 -fopenmp -Wall -Wextra
+SRC_OMP = ./exact_cover_omp.c
+OBJ_OMP = $(SRC_OMP:.c=.o)
+RM = rm -f
+
+all : exact_cover_omp
+
+exact_cover_omp : $(OBJ_OMP)
+	$(CC) $(CCFLAGS) -o $@ $^
+
+%.o: %.c
+	$(CC) $(CCFLAGS) -c $^ -o $@
+
+clean :
+	$(RM) $(OBJ_OMP) exact_cover_omp
+
+.PHONY : clean all
+
+.SILENT: clean

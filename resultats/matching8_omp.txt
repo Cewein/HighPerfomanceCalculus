@@ -1,6 +1,6 @@
-Exploré 1000000 noeuds, trouvé 414818 solutions, temps écoulé 0.1s. ef 0d 9b 89 47 25 23 
+Exploré 1000000 noeuds, trouvé 414818 solutions, temps écoulé 0.1s. df 0d 9b 89 47 25 23 
 FINI. Trouvé 405405 solutions en 0.1s pour proc 3
 FINI. Trouvé 540540 solutions en 0.1s pour proc 2
+FINI. Trouvé 540540 solutions en 0.1s pour proc 1
 FINI. Trouvé 540540 solutions en 0.1s pour proc 0
-FINI. Trouvé 540540 solutions en 0.2s pour proc 1
-TOTAL : 2027025 solutions in 0.2s
+TOTAL : 2027025 solutions in 0.1s

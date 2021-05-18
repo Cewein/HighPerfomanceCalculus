@@ -1,382 +1,382 @@
-Exploré 1000000 noeuds, trouvé 499997 solutions, temps écoulé 0.3s. 0* 0* 0* ** 1* mw 
-Exploré 2000000 noeuds, trouvé 999996 solutions, temps écoulé 0.6s. 0* 0* 4* ** 0* 0* 0w 4g 02 
+Exploré 1000000 noeuds, trouvé 499997 solutions, temps écoulé 0.2s. 0* 0* 0* ** 1* mw 
+Exploré 2000000 noeuds, trouvé 999996 solutions, temps écoulé 0.5s. 0* 0* 4* ** 0* 0* 0w 4g 02 
 Exploré 3000000 noeuds, trouvé 1499995 solutions, temps écoulé 0.8s. 0* 0* 9* 0* ** 0* 2w 78 02 
-Exploré 4000000 noeuds, trouvé 1999996 solutions, temps écoulé 1.1s. 0* 0* s* 0* p* 58 02 
-Exploré 5000000 noeuds, trouvé 2499996 solutions, temps écoulé 1.4s. 0* 0* R* ** 2* fg 04 02 
-Exploré 6000000 noeuds, trouvé 2999997 solutions, temps écoulé 1.7s. 0* 0* ** 7* X* 0g 78 
-Exploré 7000000 noeuds, trouvé 3499997 solutions, temps écoulé 2.0s. 0* 0* ** 0* 7* 7g 
-Exploré 8000000 noeuds, trouvé 3999998 solutions, temps écoulé 2.3s. 0* 0* ** g* 
-Exploré 9000000 noeuds, trouvé 4499996 solutions, temps écoulé 2.7s. 0* 2* K* P* 04 02 
-Exploré 10000000 noeuds, trouvé 4999996 solutions, temps écoulé 3.0s. 0* 3* 0* ** 1* ag 
-Exploré 11000000 noeuds, trouvé 5499997 solutions, temps écoulé 3.3s. 0* 3* ** 6* 08 14 
-Exploré 12000000 noeuds, trouvé 5999997 solutions, temps écoulé 3.6s. 0* 4* ** i* ag 
-Exploré 13000000 noeuds, trouvé 6499996 solutions, temps écoulé 3.9s. 0* 5* o* ** ew 18 02 
-Exploré 14000000 noeuds, trouvé 6999995 solutions, temps écoulé 4.2s. 0* 6* 0* ** 7* 3g 04 02 
-Exploré 15000000 noeuds, trouvé 7499997 solutions, temps écoulé 4.5s. 0* 6* ** m* 24 
-Exploré 16000000 noeuds, trouvé 7999995 solutions, temps écoulé 4.7s. 0* 7* ** 0* lw 08 04 02 
-Exploré 17000000 noeuds, trouvé 8499996 solutions, temps écoulé 5.0s. 0* 8* 9* 2* 3g 14 
-Exploré 18000000 noeuds, trouvé 8999997 solutions, temps écoulé 5.3s. 0* 9* 0* 7* Y* 34 
-Exploré 19000000 noeuds, trouvé 9499997 solutions, temps écoulé 5.6s. 0* 9* ** 9* 18 
-Exploré 20000000 noeuds, trouvé 9999996 solutions, temps écoulé 5.9s. 0* a* ** 7* cw 14 
-Exploré 21000000 noeuds, trouvé 10499996 solutions, temps écoulé 6.2s. 0* b* 5* ** 0w ag 14 
-Exploré 22000000 noeuds, trouvé 10999995 solutions, temps écoulé 6.5s. 0* c* 0* 0* 0* 0* J* 1g 04 12 
-Exploré 23000000 noeuds, trouvé 11499997 solutions, temps écoulé 6.7s. 0* c* ** 1* hw 02 
-Exploré 24000000 noeuds, trouvé 11999997 solutions, temps écoulé 7.0s. 0* d* ** T* 0w 2g 
-Exploré 25000000 noeuds, trouvé 12499997 solutions, temps écoulé 7.3s. 0* r* 2* f* qw 02 
-Exploré 26000000 noeuds, trouvé 12999997 solutions, temps écoulé 7.6s. 0* v* ** 3* 0g 58 02 
-Exploré 27000000 noeuds, trouvé 13499999 solutions, temps écoulé 7.9s. 0* z* ** 
-Exploré 28000000 noeuds, trouvé 13999997 solutions, temps écoulé 8.2s. 0* E* 0* ** 7g 02 
-Exploré 29000000 noeuds, trouvé 14499997 solutions, temps écoulé 8.5s. 0* I* ** pw 28 02 
-Exploré 30000000 noeuds, trouvé 14999997 solutions, temps écoulé 8.8s. 0* M* ** 7* 1g 04 12 
-Exploré 31000000 noeuds, trouvé 15499996 solutions, temps écoulé 9.1s. 0* R* 0* U* 0* bw 04 02 
-Exploré 32000000 noeuds, trouvé 15999997 solutions, temps écoulé 9.4s. 0* V* t* 6w 08 14 
-Exploré 33000000 noeuds, trouvé 16499997 solutions, temps écoulé 9.7s. 0* Z* ** c* 1g 34 
-Exploré 34000000 noeuds, trouvé 16999998 solutions, temps écoulé 10.0s. 0* ** 0* 0* ** eg 
-Exploré 35000000 noeuds, trouvé 17499997 solutions, temps écoulé 10.3s. 0* ** b* 8* 7w 68 
-Exploré 36000000 noeuds, trouvé 17999997 solutions, temps écoulé 10.5s. 0* ** ** w* dg 02 
-Exploré 37000000 noeuds, trouvé 18499998 solutions, temps écoulé 10.8s. 0* ** ** F* 24 
-Exploré 38000000 noeuds, trouvé 18999996 solutions, temps écoulé 11.0s. 0* ** 7* 0* 0* rw 08 04 02 
-Exploré 39000000 noeuds, trouvé 19499997 solutions, temps écoulé 11.3s. 0* ** ** 1w 08 34 
-Exploré 40000000 noeuds, trouvé 19999997 solutions, temps écoulé 11.6s. 0* ** ** gw 04 02 
-Exploré 41000000 noeuds, trouvé 20499998 solutions, temps écoulé 11.8s. 0* ** ** eg 02 
-Exploré 42000000 noeuds, trouvé 20999997 solutions, temps écoulé 12.1s. 0* ** ** 5w 28 
-Exploré 43000000 noeuds, trouvé 21499997 solutions, temps écoulé 12.3s. 0* ** 3* 4* 28 02 
-Exploré 44000000 noeuds, trouvé 21999998 solutions, temps écoulé 12.6s. 0* ** ** c* 08 
-Exploré 45000000 noeuds, trouvé 22499997 solutions, temps écoulé 12.8s. 0* ** K* 5g 02 
-Exploré 46000000 noeuds, trouvé 22999998 solutions, temps écoulé 13.1s. 0* ** 0* ** sw 24 
-Exploré 47000000 noeuds, trouvé 23499998 solutions, temps écoulé 13.4s. 0* ** ** 1g 
-Exploré 48000000 noeuds, trouvé 23999998 solutions, temps écoulé 13.6s. 0* ** q* e* cg 34 
-Exploré 49000000 noeuds, trouvé 24499997 solutions, temps écoulé 13.9s. 0* ** 0* ** 04 02 
-Exploré 50000000 noeuds, trouvé 24999998 solutions, temps écoulé 14.2s. 0* ** L* 34 
-Exploré 51000000 noeuds, trouvé 25499997 solutions, temps écoulé 14.4s. 0* ** 7* 0w bg 02 
-Exploré 52000000 noeuds, trouvé 25999997 solutions, temps écoulé 14.7s. 0* ** 0* r* 08 14 
-Exploré 53000000 noeuds, trouvé 26499998 solutions, temps écoulé 15.0s. 0* ** ** 18 02 
-Exploré 54000000 noeuds, trouvé 26999998 solutions, temps écoulé 15.4s. 0* ** 0* uw 08 34 
-Exploré 55000000 noeuds, trouvé 27499998 solutions, temps écoulé 16.2s. 0* ** 6w 24 
-Exploré 56000000 noeuds, trouvé 27999997 solutions, temps écoulé 16.6s. 1* 0* ** y* 18 02 
-Exploré 57000000 noeuds, trouvé 28499996 solutions, temps écoulé 16.9s. 1* 3* e* 1* ow 28 12 
-Exploré 58000000 noeuds, trouvé 28999997 solutions, temps écoulé 17.2s. 1* j* 2* 3* dg 02 
-Exploré 59000000 noeuds, trouvé 29499997 solutions, temps écoulé 17.4s. 1* ** U* 08 04 12 
-Exploré 60000000 noeuds, trouvé 29999997 solutions, temps écoulé 17.7s. 1* ** e* 0g 08 24 
-Exploré 61000000 noeuds, trouvé 30499998 solutions, temps écoulé 18.0s. 1* ** ** vw 18 02 
-Exploré 62000000 noeuds, trouvé 30999998 solutions, temps écoulé 18.3s. 1* ** ** tw 
-Exploré 63000000 noeuds, trouvé 31499997 solutions, temps écoulé 18.6s. 1* ** 4w 08 04 12 
-Exploré 64000000 noeuds, trouvé 31999997 solutions, temps écoulé 18.9s. 2* 0* 3* ** 0g 58 
-Exploré 65000000 noeuds, trouvé 32499997 solutions, temps écoulé 19.1s. 2* 0* ** 0w 0g 68 
-Exploré 66000000 noeuds, trouvé 32999997 solutions, temps écoulé 19.4s. 2* s* ** uw 02 
-Exploré 67000000 noeuds, trouvé 33499996 solutions, temps écoulé 19.7s. 2* ** 0* 1* 04 02 
-Exploré 68000000 noeuds, trouvé 33999996 solutions, temps écoulé 19.9s. 2* ** e* 1w 48 02 
-Exploré 69000000 noeuds, trouvé 34499997 solutions, temps écoulé 20.2s. 2* ** 7* tw 04 02 
-Exploré 70000000 noeuds, trouvé 34999998 solutions, temps écoulé 20.5s. 2* ** B* V* 78 12 
-Exploré 71000000 noeuds, trouvé 35499999 solutions, temps écoulé 20.8s. 2* ** hw 
-Exploré 72000000 noeuds, trouvé 35999997 solutions, temps écoulé 21.1s. 2* ** P* ** 0g 38 02 
-Exploré 73000000 noeuds, trouvé 36499997 solutions, temps écoulé 21.4s. 3* 0* ** ** 0g 18 02 
-Exploré 74000000 noeuds, trouvé 36999998 solutions, temps écoulé 21.6s. 3* 3* ** 2* 
-Exploré 75000000 noeuds, trouvé 37499996 solutions, temps écoulé 21.9s. 3* p* O* v* 9w 02 
-Exploré 76000000 noeuds, trouvé 37999996 solutions, temps écoulé 22.1s. 3* ** 0* p* 0w 2g 34 
-Exploré 77000000 noeuds, trouvé 38499997 solutions, temps écoulé 22.4s. 3* ** ** 1w 38 02 
-Exploré 78000000 noeuds, trouvé 38999997 solutions, temps écoulé 22.7s. 3* ** 0* L* 18 12 
-Exploré 79000000 noeuds, trouvé 39499996 solutions, temps écoulé 23.0s. 3* ** 0* a* 0* 5w 18 02 
-Exploré 80000000 noeuds, trouvé 39999998 solutions, temps écoulé 23.3s. 3* ** 2* 4g 
-Exploré 81000000 noeuds, trouvé 40499996 solutions, temps écoulé 23.6s. 4* 0* d* O* 2w 28 02 
-Exploré 82000000 noeuds, trouvé 40999996 solutions, temps écoulé 23.8s. 4* 1* f* c* 0g 08 24 
-Exploré 83000000 noeuds, trouvé 41499997 solutions, temps écoulé 24.1s. 4* o* ** bg 04 12 
-Exploré 84000000 noeuds, trouvé 41999998 solutions, temps écoulé 24.4s. 4* L* ** 14 
-Exploré 85000000 noeuds, trouvé 42499997 solutions, temps écoulé 24.6s. 4* ** ** 0w 7g 12 
-Exploré 86000000 noeuds, trouvé 42999998 solutions, temps écoulé 24.9s. 4* ** ** 
-Exploré 87000000 noeuds, trouvé 43499998 solutions, temps écoulé 25.2s. 4* ** 0* x* 48 
-Exploré 88000000 noeuds, trouvé 43999997 solutions, temps écoulé 25.5s. 4* ** 7* 5w 08 14 
-Exploré 89000000 noeuds, trouvé 44499996 solutions, temps écoulé 25.8s. 5* 0* 0* 0* 0* 2* 4w 34 
-Exploré 90000000 noeuds, trouvé 44999998 solutions, temps écoulé 26.1s. 5* 0* ** Y* bg 
-Exploré 91000000 noeuds, trouvé 45499998 solutions, temps écoulé 26.4s. 5* 4* ** ** 34 
-Exploré 92000000 noeuds, trouvé 45999997 solutions, temps écoulé 26.6s. 5* v* 9* mw 14 
-Exploré 93000000 noeuds, trouvé 46499996 solutions, temps écoulé 26.9s. 5* ** z* f* 4g 02 
-Exploré 94000000 noeuds, trouvé 46999997 solutions, temps écoulé 27.1s. 5* ** ** 0w 0g 08 
-Exploré 95000000 noeuds, trouvé 47499997 solutions, temps écoulé 27.4s. 5* ** 0* A* 0g 
-Exploré 96000000 noeuds, trouvé 47999997 solutions, temps écoulé 27.7s. 5* ** t* 6w 68 02 
-Exploré 97000000 noeuds, trouvé 48499997 solutions, temps écoulé 28.0s. 5* ** ** 7w 08 04 
-Exploré 98000000 noeuds, trouvé 48999996 solutions, temps écoulé 28.3s. 6* 0* ** 0* 3w 48 
-Exploré 99000000 noeuds, trouvé 49499998 solutions, temps écoulé 28.6s. 6* 1* ** d* fg 
-Exploré 100000000 noeuds, trouvé 49999997 solutions, temps écoulé 28.8s. 6* m* 1* 8* 78 02 
-Exploré 101000000 noeuds, trouvé 50499997 solutions, temps écoulé 29.1s. 6* ** ** 0* 4w 78 12 
-Exploré 102000000 noeuds, trouvé 50999997 solutions, temps écoulé 29.3s. 6* ** z* 18 12 
-Exploré 103000000 noeuds, trouvé 51499997 solutions, temps écoulé 29.6s. 6* ** 3* 0g 58 
-Exploré 104000000 noeuds, trouvé 51999997 solutions, temps écoulé 29.9s. 6* ** v* 7* fg 04 12 
-Exploré 105000000 noeuds, trouvé 52499998 solutions, temps écoulé 30.2s. 6* ** 8w 34 
-Exploré 106000000 noeuds, trouvé 52999997 solutions, temps écoulé 30.5s. 7* 0* 0* ** 38 02 
-Exploré 107000000 noeuds, trouvé 53499998 solutions, temps écoulé 30.7s. 7* 0* ** 0w 
-Exploré 108000000 noeuds, trouvé 53999998 solutions, temps écoulé 31.0s. 7* 6* ** uw 28 
-Exploré 109000000 noeuds, trouvé 54499997 solutions, temps écoulé 31.2s. 7* M* ** 8w 14 
-Exploré 110000000 noeuds, trouvé 54999997 solutions, temps écoulé 31.5s. 7* ** s* 0g 68 
-Exploré 111000000 noeuds, trouvé 55499997 solutions, temps écoulé 31.8s. 7* ** Y* 1* 4g 
-Exploré 112000000 noeuds, trouvé 55999996 solutions, temps écoulé 32.0s. 7* ** 3* 1w 08 04 12 
-Exploré 113000000 noeuds, trouvé 56499998 solutions, temps écoulé 32.3s. 7* ** ** vw 78 
-Exploré 114000000 noeuds, trouvé 56999997 solutions, temps écoulé 32.6s. 7* ** 0* 0* ** 08 04 
-Exploré 115000000 noeuds, trouvé 57499996 solutions, temps écoulé 32.9s. 8* 0* ** 0w 1g 04 12 
-Exploré 116000000 noeuds, trouvé 57999997 solutions, temps écoulé 33.1s. 8* 2* ** 2g 02 
-Exploré 117000000 noeuds, trouvé 58499997 solutions, temps écoulé 33.4s. 8* U* ** 0g 38 
-Exploré 118000000 noeuds, trouvé 58999997 solutions, temps écoulé 33.6s. 8* ** l* ow 04 12 
-Exploré 119000000 noeuds, trouvé 59499997 solutions, temps écoulé 33.9s. 8* ** 0* 0* d* 78 
-Exploré 120000000 noeuds, trouvé 59999996 solutions, temps écoulé 34.2s. 8* ** 0* 1* v* 08 24 
-Exploré 121000000 noeuds, trouvé 60499996 solutions, temps écoulé 34.5s. 8* ** 2* 3* mw 02 
-Exploré 122000000 noeuds, trouvé 60999997 solutions, temps écoulé 34.8s. 8* ** u* 0g 48 02 
-Exploré 123000000 noeuds, trouvé 61499997 solutions, temps écoulé 35.0s. 9* 0* 2* u* 6* 
-Exploré 124000000 noeuds, trouvé 61999997 solutions, temps écoulé 35.4s. 9* 0* ** Z* 9g 
-Exploré 125000000 noeuds, trouvé 62499997 solutions, temps écoulé 35.6s. 9* d* ** 0g 78 02 
-Exploré 126000000 noeuds, trouvé 62999996 solutions, temps écoulé 35.9s. 9* O* 9* 0* 0* cw 78 02 
-Exploré 127000000 noeuds, trouvé 63499996 solutions, temps écoulé 36.2s. 9* ** 0* 0* s* 38 12 
-Exploré 128000000 noeuds, trouvé 63999998 solutions, temps écoulé 36.6s. 9* ** s* bg 
-Exploré 129000000 noeuds, trouvé 64499998 solutions, temps écoulé 37.0s. 9* ** ** 3w 04 
-Exploré 130000000 noeuds, trouvé 64999997 solutions, temps écoulé 37.3s. 9* ** 0* c* 0g 68 
-Exploré 131000000 noeuds, trouvé 65499998 solutions, temps écoulé 37.7s. 9* ** ** 1g 14 
-Exploré 132000000 noeuds, trouvé 65999998 solutions, temps écoulé 38.0s. a* 0* ** ** 1w 38 
-Exploré 133000000 noeuds, trouvé 66499997 solutions, temps écoulé 38.3s. a* 4* 9* 7w 28 
-Exploré 134000000 noeuds, trouvé 66999997 solutions, temps écoulé 38.5s. a* q* ** jw 
-Exploré 135000000 noeuds, trouvé 67499997 solutions, temps écoulé 38.8s. a* ** ** 3g 24 
-Exploré 136000000 noeuds, trouvé 67999998 solutions, temps écoulé 39.0s. a* ** 9* 78 
-Exploré 137000000 noeuds, trouvé 68499997 solutions, temps écoulé 39.3s. a* ** 8* 0w eg 04 
-Exploré 138000000 noeuds, trouvé 68999997 solutions, temps écoulé 39.7s. a* ** 0* 0* H* 38 
-Exploré 139000000 noeuds, trouvé 69499997 solutions, temps écoulé 40.1s. a* ** 0* ** 3g 04 
-Exploré 140000000 noeuds, trouvé 69999996 solutions, temps écoulé 40.4s. b* 0* q* ** 1w 08 34 
-Exploré 141000000 noeuds, trouvé 70499998 solutions, temps écoulé 40.6s. b* 1* i* ** fg 
-Exploré 142000000 noeuds, trouvé 70999997 solutions, temps écoulé 40.9s. b* 9* A* cw 58 02 
-Exploré 143000000 noeuds, trouvé 71499997 solutions, temps écoulé 41.2s. b* U* ** 6w 24 
-Exploré 144000000 noeuds, trouvé 71999997 solutions, temps écoulé 41.4s. b* ** 0* ** 0g 38 02 
-Exploré 145000000 noeuds, trouvé 72499997 solutions, temps écoulé 41.7s. b* ** ** 58 02 
-Exploré 146000000 noeuds, trouvé 72999997 solutions, temps écoulé 42.0s. b* ** 0* ** 28 02 
-Exploré 147000000 noeuds, trouvé 73499998 solutions, temps écoulé 42.3s. b* ** p* 6g 02 
-Exploré 148000000 noeuds, trouvé 73999997 solutions, temps écoulé 42.6s. c* 0* 0* 0* 6* A* 58 
-Exploré 149000000 noeuds, trouvé 74499997 solutions, temps écoulé 42.9s. c* 0* ** h* tw 04 
-Exploré 150000000 noeuds, trouvé 74999996 solutions, temps écoulé 43.2s. c* 7* 3* a* 08 24 
-Exploré 151000000 noeuds, trouvé 75499997 solutions, temps écoulé 43.5s. c* s* ** 6* 8g 02 
-Exploré 152000000 noeuds, trouvé 75999997 solutions, temps écoulé 43.7s. c* ** 0* ** 0g 28 
-Exploré 153000000 noeuds, trouvé 76499997 solutions, temps écoulé 44.0s. c* ** 9w 02 
-Exploré 154000000 noeuds, trouvé 76999997 solutions, temps écoulé 44.3s. c* ** 1* pw 04 02 
-Exploré 155000000 noeuds, trouvé 77499996 solutions, temps écoulé 44.5s. c* ** ** 0* 0w 9g 04 12 
-Exploré 156000000 noeuds, trouvé 77999997 solutions, temps écoulé 44.9s. c* ** 1* 0* 0w 0g 
-Exploré 157000000 noeuds, trouvé 78499996 solutions, temps écoulé 45.1s. d* 0* ** 0* 0w fg 04 12 
-Exploré 158000000 noeuds, trouvé 78999998 solutions, temps écoulé 45.4s. d* 1* ** 7w 18 
-Exploré 159000000 noeuds, trouvé 79499998 solutions, temps écoulé 45.7s. d* i* ** 7g 34 
-Exploré 160000000 noeuds, trouvé 79999998 solutions, temps écoulé 46.0s. d* ** 4* 
-Exploré 161000000 noeuds, trouvé 80499997 solutions, temps écoulé 46.2s. d* ** 3* ** 1w 08 
-Exploré 162000000 noeuds, trouvé 80999997 solutions, temps écoulé 46.5s. d* ** q* 5g 12 
-Exploré 163000000 noeuds, trouvé 81499998 solutions, temps écoulé 46.8s. d* ** ** 
-Exploré 164000000 noeuds, trouvé 81999998 solutions, temps écoulé 47.2s. d* ** ** rw 14 
-Exploré 165000000 noeuds, trouvé 82499998 solutions, temps écoulé 47.5s. e* 0* ** uw 
-Exploré 166000000 noeuds, trouvé 82999997 solutions, temps écoulé 47.8s. e* ** r* 6g 04 02 
-Exploré 167000000 noeuds, trouvé 83499997 solutions, temps écoulé 48.0s. f* ** z* 08 14 
-Exploré 168000000 noeuds, trouvé 83999997 solutions, temps écoulé 48.3s. g* d* ** 0w 0g 68 
-Exploré 169000000 noeuds, trouvé 84499997 solutions, temps écoulé 48.6s. h* 0* f* 0* fw 
-Exploré 170000000 noeuds, trouvé 84999998 solutions, temps écoulé 48.9s. h* ** ** 1w 78 
-Exploré 171000000 noeuds, trouvé 85499997 solutions, temps écoulé 49.1s. i* ** q* 3g 34 
-Exploré 172000000 noeuds, trouvé 85999997 solutions, temps écoulé 49.4s. j* f* ** 1w 58 
-Exploré 173000000 noeuds, trouvé 86499996 solutions, temps écoulé 49.7s. k* 0* 0* 7* L* 68 
-Exploré 174000000 noeuds, trouvé 86999997 solutions, temps écoulé 50.0s. k* ** ** 8g 02 
-Exploré 175000000 noeuds, trouvé 87499997 solutions, temps écoulé 50.2s. l* ** n* 9* fg 24 
-Exploré 176000000 noeuds, trouvé 87999997 solutions, temps écoulé 50.5s. m* 2* Z* f* 6g 
-Exploré 177000000 noeuds, trouvé 88499997 solutions, temps écoulé 50.8s. m* ** f* 08 14 
-Exploré 178000000 noeuds, trouvé 88999998 solutions, temps écoulé 51.1s. n* ** 28 12 
-Exploré 179000000 noeuds, trouvé 89499997 solutions, temps écoulé 51.4s. o* W* u* 4g 14 
-Exploré 180000000 noeuds, trouvé 89999998 solutions, temps écoulé 51.8s. p* 0* ** bw 
-Exploré 181000000 noeuds, trouvé 90499997 solutions, temps écoulé 52.1s. p* ** 0* 0w 8g 02 
-Exploré 182000000 noeuds, trouvé 90999997 solutions, temps écoulé 52.4s. q* ** ** 08 14 
-Exploré 183000000 noeuds, trouvé 91499997 solutions, temps écoulé 52.7s. r* v* 9* 8g 
-Exploré 184000000 noeuds, trouvé 91999997 solutions, temps écoulé 53.0s. s* 0* ** B* 08 34 
-Exploré 185000000 noeuds, trouvé 92499998 solutions, temps écoulé 53.3s. s* ** 0* 1w 68 
-Exploré 186000000 noeuds, trouvé 92999997 solutions, temps écoulé 53.5s. t* ** j* 02 
-Exploré 187000000 noeuds, trouvé 93499997 solutions, temps écoulé 53.8s. u* n* f* sw 02 
-Exploré 188000000 noeuds, trouvé 93999997 solutions, temps écoulé 54.0s. v* 0* k* 8* 18 
-Exploré 189000000 noeuds, trouvé 94499997 solutions, temps écoulé 54.3s. v* ** t* cw 04 
-Exploré 190000000 noeuds, trouvé 94999996 solutions, temps écoulé 54.6s. w* ** 3* 0* fw 28 
-Exploré 191000000 noeuds, trouvé 95499997 solutions, temps écoulé 54.9s. x* 7* ** 08 04 
-Exploré 192000000 noeuds, trouvé 95999996 solutions, temps écoulé 55.1s. y* 0* 0* s* 0w 0g 28 
-Exploré 193000000 noeuds, trouvé 96499997 solutions, temps écoulé 55.4s. y* ** 0* 0w dg 12 
-Exploré 194000000 noeuds, trouvé 96999997 solutions, temps écoulé 55.7s. z* ** t* 08 04 
-Exploré 195000000 noeuds, trouvé 97499997 solutions, temps écoulé 55.9s. A* 3* d* rw 02 
-Exploré 196000000 noeuds, trouvé 97999998 solutions, temps écoulé 56.2s. A* ** ** 0w eg 
-Exploré 197000000 noeuds, trouvé 98499997 solutions, temps écoulé 56.5s. B* ** h* 08 24 
-Exploré 198000000 noeuds, trouvé 98999997 solutions, temps écoulé 56.8s. C* R* 0w 3g 14 
-Exploré 199000000 noeuds, trouvé 99499998 solutions, temps écoulé 57.1s. D* 0* ** J* fg 
-Exploré 200000000 noeuds, trouvé 99999997 solutions, temps écoulé 57.4s. D* ** 0w 0g 08 34 
-Exploré 201000000 noeuds, trouvé 100499997 solutions, temps écoulé 57.7s. E* ** y* fg 02 
-Exploré 202000000 noeuds, trouvé 100999997 solutions, temps écoulé 57.9s. F* v* ** 1w 68 
-Exploré 203000000 noeuds, trouvé 101499997 solutions, temps écoulé 58.2s. G* 0* ** 0w 0g 78 
-Exploré 204000000 noeuds, trouvé 101999997 solutions, temps écoulé 58.5s. G* ** 9w 08 34 
-Exploré 205000000 noeuds, trouvé 102499997 solutions, temps écoulé 58.7s. H* ** 0* tw 18 02 
-Exploré 206000000 noeuds, trouvé 102999997 solutions, temps écoulé 59.0s. I* l* 7* gw 
-Exploré 207000000 noeuds, trouvé 103499996 solutions, temps écoulé 59.3s. J* 0* R* 0w 0g 48 
-Exploré 208000000 noeuds, trouvé 103999997 solutions, temps écoulé 59.5s. J* ** a* 1g 14 
-Exploré 209000000 noeuds, trouvé 104499997 solutions, temps écoulé 59.8s. K* ** ** z* 12 
-Exploré 210000000 noeuds, trouvé 104999998 solutions, temps écoulé 60.1s. L* s* O* 3g 
-Exploré 211000000 noeuds, trouvé 105499997 solutions, temps écoulé 60.4s. M* 0* 0* q* pw 
-Exploré 212000000 noeuds, trouvé 105999998 solutions, temps écoulé 60.6s. M* ** tw 04 
-Exploré 213000000 noeuds, trouvé 106499997 solutions, temps écoulé 60.9s. N* ** e* 08 04 
-Exploré 214000000 noeuds, trouvé 106999998 solutions, temps écoulé 61.2s. O* 3* f* Z* 58 
-Exploré 215000000 noeuds, trouvé 107499997 solutions, temps écoulé 61.6s. O* ** 3* 1w 08 34 
-Exploré 216000000 noeuds, trouvé 107999996 solutions, temps écoulé 61.9s. P* ** ** qw 08 04 02 
-Exploré 217000000 noeuds, trouvé 108499997 solutions, temps écoulé 62.3s. Q* ** n* 04 02 
-Exploré 218000000 noeuds, trouvé 108999997 solutions, temps écoulé 62.6s. R* 0* ** ** 38 02 
-Exploré 219000000 noeuds, trouvé 109499999 solutions, temps écoulé 62.9s. R* ** ** 
-Exploré 220000000 noeuds, trouvé 109999998 solutions, temps écoulé 63.2s. S* ** uw 14 
-Exploré 221000000 noeuds, trouvé 110499997 solutions, temps écoulé 63.5s. T* y* ** 3* 38 02 
-Exploré 222000000 noeuds, trouvé 110999996 solutions, temps écoulé 63.7s. U* 0* ** 0* fw 14 
-Exploré 223000000 noeuds, trouvé 111499999 solutions, temps écoulé 64.0s. U* ** H* 34 
-Exploré 224000000 noeuds, trouvé 111999997 solutions, temps écoulé 64.3s. V* ** n* 18 12 
-Exploré 225000000 noeuds, trouvé 112499998 solutions, temps écoulé 64.5s. W* d* ** 34 
-Exploré 226000000 noeuds, trouvé 112999997 solutions, temps écoulé 64.8s. X* 0* Q* n* 04 02 
-Exploré 227000000 noeuds, trouvé 113499998 solutions, temps écoulé 65.0s. X* ** ** 04 02 
-Exploré 228000000 noeuds, trouvé 113999997 solutions, temps écoulé 65.3s. Y* ** L* 08 04 02 
-Exploré 229000000 noeuds, trouvé 114499996 solutions, temps écoulé 65.6s. Z* c* ** 0* rw 04 02 
-Exploré 230000000 noeuds, trouvé 114999995 solutions, temps écoulé 65.9s. ** 0* 0* 8* 0w 0g 18 02 
-Exploré 231000000 noeuds, trouvé 115499997 solutions, temps écoulé 66.1s. ** ** G* 1* 1g 
-Exploré 232000000 noeuds, trouvé 115999996 solutions, temps écoulé 66.4s. ** ** 0* ew 08 14 
-Exploré 233000000 noeuds, trouvé 116499996 solutions, temps écoulé 66.7s. ** 6* ** 0g 68 02 
-Exploré 234000000 noeuds, trouvé 116999998 solutions, temps écoulé 66.9s. ** ** ** A* 12 
-Exploré 235000000 noeuds, trouvé 117499998 solutions, temps écoulé 67.2s. ** ** 0* sw 
-Exploré 236000000 noeuds, trouvé 117999998 solutions, temps écoulé 67.5s. ** ** i* 
-Exploré 237000000 noeuds, trouvé 118499997 solutions, temps écoulé 67.8s. ** 0* ** M* 48 
-Exploré 238000000 noeuds, trouvé 118999998 solutions, temps écoulé 68.1s. ** ** U* cw 58 
-Exploré 239000000 noeuds, trouvé 119499997 solutions, temps écoulé 68.4s. ** ** f* 18 02 
-Exploré 240000000 noeuds, trouvé 119999998 solutions, temps écoulé 68.7s. ** D* ** 7w 38 
-Exploré 241000000 noeuds, trouvé 120499996 solutions, temps écoulé 69.0s. ** 0* ** N* 0g 18 02 
-Exploré 242000000 noeuds, trouvé 120999998 solutions, temps écoulé 69.2s. ** ** cw 
-Exploré 243000000 noeuds, trouvé 121499997 solutions, temps écoulé 69.5s. ** ** U* vw 08 04 02 
-Exploré 244000000 noeuds, trouvé 121999997 solutions, temps écoulé 69.8s. ** d* c* 9g 02 
-Exploré 245000000 noeuds, trouvé 122499998 solutions, temps écoulé 70.0s. ** 0* i* sw 34 
-Exploré 246000000 noeuds, trouvé 122999997 solutions, temps écoulé 70.3s. ** ** 2* iw 
-Exploré 247000000 noeuds, trouvé 123499998 solutions, temps écoulé 70.6s. ** ** 1* Q* fg 
-Exploré 248000000 noeuds, trouvé 123999997 solutions, temps écoulé 70.8s. ** 6* ** 18 02 
-Exploré 249000000 noeuds, trouvé 124499997 solutions, temps écoulé 71.1s. ** 0* 0* j* M* 14 
-Exploré 250000000 noeuds, trouvé 124999998 solutions, temps écoulé 71.4s. ** ** gw 
-Exploré 251000000 noeuds, trouvé 125499998 solutions, temps écoulé 71.7s. ** ** ** 18 12 
-Exploré 252000000 noeuds, trouvé 125999997 solutions, temps écoulé 71.9s. ** 3* e* qw 24 
-Exploré 253000000 noeuds, trouvé 126499997 solutions, temps écoulé 72.2s. ** ** R* 0w 2g 24 
-Exploré 254000000 noeuds, trouvé 126999997 solutions, temps écoulé 72.5s. ** ** 0* k* cg 04 
-Exploré 255000000 noeuds, trouvé 127499996 solutions, temps écoulé 72.7s. ** ** R* 1g 04 02 
-Exploré 256000000 noeuds, trouvé 127999997 solutions, temps écoulé 73.0s. ** 0* ** 6w 38 12 
-Exploré 257000000 noeuds, trouvé 128499998 solutions, temps écoulé 73.3s. ** ** ** 34 
-Exploré 258000000 noeuds, trouvé 128999997 solutions, temps écoulé 73.5s. ** ** v* 3* eg 34 
-Exploré 259000000 noeuds, trouvé 129499996 solutions, temps écoulé 73.8s. ** v* 7* 5* 7g 14 
-Exploré 260000000 noeuds, trouvé 129999998 solutions, temps écoulé 74.1s. ** 0* ** hw 24 
-Exploré 261000000 noeuds, trouvé 130499999 solutions, temps écoulé 74.4s. ** ** kw 
-Exploré 262000000 noeuds, trouvé 130999996 solutions, temps écoulé 74.6s. ** ** 0w 8g 04 02 
-Exploré 263000000 noeuds, trouvé 131499997 solutions, temps écoulé 74.9s. ** f* ** 3g 04 
-Exploré 264000000 noeuds, trouvé 131999996 solutions, temps écoulé 75.2s. ** 0* n* 0* 4w 58 
-Exploré 265000000 noeuds, trouvé 132499998 solutions, temps écoulé 75.4s. ** ** 6g 24 
-Exploré 266000000 noeuds, trouvé 132999997 solutions, temps écoulé 75.7s. ** ** 0* 0* uw 12 
-Exploré 267000000 noeuds, trouvé 133499997 solutions, temps écoulé 76.0s. ** d* ** 68 12 
-Exploré 268000000 noeuds, trouvé 133999996 solutions, temps écoulé 76.2s. ** 0* 0* b* cw 04 12 
-Exploré 269000000 noeuds, trouvé 134499996 solutions, temps écoulé 76.5s. ** ** 0* 0* 0w dg 02 
-Exploré 270000000 noeuds, trouvé 134999998 solutions, temps écoulé 76.8s. ** ** 9* 38 12 
-Exploré 271000000 noeuds, trouvé 135499996 solutions, temps écoulé 77.1s. ** b* e* 5w 08 04 12 
-Exploré 272000000 noeuds, trouvé 135999996 solutions, temps écoulé 77.3s. ** ** 0* 4w 04 02 
-Exploré 273000000 noeuds, trouvé 136499998 solutions, temps écoulé 77.6s. ** ** 9* cg 12 
-Exploré 274000000 noeuds, trouvé 136999997 solutions, temps écoulé 77.8s. ** 5* 0* c* bg 12 
-Exploré 275000000 noeuds, trouvé 137499997 solutions, temps écoulé 78.1s. ** ** L* 28 
-Exploré 276000000 noeuds, trouvé 137999997 solutions, temps écoulé 78.3s. ** ** 0* W* 38 02 
-Exploré 277000000 noeuds, trouvé 138499996 solutions, temps écoulé 78.6s. ** 0* ** dw 38 02 
-Exploré 278000000 noeuds, trouvé 138999998 solutions, temps écoulé 78.8s. ** Q* 1w 58 
-Exploré 279000000 noeuds, trouvé 139499997 solutions, temps écoulé 79.1s. ** ** C* cg 04 02 
-Exploré 280000000 noeuds, trouvé 139999998 solutions, temps écoulé 79.4s. ** 0* R* 7g 
-Exploré 281000000 noeuds, trouvé 140499998 solutions, temps écoulé 79.6s. ** B* bg 
-Exploré 282000000 noeuds, trouvé 140999997 solutions, temps écoulé 79.9s. ** ** lw 02 
-Exploré 283000000 noeuds, trouvé 141499998 solutions, temps écoulé 80.1s. ** 0* 0* ** 38 
-Exploré 284000000 noeuds, trouvé 141999997 solutions, temps écoulé 80.4s. ** h* 7* vw 04 02 
-Exploré 285000000 noeuds, trouvé 142499998 solutions, temps écoulé 80.6s. ** ** 0* iw 
-Exploré 286000000 noeuds, trouvé 142999998 solutions, temps écoulé 80.9s. ** ** B* 14 
-Exploré 287000000 noeuds, trouvé 143499998 solutions, temps écoulé 81.2s. ** 6* H* 68 
-Exploré 288000000 noeuds, trouvé 143999996 solutions, temps écoulé 81.4s. ** ** 0* 0* 0w 0g 78 
-Exploré 289000000 noeuds, trouvé 144499998 solutions, temps écoulé 81.7s. ** ** pw 08 
-Exploré 290000000 noeuds, trouvé 144999998 solutions, temps écoulé 81.9s. ** 1* ** 
-Exploré 291000000 noeuds, trouvé 145499997 solutions, temps écoulé 82.2s. ** ** 0* s* 68 02 
-Exploré 292000000 noeuds, trouvé 145999997 solutions, temps écoulé 82.4s. ** ** e* 0g 08 24 
-Exploré 293000000 noeuds, trouvé 146499997 solutions, temps écoulé 82.7s. ** 0* ** 6g 02 
-Exploré 294000000 noeuds, trouvé 146999998 solutions, temps écoulé 83.0s. ** v* Y* 18 
-Exploré 295000000 noeuds, trouvé 147499997 solutions, temps écoulé 83.2s. ** ** 3* 8g 02 
-Exploré 296000000 noeuds, trouvé 147999997 solutions, temps écoulé 83.5s. ** 0* f* ** 4g 
-Exploré 297000000 noeuds, trouvé 148499997 solutions, temps écoulé 83.8s. ** j* 0w eg 24 
-Exploré 298000000 noeuds, trouvé 148999998 solutions, temps écoulé 84.1s. ** ** 0* E* 24 
-Exploré 299000000 noeuds, trouvé 149499996 solutions, temps écoulé 84.4s. ** 0* 0* 5* 08 04 12 
-Exploré 300000000 noeuds, trouvé 149999998 solutions, temps écoulé 84.7s. ** b* m* 78 
-Exploré 301000000 noeuds, trouvé 150499997 solutions, temps écoulé 85.0s. ** ** V* 0w cg 12 
-Exploré 302000000 noeuds, trouvé 150999998 solutions, temps écoulé 85.2s. ** ** 5* ag 
-Exploré 303000000 noeuds, trouvé 151499996 solutions, temps écoulé 85.5s. ** 3* 7* 5g 04 02 
-Exploré 304000000 noeuds, trouvé 151999998 solutions, temps écoulé 85.8s. ** ** tw 24 
-Exploré 305000000 noeuds, trouvé 152499998 solutions, temps écoulé 86.1s. ** ** cg 
-Exploré 306000000 noeuds, trouvé 152999996 solutions, temps écoulé 86.4s. ** 1* 1* bw 18 02 
-Exploré 307000000 noeuds, trouvé 153499997 solutions, temps écoulé 86.6s. ** ** sw 38 02 
-Exploré 308000000 noeuds, trouvé 153999997 solutions, temps écoulé 86.9s. ** ** 0* 9w 08 34 
-Exploré 309000000 noeuds, trouvé 154499997 solutions, temps écoulé 87.2s. ** 0* ** 6w 14 
-Exploré 310000000 noeuds, trouvé 154999997 solutions, temps écoulé 87.5s. ** s* X* 3g 02 
-Exploré 311000000 noeuds, trouvé 155499997 solutions, temps écoulé 87.8s. ** ** L* ag 02 
-Exploré 312000000 noeuds, trouvé 155999997 solutions, temps écoulé 88.0s. ** 0* 7* e* 78 02 
-Exploré 313000000 noeuds, trouvé 156499996 solutions, temps écoulé 88.3s. ** m* ** 08 04 02 
-Exploré 314000000 noeuds, trouvé 156999997 solutions, temps écoulé 88.6s. ** ** q* 18 02 
-Exploré 315000000 noeuds, trouvé 157499998 solutions, temps écoulé 88.9s. ** ** 0* 0w bg 
-Exploré 316000000 noeuds, trouvé 157999996 solutions, temps écoulé 89.2s. ** 7* I* 0g 08 04 02 
-Exploré 317000000 noeuds, trouvé 158499997 solutions, temps écoulé 89.4s. ** ** r* 18 02 
-Exploré 318000000 noeuds, trouvé 158999996 solutions, temps écoulé 89.7s. ** ** 7w 08 04 02 
-Exploré 319000000 noeuds, trouvé 159499996 solutions, temps écoulé 90.0s. ** 3* 4* 0w 9g 02 
-Exploré 320000000 noeuds, trouvé 159999996 solutions, temps écoulé 90.3s. ** ** ** 6w 08 04 02 
-Exploré 321000000 noeuds, trouvé 160499997 solutions, temps écoulé 90.6s. ** ** 3w 38 02 
-Exploré 322000000 noeuds, trouvé 160999997 solutions, temps écoulé 90.8s. ** 0* ** 0w 0g 08 
-Exploré 323000000 noeuds, trouvé 161499998 solutions, temps écoulé 91.1s. ** U* lw 34 
-Exploré 324000000 noeuds, trouvé 161999997 solutions, temps écoulé 91.3s. ** ** 4* 0w cg 02 
-Exploré 325000000 noeuds, trouvé 162499996 solutions, temps écoulé 91.6s. ** 0* V* 6* 0g 28 12 
-Exploré 326000000 noeuds, trouvé 162999997 solutions, temps écoulé 91.9s. ** A* N* ew 68 12 
-Exploré 327000000 noeuds, trouvé 163499997 solutions, temps écoulé 92.2s. ** ** 0* 3* 0g 28 
-Exploré 328000000 noeuds, trouvé 163999997 solutions, temps écoulé 92.5s. ** 0* 3* 7* 2g 
-Exploré 329000000 noeuds, trouvé 164499997 solutions, temps écoulé 92.8s. ** f* 1* 0w dg 
-Exploré 330000000 noeuds, trouvé 164999997 solutions, temps écoulé 93.1s. ** ** 0* kw 18 02 
-Exploré 331000000 noeuds, trouvé 165499998 solutions, temps écoulé 93.4s. ** ** 28 12 
-Exploré 332000000 noeuds, trouvé 165999997 solutions, temps écoulé 93.7s. ** b* 3* jw 34 
-Exploré 333000000 noeuds, trouvé 166499996 solutions, temps écoulé 94.0s. ** ** c* 8g 04 02 
-Exploré 334000000 noeuds, trouvé 166999998 solutions, temps écoulé 94.2s. ** ** ** 18 
-Exploré 335000000 noeuds, trouvé 167499998 solutions, temps écoulé 94.6s. ** 1* ** 24 
-Exploré 336000000 noeuds, trouvé 167999997 solutions, temps écoulé 94.9s. ** ** 6* 0w 3g 
-Exploré 337000000 noeuds, trouvé 168499998 solutions, temps écoulé 95.2s. ** ** 6* 78 12 
-Exploré 338000000 noeuds, trouvé 168999997 solutions, temps écoulé 95.5s. ** ** 0* fw 04 12 
-Exploré 339000000 noeuds, trouvé 169499998 solutions, temps écoulé 95.8s. ** h* 2w 
-Exploré 340000000 noeuds, trouvé 169999997 solutions, temps écoulé 96.1s. ** 0* 3* 2w 04 
-Exploré 341000000 noeuds, trouvé 170499998 solutions, temps écoulé 96.4s. ** ** 7* 48 
-Exploré 342000000 noeuds, trouvé 170999997 solutions, temps écoulé 96.7s. ** 7* N* 28 02 
-Exploré 343000000 noeuds, trouvé 171499998 solutions, temps écoulé 96.9s. ** ** 1g 24 
-Exploré 344000000 noeuds, trouvé 171999997 solutions, temps écoulé 97.2s. ** ** 5* fg 04 02 
-Exploré 345000000 noeuds, trouvé 172499998 solutions, temps écoulé 97.5s. ** 3* q* bg 
-Exploré 346000000 noeuds, trouvé 172999998 solutions, temps écoulé 97.7s. ** ** 1g 
-Exploré 347000000 noeuds, trouvé 173499998 solutions, temps écoulé 98.0s. ** ** 0g 68 
-Exploré 348000000 noeuds, trouvé 173999997 solutions, temps écoulé 98.2s. ** 1* 3* 2g 34 
-Exploré 349000000 noeuds, trouvé 174499998 solutions, temps écoulé 98.5s. ** ** 1w 38 
-Exploré 350000000 noeuds, trouvé 174999998 solutions, temps écoulé 98.8s. ** u* X* 24 
-Exploré 351000000 noeuds, trouvé 175499997 solutions, temps écoulé 99.1s. ** 0* ** bw 14 
-Exploré 352000000 noeuds, trouvé 175999998 solutions, temps écoulé 99.3s. ** ** P* 04 12 
-Exploré 353000000 noeuds, trouvé 176499997 solutions, temps écoulé 99.6s. ** s* 0* 6w 08 34 
-Exploré 354000000 noeuds, trouvé 176999996 solutions, temps écoulé 99.9s. ** 0* c* 3g 04 02 
-Exploré 355000000 noeuds, trouvé 177499997 solutions, temps écoulé 100.2s. ** ** 0w 8g 02 
-Exploré 356000000 noeuds, trouvé 177999997 solutions, temps écoulé 100.5s. ** 9* fw 24 
-Exploré 357000000 noeuds, trouvé 178499997 solutions, temps écoulé 100.7s. ** 0* 0* 0* aw 
-Exploré 358000000 noeuds, trouvé 178999997 solutions, temps écoulé 101.0s. ** ** 0g 78 02 
-Exploré 359000000 noeuds, trouvé 179499997 solutions, temps écoulé 101.3s. ** 8* 5g 04 02 
-Exploré 360000000 noeuds, trouvé 179999998 solutions, temps écoulé 101.6s. ** ** 0w 0g 48 
-Exploré 361000000 noeuds, trouvé 180499997 solutions, temps écoulé 101.9s. ** U* 0* 6w 18 
-Exploré 362000000 noeuds, trouvé 180999997 solutions, temps écoulé 102.2s. ** 1* s* 1g 34 
-Exploré 363000000 noeuds, trouvé 181499998 solutions, temps écoulé 102.5s. ** ** 34 
-Exploré 364000000 noeuds, trouvé 181999997 solutions, temps écoulé 102.8s. ** t* 0g 08 14 
-Exploré 365000000 noeuds, trouvé 182499998 solutions, temps écoulé 103.0s. ** 0* ** 0g 78 
-Exploré 366000000 noeuds, trouvé 182999998 solutions, temps écoulé 103.3s. ** ** 38 12 
-Exploré 367000000 noeuds, trouvé 183499998 solutions, temps écoulé 103.6s. ** w* 04 
-Exploré 368000000 noeuds, trouvé 183999997 solutions, temps écoulé 104.0s. ** 3* 3w 08 04 
-Exploré 369000000 noeuds, trouvé 184499998 solutions, temps écoulé 104.4s. ** 0* 2* fg 
-Exploré 370000000 noeuds, trouvé 184999997 solutions, temps écoulé 104.7s. ** ** 5w 08 04 12 
-Exploré 371000000 noeuds, trouvé 185499997 solutions, temps écoulé 105.1s. ** o* eg 24 
-Exploré 372000000 noeuds, trouvé 185999997 solutions, temps écoulé 105.4s. ** c* 3w 08 24 
-Exploré 373000000 noeuds, trouvé 186499998 solutions, temps écoulé 105.7s. ** 0* C* cg 
-Exploré 374000000 noeuds, trouvé 186999999 solutions, temps écoulé 106.1s. ** ** 58 
-Exploré 375000000 noeuds, trouvé 187499998 solutions, temps écoulé 106.5s. ** V* 7g 34 
-Exploré 376000000 noeuds, trouvé 187999997 solutions, temps écoulé 106.8s. ** d* 9g 04 02 
-Exploré 377000000 noeuds, trouvé 188499998 solutions, temps écoulé 107.1s. ** 1* ew 
-Exploré 378000000 noeuds, trouvé 188999998 solutions, temps écoulé 107.4s. ** M* 18 02 
-Exploré 379000000 noeuds, trouvé 189499998 solutions, temps écoulé 108.0s. ** X* 34 
-Exploré 380000000 noeuds, trouvé 189999997 solutions, temps écoulé 108.5s. ** 0* 9w 04 02 
-Exploré 381000000 noeuds, trouvé 190499998 solutions, temps écoulé 109.1s. ** 1w 08 34 
-TOTAL. Trouvé 190899322 solutions en 111.5s
+Exploré 4000000 noeuds, trouvé 1999996 solutions, temps écoulé 1.0s. 0* 0* s* 0* p* 58 02 
+Exploré 5000000 noeuds, trouvé 2499996 solutions, temps écoulé 1.2s. 0* 0* R* ** 2* fg 04 02 
+Exploré 6000000 noeuds, trouvé 2999997 solutions, temps écoulé 1.5s. 0* 0* ** 7* X* 0g 78 
+Exploré 7000000 noeuds, trouvé 3499997 solutions, temps écoulé 1.8s. 0* 0* ** 0* 7* 7g 
+Exploré 8000000 noeuds, trouvé 3999998 solutions, temps écoulé 2.1s. 0* 0* ** g* 
+Exploré 9000000 noeuds, trouvé 4499996 solutions, temps écoulé 2.5s. 0* 2* K* P* 04 02 
+Exploré 10000000 noeuds, trouvé 4999996 solutions, temps écoulé 2.8s. 0* 3* 0* ** 1* ag 
+Exploré 11000000 noeuds, trouvé 5499997 solutions, temps écoulé 3.0s. 0* 3* ** 6* 08 14 
+Exploré 12000000 noeuds, trouvé 5999997 solutions, temps écoulé 3.3s. 0* 4* ** i* ag 
+Exploré 13000000 noeuds, trouvé 6499996 solutions, temps écoulé 3.6s. 0* 5* o* ** ew 18 02 
+Exploré 14000000 noeuds, trouvé 6999995 solutions, temps écoulé 3.9s. 0* 6* 0* ** 7* 3g 04 02 
+Exploré 15000000 noeuds, trouvé 7499997 solutions, temps écoulé 4.1s. 0* 6* ** m* 24 
+Exploré 16000000 noeuds, trouvé 7999995 solutions, temps écoulé 4.4s. 0* 7* ** 0* lw 08 04 02 
+Exploré 17000000 noeuds, trouvé 8499996 solutions, temps écoulé 4.7s. 0* 8* 9* 2* 3g 14 
+Exploré 18000000 noeuds, trouvé 8999997 solutions, temps écoulé 4.9s. 0* 9* 0* 7* Y* 34 
+Exploré 19000000 noeuds, trouvé 9499997 solutions, temps écoulé 5.1s. 0* 9* ** 9* 18 
+Exploré 20000000 noeuds, trouvé 9999996 solutions, temps écoulé 5.4s. 0* a* ** 7* cw 14 
+Exploré 21000000 noeuds, trouvé 10499996 solutions, temps écoulé 5.7s. 0* b* 5* ** 0w ag 14 
+Exploré 22000000 noeuds, trouvé 10999995 solutions, temps écoulé 5.9s. 0* c* 0* 0* 0* 0* J* 1g 04 12 
+Exploré 23000000 noeuds, trouvé 11499997 solutions, temps écoulé 6.2s. 0* c* ** 1* hw 02 
+Exploré 24000000 noeuds, trouvé 11999997 solutions, temps écoulé 6.4s. 0* d* ** T* 0w 2g 
+Exploré 25000000 noeuds, trouvé 12499997 solutions, temps écoulé 6.7s. 0* r* 2* f* qw 02 
+Exploré 26000000 noeuds, trouvé 12999997 solutions, temps écoulé 6.9s. 0* v* ** 3* 0g 58 02 
+Exploré 27000000 noeuds, trouvé 13499999 solutions, temps écoulé 7.2s. 0* z* ** 
+Exploré 28000000 noeuds, trouvé 13999997 solutions, temps écoulé 7.4s. 0* E* 0* ** 7g 02 
+Exploré 29000000 noeuds, trouvé 14499997 solutions, temps écoulé 7.7s. 0* I* ** pw 28 02 
+Exploré 30000000 noeuds, trouvé 14999997 solutions, temps écoulé 7.9s. 0* M* ** 7* 1g 04 12 
+Exploré 31000000 noeuds, trouvé 15499996 solutions, temps écoulé 8.2s. 0* R* 0* U* 0* bw 04 02 
+Exploré 32000000 noeuds, trouvé 15999997 solutions, temps écoulé 8.4s. 0* V* t* 6w 08 14 
+Exploré 33000000 noeuds, trouvé 16499997 solutions, temps écoulé 8.7s. 0* Z* ** c* 1g 34 
+Exploré 34000000 noeuds, trouvé 16999998 solutions, temps écoulé 8.9s. 0* ** 0* 0* ** eg 
+Exploré 35000000 noeuds, trouvé 17499997 solutions, temps écoulé 9.2s. 0* ** b* 8* 7w 68 
+Exploré 36000000 noeuds, trouvé 17999997 solutions, temps écoulé 9.4s. 0* ** ** w* dg 02 
+Exploré 37000000 noeuds, trouvé 18499998 solutions, temps écoulé 9.6s. 0* ** ** F* 24 
+Exploré 38000000 noeuds, trouvé 18999996 solutions, temps écoulé 9.9s. 0* ** 7* 0* 0* rw 08 04 02 
+Exploré 39000000 noeuds, trouvé 19499997 solutions, temps écoulé 10.1s. 0* ** ** 1w 08 34 
+Exploré 40000000 noeuds, trouvé 19999997 solutions, temps écoulé 10.4s. 0* ** ** gw 04 02 
+Exploré 41000000 noeuds, trouvé 20499998 solutions, temps écoulé 10.7s. 0* ** ** eg 02 
+Exploré 42000000 noeuds, trouvé 20999997 solutions, temps écoulé 10.9s. 0* ** ** 5w 28 
+Exploré 43000000 noeuds, trouvé 21499997 solutions, temps écoulé 11.1s. 0* ** 3* 4* 28 02 
+Exploré 44000000 noeuds, trouvé 21999998 solutions, temps écoulé 11.4s. 0* ** ** c* 08 
+Exploré 45000000 noeuds, trouvé 22499997 solutions, temps écoulé 11.6s. 0* ** K* 5g 02 
+Exploré 46000000 noeuds, trouvé 22999998 solutions, temps écoulé 11.9s. 0* ** 0* ** sw 24 
+Exploré 47000000 noeuds, trouvé 23499998 solutions, temps écoulé 12.1s. 0* ** ** 1g 
+Exploré 48000000 noeuds, trouvé 23999998 solutions, temps écoulé 12.4s. 0* ** q* e* cg 34 
+Exploré 49000000 noeuds, trouvé 24499997 solutions, temps écoulé 12.6s. 0* ** 0* ** 04 02 
+Exploré 50000000 noeuds, trouvé 24999998 solutions, temps écoulé 12.9s. 0* ** L* 34 
+Exploré 51000000 noeuds, trouvé 25499997 solutions, temps écoulé 13.2s. 0* ** 7* 0w bg 02 
+Exploré 52000000 noeuds, trouvé 25999997 solutions, temps écoulé 13.4s. 0* ** 0* r* 08 14 
+Exploré 53000000 noeuds, trouvé 26499998 solutions, temps écoulé 13.7s. 0* ** ** 18 02 
+Exploré 54000000 noeuds, trouvé 26999998 solutions, temps écoulé 14.1s. 0* ** 0* uw 08 34 
+Exploré 55000000 noeuds, trouvé 27499998 solutions, temps écoulé 14.7s. 0* ** 6w 24 
+Exploré 56000000 noeuds, trouvé 27999997 solutions, temps écoulé 15.1s. 1* 0* ** y* 18 02 
+Exploré 57000000 noeuds, trouvé 28499996 solutions, temps écoulé 15.3s. 1* 3* e* 1* ow 28 12 
+Exploré 58000000 noeuds, trouvé 28999997 solutions, temps écoulé 15.6s. 1* j* 2* 3* dg 02 
+Exploré 59000000 noeuds, trouvé 29499997 solutions, temps écoulé 15.8s. 1* ** U* 08 04 12 
+Exploré 60000000 noeuds, trouvé 29999997 solutions, temps écoulé 16.0s. 1* ** e* 0g 08 24 
+Exploré 61000000 noeuds, trouvé 30499998 solutions, temps écoulé 16.3s. 1* ** ** vw 18 02 
+Exploré 62000000 noeuds, trouvé 30999998 solutions, temps écoulé 16.6s. 1* ** ** tw 
+Exploré 63000000 noeuds, trouvé 31499997 solutions, temps écoulé 16.9s. 1* ** 4w 08 04 12 
+Exploré 64000000 noeuds, trouvé 31999997 solutions, temps écoulé 17.1s. 2* 0* 3* ** 0g 58 
+Exploré 65000000 noeuds, trouvé 32499997 solutions, temps écoulé 17.4s. 2* 0* ** 0w 0g 68 
+Exploré 66000000 noeuds, trouvé 32999997 solutions, temps écoulé 17.6s. 2* s* ** uw 02 
+Exploré 67000000 noeuds, trouvé 33499996 solutions, temps écoulé 17.9s. 2* ** 0* 1* 04 02 
+Exploré 68000000 noeuds, trouvé 33999996 solutions, temps écoulé 18.1s. 2* ** e* 1w 48 02 
+Exploré 69000000 noeuds, trouvé 34499997 solutions, temps écoulé 18.4s. 2* ** 7* tw 04 02 
+Exploré 70000000 noeuds, trouvé 34999998 solutions, temps écoulé 18.6s. 2* ** B* V* 78 12 
+Exploré 71000000 noeuds, trouvé 35499999 solutions, temps écoulé 18.9s. 2* ** hw 
+Exploré 72000000 noeuds, trouvé 35999997 solutions, temps écoulé 19.2s. 2* ** P* ** 0g 38 02 
+Exploré 73000000 noeuds, trouvé 36499997 solutions, temps écoulé 19.5s. 3* 0* ** ** 0g 18 02 
+Exploré 74000000 noeuds, trouvé 36999998 solutions, temps écoulé 19.7s. 3* 3* ** 2* 
+Exploré 75000000 noeuds, trouvé 37499996 solutions, temps écoulé 20.0s. 3* p* O* v* 9w 02 
+Exploré 76000000 noeuds, trouvé 37999996 solutions, temps écoulé 20.2s. 3* ** 0* p* 0w 2g 34 
+Exploré 77000000 noeuds, trouvé 38499997 solutions, temps écoulé 20.5s. 3* ** ** 1w 38 02 
+Exploré 78000000 noeuds, trouvé 38999997 solutions, temps écoulé 20.7s. 3* ** 0* L* 18 12 
+Exploré 79000000 noeuds, trouvé 39499996 solutions, temps écoulé 21.0s. 3* ** 0* a* 0* 5w 18 02 
+Exploré 80000000 noeuds, trouvé 39999998 solutions, temps écoulé 21.3s. 3* ** 2* 4g 
+Exploré 81000000 noeuds, trouvé 40499996 solutions, temps écoulé 21.6s. 4* 0* d* O* 2w 28 02 
+Exploré 82000000 noeuds, trouvé 40999996 solutions, temps écoulé 21.8s. 4* 1* f* c* 0g 08 24 
+Exploré 83000000 noeuds, trouvé 41499997 solutions, temps écoulé 22.1s. 4* o* ** bg 04 12 
+Exploré 84000000 noeuds, trouvé 41999998 solutions, temps écoulé 22.3s. 4* L* ** 14 
+Exploré 85000000 noeuds, trouvé 42499997 solutions, temps écoulé 22.6s. 4* ** ** 0w 7g 12 
+Exploré 86000000 noeuds, trouvé 42999998 solutions, temps écoulé 22.8s. 4* ** ** 
+Exploré 87000000 noeuds, trouvé 43499998 solutions, temps écoulé 23.1s. 4* ** 0* x* 48 
+Exploré 88000000 noeuds, trouvé 43999997 solutions, temps écoulé 23.4s. 4* ** 7* 5w 08 14 
+Exploré 89000000 noeuds, trouvé 44499996 solutions, temps écoulé 23.7s. 5* 0* 0* 0* 0* 2* 4w 34 
+Exploré 90000000 noeuds, trouvé 44999998 solutions, temps écoulé 23.9s. 5* 0* ** Y* bg 
+Exploré 91000000 noeuds, trouvé 45499998 solutions, temps écoulé 24.2s. 5* 4* ** ** 34 
+Exploré 92000000 noeuds, trouvé 45999997 solutions, temps écoulé 24.4s. 5* v* 9* mw 14 
+Exploré 93000000 noeuds, trouvé 46499996 solutions, temps écoulé 24.7s. 5* ** z* f* 4g 02 
+Exploré 94000000 noeuds, trouvé 46999997 solutions, temps écoulé 24.9s. 5* ** ** 0w 0g 08 
+Exploré 95000000 noeuds, trouvé 47499997 solutions, temps écoulé 25.1s. 5* ** 0* A* 0g 
+Exploré 96000000 noeuds, trouvé 47999997 solutions, temps écoulé 25.4s. 5* ** t* 6w 68 02 
+Exploré 97000000 noeuds, trouvé 48499997 solutions, temps écoulé 25.7s. 5* ** ** 7w 08 04 
+Exploré 98000000 noeuds, trouvé 48999996 solutions, temps écoulé 26.0s. 6* 0* ** 0* 3w 48 
+Exploré 99000000 noeuds, trouvé 49499998 solutions, temps écoulé 26.2s. 6* 1* ** d* fg 
+Exploré 100000000 noeuds, trouvé 49999997 solutions, temps écoulé 26.5s. 6* m* 1* 8* 78 02 
+Exploré 101000000 noeuds, trouvé 50499997 solutions, temps écoulé 26.7s. 6* ** ** 0* 4w 78 12 
+Exploré 102000000 noeuds, trouvé 50999997 solutions, temps écoulé 27.0s. 6* ** z* 18 12 
+Exploré 103000000 noeuds, trouvé 51499997 solutions, temps écoulé 27.2s. 6* ** 3* 0g 58 
+Exploré 104000000 noeuds, trouvé 51999997 solutions, temps écoulé 27.5s. 6* ** v* 7* fg 04 12 
+Exploré 105000000 noeuds, trouvé 52499998 solutions, temps écoulé 27.8s. 6* ** 8w 34 
+Exploré 106000000 noeuds, trouvé 52999997 solutions, temps écoulé 28.1s. 7* 0* 0* ** 38 02 
+Exploré 107000000 noeuds, trouvé 53499998 solutions, temps écoulé 28.3s. 7* 0* ** 0w 
+Exploré 108000000 noeuds, trouvé 53999998 solutions, temps écoulé 28.5s. 7* 6* ** uw 28 
+Exploré 109000000 noeuds, trouvé 54499997 solutions, temps écoulé 28.8s. 7* M* ** 8w 14 
+Exploré 110000000 noeuds, trouvé 54999997 solutions, temps écoulé 29.0s. 7* ** s* 0g 68 
+Exploré 111000000 noeuds, trouvé 55499997 solutions, temps écoulé 29.3s. 7* ** Y* 1* 4g 
+Exploré 112000000 noeuds, trouvé 55999996 solutions, temps écoulé 29.5s. 7* ** 3* 1w 08 04 12 
+Exploré 113000000 noeuds, trouvé 56499998 solutions, temps écoulé 29.8s. 7* ** ** vw 78 
+Exploré 114000000 noeuds, trouvé 56999997 solutions, temps écoulé 30.1s. 7* ** 0* 0* ** 08 04 
+Exploré 115000000 noeuds, trouvé 57499996 solutions, temps écoulé 30.3s. 8* 0* ** 0w 1g 04 12 
+Exploré 116000000 noeuds, trouvé 57999997 solutions, temps écoulé 30.6s. 8* 2* ** 2g 02 
+Exploré 117000000 noeuds, trouvé 58499997 solutions, temps écoulé 30.8s. 8* U* ** 0g 38 
+Exploré 118000000 noeuds, trouvé 58999997 solutions, temps écoulé 31.1s. 8* ** l* ow 04 12 
+Exploré 119000000 noeuds, trouvé 59499997 solutions, temps écoulé 31.3s. 8* ** 0* 0* d* 78 
+Exploré 120000000 noeuds, trouvé 59999996 solutions, temps écoulé 31.5s. 8* ** 0* 1* v* 08 24 
+Exploré 121000000 noeuds, trouvé 60499996 solutions, temps écoulé 31.8s. 8* ** 2* 3* mw 02 
+Exploré 122000000 noeuds, trouvé 60999997 solutions, temps écoulé 32.1s. 8* ** u* 0g 48 02 
+Exploré 123000000 noeuds, trouvé 61499997 solutions, temps écoulé 32.4s. 9* 0* 2* u* 6* 
+Exploré 124000000 noeuds, trouvé 61999997 solutions, temps écoulé 32.6s. 9* 0* ** Z* 9g 
+Exploré 125000000 noeuds, trouvé 62499997 solutions, temps écoulé 32.9s. 9* d* ** 0g 78 02 
+Exploré 126000000 noeuds, trouvé 62999996 solutions, temps écoulé 33.1s. 9* O* 9* 0* 0* cw 78 02 
+Exploré 127000000 noeuds, trouvé 63499996 solutions, temps écoulé 33.4s. 9* ** 0* 0* s* 38 12 
+Exploré 128000000 noeuds, trouvé 63999998 solutions, temps écoulé 33.7s. 9* ** s* bg 
+Exploré 129000000 noeuds, trouvé 64499998 solutions, temps écoulé 33.9s. 9* ** ** 3w 04 
+Exploré 130000000 noeuds, trouvé 64999997 solutions, temps écoulé 34.2s. 9* ** 0* c* 0g 68 
+Exploré 131000000 noeuds, trouvé 65499998 solutions, temps écoulé 34.5s. 9* ** ** 1g 14 
+Exploré 132000000 noeuds, trouvé 65999998 solutions, temps écoulé 34.8s. a* 0* ** ** 1w 38 
+Exploré 133000000 noeuds, trouvé 66499997 solutions, temps écoulé 35.0s. a* 4* 9* 7w 28 
+Exploré 134000000 noeuds, trouvé 66999997 solutions, temps écoulé 35.3s. a* q* ** jw 
+Exploré 135000000 noeuds, trouvé 67499997 solutions, temps écoulé 35.5s. a* ** ** 3g 24 
+Exploré 136000000 noeuds, trouvé 67999998 solutions, temps écoulé 35.7s. a* ** 9* 78 
+Exploré 137000000 noeuds, trouvé 68499997 solutions, temps écoulé 36.0s. a* ** 8* 0w eg 04 
+Exploré 138000000 noeuds, trouvé 68999997 solutions, temps écoulé 36.3s. a* ** 0* 0* H* 38 
+Exploré 139000000 noeuds, trouvé 69499997 solutions, temps écoulé 36.6s. a* ** 0* ** 3g 04 
+Exploré 140000000 noeuds, trouvé 69999996 solutions, temps écoulé 36.9s. b* 0* q* ** 1w 08 34 
+Exploré 141000000 noeuds, trouvé 70499998 solutions, temps écoulé 37.1s. b* 1* i* ** fg 
+Exploré 142000000 noeuds, trouvé 70999997 solutions, temps écoulé 37.4s. b* 9* A* cw 58 02 
+Exploré 143000000 noeuds, trouvé 71499997 solutions, temps écoulé 37.6s. b* U* ** 6w 24 
+Exploré 144000000 noeuds, trouvé 71999997 solutions, temps écoulé 37.9s. b* ** 0* ** 0g 38 02 
+Exploré 145000000 noeuds, trouvé 72499997 solutions, temps écoulé 38.1s. b* ** ** 58 02 
+Exploré 146000000 noeuds, trouvé 72999997 solutions, temps écoulé 38.4s. b* ** 0* ** 28 02 
+Exploré 147000000 noeuds, trouvé 73499998 solutions, temps écoulé 38.7s. b* ** p* 6g 02 
+Exploré 148000000 noeuds, trouvé 73999997 solutions, temps écoulé 38.9s. c* 0* 0* 0* 6* A* 58 
+Exploré 149000000 noeuds, trouvé 74499997 solutions, temps écoulé 39.2s. c* 0* ** h* tw 04 
+Exploré 150000000 noeuds, trouvé 74999996 solutions, temps écoulé 39.5s. c* 7* 3* a* 08 24 
+Exploré 151000000 noeuds, trouvé 75499997 solutions, temps écoulé 39.7s. c* s* ** 6* 8g 02 
+Exploré 152000000 noeuds, trouvé 75999997 solutions, temps écoulé 39.9s. c* ** 0* ** 0g 28 
+Exploré 153000000 noeuds, trouvé 76499997 solutions, temps écoulé 40.2s. c* ** 9w 02 
+Exploré 154000000 noeuds, trouvé 76999997 solutions, temps écoulé 40.5s. c* ** 1* pw 04 02 
+Exploré 155000000 noeuds, trouvé 77499996 solutions, temps écoulé 40.7s. c* ** ** 0* 0w 9g 04 12 
+Exploré 156000000 noeuds, trouvé 77999997 solutions, temps écoulé 41.1s. c* ** 1* 0* 0w 0g 
+Exploré 157000000 noeuds, trouvé 78499996 solutions, temps écoulé 41.3s. d* 0* ** 0* 0w fg 04 12 
+Exploré 158000000 noeuds, trouvé 78999998 solutions, temps écoulé 41.6s. d* 1* ** 7w 18 
+Exploré 159000000 noeuds, trouvé 79499998 solutions, temps écoulé 41.8s. d* i* ** 7g 34 
+Exploré 160000000 noeuds, trouvé 79999998 solutions, temps écoulé 42.1s. d* ** 4* 
+Exploré 161000000 noeuds, trouvé 80499997 solutions, temps écoulé 42.3s. d* ** 3* ** 1w 08 
+Exploré 162000000 noeuds, trouvé 80999997 solutions, temps écoulé 42.6s. d* ** q* 5g 12 
+Exploré 163000000 noeuds, trouvé 81499998 solutions, temps écoulé 42.9s. d* ** ** 
+Exploré 164000000 noeuds, trouvé 81999998 solutions, temps écoulé 43.2s. d* ** ** rw 14 
+Exploré 165000000 noeuds, trouvé 82499998 solutions, temps écoulé 43.5s. e* 0* ** uw 
+Exploré 166000000 noeuds, trouvé 82999997 solutions, temps écoulé 43.7s. e* ** r* 6g 04 02 
+Exploré 167000000 noeuds, trouvé 83499997 solutions, temps écoulé 43.9s. f* ** z* 08 14 
+Exploré 168000000 noeuds, trouvé 83999997 solutions, temps écoulé 44.2s. g* d* ** 0w 0g 68 
+Exploré 169000000 noeuds, trouvé 84499997 solutions, temps écoulé 44.4s. h* 0* f* 0* fw 
+Exploré 170000000 noeuds, trouvé 84999998 solutions, temps écoulé 44.7s. h* ** ** 1w 78 
+Exploré 171000000 noeuds, trouvé 85499997 solutions, temps écoulé 45.0s. i* ** q* 3g 34 
+Exploré 172000000 noeuds, trouvé 85999997 solutions, temps écoulé 45.2s. j* f* ** 1w 58 
+Exploré 173000000 noeuds, trouvé 86499996 solutions, temps écoulé 45.5s. k* 0* 0* 7* L* 68 
+Exploré 174000000 noeuds, trouvé 86999997 solutions, temps écoulé 45.7s. k* ** ** 8g 02 
+Exploré 175000000 noeuds, trouvé 87499997 solutions, temps écoulé 46.0s. l* ** n* 9* fg 24 
+Exploré 176000000 noeuds, trouvé 87999997 solutions, temps écoulé 46.2s. m* 2* Z* f* 6g 
+Exploré 177000000 noeuds, trouvé 88499997 solutions, temps écoulé 46.5s. m* ** f* 08 14 
+Exploré 178000000 noeuds, trouvé 88999998 solutions, temps écoulé 46.7s. n* ** 28 12 
+Exploré 179000000 noeuds, trouvé 89499997 solutions, temps écoulé 47.0s. o* W* u* 4g 14 
+Exploré 180000000 noeuds, trouvé 89999998 solutions, temps écoulé 47.2s. p* 0* ** bw 
+Exploré 181000000 noeuds, trouvé 90499997 solutions, temps écoulé 47.5s. p* ** 0* 0w 8g 02 
+Exploré 182000000 noeuds, trouvé 90999997 solutions, temps écoulé 47.7s. q* ** ** 08 14 
+Exploré 183000000 noeuds, trouvé 91499997 solutions, temps écoulé 48.0s. r* v* 9* 8g 
+Exploré 184000000 noeuds, trouvé 91999997 solutions, temps écoulé 48.2s. s* 0* ** B* 08 34 
+Exploré 185000000 noeuds, trouvé 92499998 solutions, temps écoulé 48.5s. s* ** 0* 1w 68 
+Exploré 186000000 noeuds, trouvé 92999997 solutions, temps écoulé 48.7s. t* ** j* 02 
+Exploré 187000000 noeuds, trouvé 93499997 solutions, temps écoulé 49.0s. u* n* f* sw 02 
+Exploré 188000000 noeuds, trouvé 93999997 solutions, temps écoulé 49.3s. v* 0* k* 8* 18 
+Exploré 189000000 noeuds, trouvé 94499997 solutions, temps écoulé 49.5s. v* ** t* cw 04 
+Exploré 190000000 noeuds, trouvé 94999996 solutions, temps écoulé 49.8s. w* ** 3* 0* fw 28 
+Exploré 191000000 noeuds, trouvé 95499997 solutions, temps écoulé 50.0s. x* 7* ** 08 04 
+Exploré 192000000 noeuds, trouvé 95999996 solutions, temps écoulé 50.3s. y* 0* 0* s* 0w 0g 28 
+Exploré 193000000 noeuds, trouvé 96499997 solutions, temps écoulé 50.5s. y* ** 0* 0w dg 12 
+Exploré 194000000 noeuds, trouvé 96999997 solutions, temps écoulé 50.8s. z* ** t* 08 04 
+Exploré 195000000 noeuds, trouvé 97499997 solutions, temps écoulé 51.1s. A* 3* d* rw 02 
+Exploré 196000000 noeuds, trouvé 97999998 solutions, temps écoulé 51.3s. A* ** ** 0w eg 
+Exploré 197000000 noeuds, trouvé 98499997 solutions, temps écoulé 51.6s. B* ** h* 08 24 
+Exploré 198000000 noeuds, trouvé 98999997 solutions, temps écoulé 51.9s. C* R* 0w 3g 14 
+Exploré 199000000 noeuds, trouvé 99499998 solutions, temps écoulé 52.1s. D* 0* ** J* fg 
+Exploré 200000000 noeuds, trouvé 99999997 solutions, temps écoulé 52.4s. D* ** 0w 0g 08 34 
+Exploré 201000000 noeuds, trouvé 100499997 solutions, temps écoulé 52.6s. E* ** y* fg 02 
+Exploré 202000000 noeuds, trouvé 100999997 solutions, temps écoulé 52.9s. F* v* ** 1w 68 
+Exploré 203000000 noeuds, trouvé 101499997 solutions, temps écoulé 53.1s. G* 0* ** 0w 0g 78 
+Exploré 204000000 noeuds, trouvé 101999997 solutions, temps écoulé 53.4s. G* ** 9w 08 34 
+Exploré 205000000 noeuds, trouvé 102499997 solutions, temps écoulé 53.6s. H* ** 0* tw 18 02 
+Exploré 206000000 noeuds, trouvé 102999997 solutions, temps écoulé 53.9s. I* l* 7* gw 
+Exploré 207000000 noeuds, trouvé 103499996 solutions, temps écoulé 54.1s. J* 0* R* 0w 0g 48 
+Exploré 208000000 noeuds, trouvé 103999997 solutions, temps écoulé 54.4s. J* ** a* 1g 14 
+Exploré 209000000 noeuds, trouvé 104499997 solutions, temps écoulé 54.7s. K* ** ** z* 12 
+Exploré 210000000 noeuds, trouvé 104999998 solutions, temps écoulé 54.9s. L* s* O* 3g 
+Exploré 211000000 noeuds, trouvé 105499997 solutions, temps écoulé 55.2s. M* 0* 0* q* pw 
+Exploré 212000000 noeuds, trouvé 105999998 solutions, temps écoulé 55.4s. M* ** tw 04 
+Exploré 213000000 noeuds, trouvé 106499997 solutions, temps écoulé 55.7s. N* ** e* 08 04 
+Exploré 214000000 noeuds, trouvé 106999998 solutions, temps écoulé 55.9s. O* 3* f* Z* 58 
+Exploré 215000000 noeuds, trouvé 107499997 solutions, temps écoulé 56.2s. O* ** 3* 1w 08 34 
+Exploré 216000000 noeuds, trouvé 107999996 solutions, temps écoulé 56.4s. P* ** ** qw 08 04 02 
+Exploré 217000000 noeuds, trouvé 108499997 solutions, temps écoulé 56.7s. Q* ** n* 04 02 
+Exploré 218000000 noeuds, trouvé 108999997 solutions, temps écoulé 57.0s. R* 0* ** ** 38 02 
+Exploré 219000000 noeuds, trouvé 109499999 solutions, temps écoulé 57.2s. R* ** ** 
+Exploré 220000000 noeuds, trouvé 109999998 solutions, temps écoulé 57.5s. S* ** uw 14 
+Exploré 221000000 noeuds, trouvé 110499997 solutions, temps écoulé 57.7s. T* y* ** 3* 38 02 
+Exploré 222000000 noeuds, trouvé 110999996 solutions, temps écoulé 58.0s. U* 0* ** 0* fw 14 
+Exploré 223000000 noeuds, trouvé 111499999 solutions, temps écoulé 58.2s. U* ** H* 34 
+Exploré 224000000 noeuds, trouvé 111999997 solutions, temps écoulé 58.5s. V* ** n* 18 12 
+Exploré 225000000 noeuds, trouvé 112499998 solutions, temps écoulé 58.8s. W* d* ** 34 
+Exploré 226000000 noeuds, trouvé 112999997 solutions, temps écoulé 59.0s. X* 0* Q* n* 04 02 
+Exploré 227000000 noeuds, trouvé 113499998 solutions, temps écoulé 59.3s. X* ** ** 04 02 
+Exploré 228000000 noeuds, trouvé 113999997 solutions, temps écoulé 59.5s. Y* ** L* 08 04 02 
+Exploré 229000000 noeuds, trouvé 114499996 solutions, temps écoulé 59.8s. Z* c* ** 0* rw 04 02 
+Exploré 230000000 noeuds, trouvé 114999995 solutions, temps écoulé 60.1s. ** 0* 0* 8* 0w 0g 18 02 
+Exploré 231000000 noeuds, trouvé 115499997 solutions, temps écoulé 60.3s. ** ** G* 1* 1g 
+Exploré 232000000 noeuds, trouvé 115999996 solutions, temps écoulé 60.6s. ** ** 0* ew 08 14 
+Exploré 233000000 noeuds, trouvé 116499996 solutions, temps écoulé 60.8s. ** 6* ** 0g 68 02 
+Exploré 234000000 noeuds, trouvé 116999998 solutions, temps écoulé 61.1s. ** ** ** A* 12 
+Exploré 235000000 noeuds, trouvé 117499998 solutions, temps écoulé 61.3s. ** ** 0* sw 
+Exploré 236000000 noeuds, trouvé 117999998 solutions, temps écoulé 61.6s. ** ** i* 
+Exploré 237000000 noeuds, trouvé 118499997 solutions, temps écoulé 61.9s. ** 0* ** M* 48 
+Exploré 238000000 noeuds, trouvé 118999998 solutions, temps écoulé 62.1s. ** ** U* cw 58 
+Exploré 239000000 noeuds, trouvé 119499997 solutions, temps écoulé 62.4s. ** ** f* 18 02 
+Exploré 240000000 noeuds, trouvé 119999998 solutions, temps écoulé 62.6s. ** D* ** 7w 38 
+Exploré 241000000 noeuds, trouvé 120499996 solutions, temps écoulé 62.9s. ** 0* ** N* 0g 18 02 
+Exploré 242000000 noeuds, trouvé 120999998 solutions, temps écoulé 63.1s. ** ** cw 
+Exploré 243000000 noeuds, trouvé 121499997 solutions, temps écoulé 63.4s. ** ** U* vw 08 04 02 
+Exploré 244000000 noeuds, trouvé 121999997 solutions, temps écoulé 63.6s. ** d* c* 9g 02 
+Exploré 245000000 noeuds, trouvé 122499998 solutions, temps écoulé 63.9s. ** 0* i* sw 34 
+Exploré 246000000 noeuds, trouvé 122999997 solutions, temps écoulé 64.1s. ** ** 2* iw 
+Exploré 247000000 noeuds, trouvé 123499998 solutions, temps écoulé 64.4s. ** ** 1* Q* fg 
+Exploré 248000000 noeuds, trouvé 123999997 solutions, temps écoulé 64.7s. ** 6* ** 18 02 
+Exploré 249000000 noeuds, trouvé 124499997 solutions, temps écoulé 64.9s. ** 0* 0* j* M* 14 
+Exploré 250000000 noeuds, trouvé 124999998 solutions, temps écoulé 65.2s. ** ** gw 
+Exploré 251000000 noeuds, trouvé 125499998 solutions, temps écoulé 65.4s. ** ** ** 18 12 
+Exploré 252000000 noeuds, trouvé 125999997 solutions, temps écoulé 65.7s. ** 3* e* qw 24 
+Exploré 253000000 noeuds, trouvé 126499997 solutions, temps écoulé 65.9s. ** ** R* 0w 2g 24 
+Exploré 254000000 noeuds, trouvé 126999997 solutions, temps écoulé 66.2s. ** ** 0* k* cg 04 
+Exploré 255000000 noeuds, trouvé 127499996 solutions, temps écoulé 66.5s. ** ** R* 1g 04 02 
+Exploré 256000000 noeuds, trouvé 127999997 solutions, temps écoulé 66.7s. ** 0* ** 6w 38 12 
+Exploré 257000000 noeuds, trouvé 128499998 solutions, temps écoulé 67.0s. ** ** ** 34 
+Exploré 258000000 noeuds, trouvé 128999997 solutions, temps écoulé 67.2s. ** ** v* 3* eg 34 
+Exploré 259000000 noeuds, trouvé 129499996 solutions, temps écoulé 67.5s. ** v* 7* 5* 7g 14 
+Exploré 260000000 noeuds, trouvé 129999998 solutions, temps écoulé 67.7s. ** 0* ** hw 24 
+Exploré 261000000 noeuds, trouvé 130499999 solutions, temps écoulé 68.0s. ** ** kw 
+Exploré 262000000 noeuds, trouvé 130999996 solutions, temps écoulé 68.2s. ** ** 0w 8g 04 02 
+Exploré 263000000 noeuds, trouvé 131499997 solutions, temps écoulé 68.5s. ** f* ** 3g 04 
+Exploré 264000000 noeuds, trouvé 131999996 solutions, temps écoulé 68.8s. ** 0* n* 0* 4w 58 
+Exploré 265000000 noeuds, trouvé 132499998 solutions, temps écoulé 69.0s. ** ** 6g 24 
+Exploré 266000000 noeuds, trouvé 132999997 solutions, temps écoulé 69.3s. ** ** 0* 0* uw 12 
+Exploré 267000000 noeuds, trouvé 133499997 solutions, temps écoulé 69.5s. ** d* ** 68 12 
+Exploré 268000000 noeuds, trouvé 133999996 solutions, temps écoulé 69.8s. ** 0* 0* b* cw 04 12 
+Exploré 269000000 noeuds, trouvé 134499996 solutions, temps écoulé 70.1s. ** ** 0* 0* 0w dg 02 
+Exploré 270000000 noeuds, trouvé 134999998 solutions, temps écoulé 70.3s. ** ** 9* 38 12 
+Exploré 271000000 noeuds, trouvé 135499996 solutions, temps écoulé 70.6s. ** b* e* 5w 08 04 12 
+Exploré 272000000 noeuds, trouvé 135999996 solutions, temps écoulé 70.8s. ** ** 0* 4w 04 02 
+Exploré 273000000 noeuds, trouvé 136499998 solutions, temps écoulé 71.1s. ** ** 9* cg 12 
+Exploré 274000000 noeuds, trouvé 136999997 solutions, temps écoulé 71.3s. ** 5* 0* c* bg 12 
+Exploré 275000000 noeuds, trouvé 137499997 solutions, temps écoulé 71.6s. ** ** L* 28 
+Exploré 276000000 noeuds, trouvé 137999997 solutions, temps écoulé 71.9s. ** ** 0* W* 38 02 
+Exploré 277000000 noeuds, trouvé 138499996 solutions, temps écoulé 72.1s. ** 0* ** dw 38 02 
+Exploré 278000000 noeuds, trouvé 138999998 solutions, temps écoulé 72.4s. ** Q* 1w 58 
+Exploré 279000000 noeuds, trouvé 139499997 solutions, temps écoulé 72.6s. ** ** C* cg 04 02 
+Exploré 280000000 noeuds, trouvé 139999998 solutions, temps écoulé 72.9s. ** 0* R* 7g 
+Exploré 281000000 noeuds, trouvé 140499998 solutions, temps écoulé 73.2s. ** B* bg 
+Exploré 282000000 noeuds, trouvé 140999997 solutions, temps écoulé 73.5s. ** ** lw 02 
+Exploré 283000000 noeuds, trouvé 141499998 solutions, temps écoulé 73.7s. ** 0* 0* ** 38 
+Exploré 284000000 noeuds, trouvé 141999997 solutions, temps écoulé 74.0s. ** h* 7* vw 04 02 
+Exploré 285000000 noeuds, trouvé 142499998 solutions, temps écoulé 74.3s. ** ** 0* iw 
+Exploré 286000000 noeuds, trouvé 142999998 solutions, temps écoulé 74.5s. ** ** B* 14 
+Exploré 287000000 noeuds, trouvé 143499998 solutions, temps écoulé 74.8s. ** 6* H* 68 
+Exploré 288000000 noeuds, trouvé 143999996 solutions, temps écoulé 75.1s. ** ** 0* 0* 0w 0g 78 
+Exploré 289000000 noeuds, trouvé 144499998 solutions, temps écoulé 75.4s. ** ** pw 08 
+Exploré 290000000 noeuds, trouvé 144999998 solutions, temps écoulé 75.6s. ** 1* ** 
+Exploré 291000000 noeuds, trouvé 145499997 solutions, temps écoulé 75.9s. ** ** 0* s* 68 02 
+Exploré 292000000 noeuds, trouvé 145999997 solutions, temps écoulé 76.1s. ** ** e* 0g 08 24 
+Exploré 293000000 noeuds, trouvé 146499997 solutions, temps écoulé 76.4s. ** 0* ** 6g 02 
+Exploré 294000000 noeuds, trouvé 146999998 solutions, temps écoulé 76.7s. ** v* Y* 18 
+Exploré 295000000 noeuds, trouvé 147499997 solutions, temps écoulé 76.9s. ** ** 3* 8g 02 
+Exploré 296000000 noeuds, trouvé 147999997 solutions, temps écoulé 77.2s. ** 0* f* ** 4g 
+Exploré 297000000 noeuds, trouvé 148499997 solutions, temps écoulé 77.4s. ** j* 0w eg 24 
+Exploré 298000000 noeuds, trouvé 148999998 solutions, temps écoulé 77.7s. ** ** 0* E* 24 
+Exploré 299000000 noeuds, trouvé 149499996 solutions, temps écoulé 77.9s. ** 0* 0* 5* 08 04 12 
+Exploré 300000000 noeuds, trouvé 149999998 solutions, temps écoulé 78.2s. ** b* m* 78 
+Exploré 301000000 noeuds, trouvé 150499997 solutions, temps écoulé 78.5s. ** ** V* 0w cg 12 
+Exploré 302000000 noeuds, trouvé 150999998 solutions, temps écoulé 78.7s. ** ** 5* ag 
+Exploré 303000000 noeuds, trouvé 151499996 solutions, temps écoulé 79.0s. ** 3* 7* 5g 04 02 
+Exploré 304000000 noeuds, trouvé 151999998 solutions, temps écoulé 79.2s. ** ** tw 24 
+Exploré 305000000 noeuds, trouvé 152499998 solutions, temps écoulé 79.5s. ** ** cg 
+Exploré 306000000 noeuds, trouvé 152999996 solutions, temps écoulé 79.7s. ** 1* 1* bw 18 02 
+Exploré 307000000 noeuds, trouvé 153499997 solutions, temps écoulé 80.0s. ** ** sw 38 02 
+Exploré 308000000 noeuds, trouvé 153999997 solutions, temps écoulé 80.2s. ** ** 0* 9w 08 34 
+Exploré 309000000 noeuds, trouvé 154499997 solutions, temps écoulé 80.5s. ** 0* ** 6w 14 
+Exploré 310000000 noeuds, trouvé 154999997 solutions, temps écoulé 80.7s. ** s* X* 3g 02 
+Exploré 311000000 noeuds, trouvé 155499997 solutions, temps écoulé 81.0s. ** ** L* ag 02 
+Exploré 312000000 noeuds, trouvé 155999997 solutions, temps écoulé 81.2s. ** 0* 7* e* 78 02 
+Exploré 313000000 noeuds, trouvé 156499996 solutions, temps écoulé 81.5s. ** m* ** 08 04 02 
+Exploré 314000000 noeuds, trouvé 156999997 solutions, temps écoulé 81.8s. ** ** q* 18 02 
+Exploré 315000000 noeuds, trouvé 157499998 solutions, temps écoulé 82.0s. ** ** 0* 0w bg 
+Exploré 316000000 noeuds, trouvé 157999996 solutions, temps écoulé 82.3s. ** 7* I* 0g 08 04 02 
+Exploré 317000000 noeuds, trouvé 158499997 solutions, temps écoulé 82.6s. ** ** r* 18 02 
+Exploré 318000000 noeuds, trouvé 158999996 solutions, temps écoulé 82.8s. ** ** 7w 08 04 02 
+Exploré 319000000 noeuds, trouvé 159499996 solutions, temps écoulé 83.1s. ** 3* 4* 0w 9g 02 
+Exploré 320000000 noeuds, trouvé 159999996 solutions, temps écoulé 83.4s. ** ** ** 6w 08 04 02 
+Exploré 321000000 noeuds, trouvé 160499997 solutions, temps écoulé 83.7s. ** ** 3w 38 02 
+Exploré 322000000 noeuds, trouvé 160999997 solutions, temps écoulé 84.0s. ** 0* ** 0w 0g 08 
+Exploré 323000000 noeuds, trouvé 161499998 solutions, temps écoulé 84.2s. ** U* lw 34 
+Exploré 324000000 noeuds, trouvé 161999997 solutions, temps écoulé 84.5s. ** ** 4* 0w cg 02 
+Exploré 325000000 noeuds, trouvé 162499996 solutions, temps écoulé 84.8s. ** 0* V* 6* 0g 28 12 
+Exploré 326000000 noeuds, trouvé 162999997 solutions, temps écoulé 85.0s. ** A* N* ew 68 12 
+Exploré 327000000 noeuds, trouvé 163499997 solutions, temps écoulé 85.3s. ** ** 0* 3* 0g 28 
+Exploré 328000000 noeuds, trouvé 163999997 solutions, temps écoulé 85.5s. ** 0* 3* 7* 2g 
+Exploré 329000000 noeuds, trouvé 164499997 solutions, temps écoulé 85.8s. ** f* 1* 0w dg 
+Exploré 330000000 noeuds, trouvé 164999997 solutions, temps écoulé 86.0s. ** ** 0* kw 18 02 
+Exploré 331000000 noeuds, trouvé 165499998 solutions, temps écoulé 86.3s. ** ** 28 12 
+Exploré 332000000 noeuds, trouvé 165999997 solutions, temps écoulé 86.6s. ** b* 3* jw 34 
+Exploré 333000000 noeuds, trouvé 166499996 solutions, temps écoulé 86.8s. ** ** c* 8g 04 02 
+Exploré 334000000 noeuds, trouvé 166999998 solutions, temps écoulé 87.1s. ** ** ** 18 
+Exploré 335000000 noeuds, trouvé 167499998 solutions, temps écoulé 87.3s. ** 1* ** 24 
+Exploré 336000000 noeuds, trouvé 167999997 solutions, temps écoulé 87.6s. ** ** 6* 0w 3g 
+Exploré 337000000 noeuds, trouvé 168499998 solutions, temps écoulé 87.8s. ** ** 6* 78 12 
+Exploré 338000000 noeuds, trouvé 168999997 solutions, temps écoulé 88.1s. ** ** 0* fw 04 12 
+Exploré 339000000 noeuds, trouvé 169499998 solutions, temps écoulé 88.3s. ** h* 2w 
+Exploré 340000000 noeuds, trouvé 169999997 solutions, temps écoulé 88.6s. ** 0* 3* 2w 04 
+Exploré 341000000 noeuds, trouvé 170499998 solutions, temps écoulé 88.8s. ** ** 7* 48 
+Exploré 342000000 noeuds, trouvé 170999997 solutions, temps écoulé 89.1s. ** 7* N* 28 02 
+Exploré 343000000 noeuds, trouvé 171499998 solutions, temps écoulé 89.4s. ** ** 1g 24 
+Exploré 344000000 noeuds, trouvé 171999997 solutions, temps écoulé 89.6s. ** ** 5* fg 04 02 
+Exploré 345000000 noeuds, trouvé 172499998 solutions, temps écoulé 89.9s. ** 3* q* bg 
+Exploré 346000000 noeuds, trouvé 172999998 solutions, temps écoulé 90.1s. ** ** 1g 
+Exploré 347000000 noeuds, trouvé 173499998 solutions, temps écoulé 90.4s. ** ** 0g 68 
+Exploré 348000000 noeuds, trouvé 173999997 solutions, temps écoulé 90.6s. ** 1* 3* 2g 34 
+Exploré 349000000 noeuds, trouvé 174499998 solutions, temps écoulé 90.9s. ** ** 1w 38 
+Exploré 350000000 noeuds, trouvé 174999998 solutions, temps écoulé 91.1s. ** u* X* 24 
+Exploré 351000000 noeuds, trouvé 175499997 solutions, temps écoulé 91.4s. ** 0* ** bw 14 
+Exploré 352000000 noeuds, trouvé 175999998 solutions, temps écoulé 91.7s. ** ** P* 04 12 
+Exploré 353000000 noeuds, trouvé 176499997 solutions, temps écoulé 91.9s. ** s* 0* 6w 08 34 
+Exploré 354000000 noeuds, trouvé 176999996 solutions, temps écoulé 92.2s. ** 0* c* 3g 04 02 
+Exploré 355000000 noeuds, trouvé 177499997 solutions, temps écoulé 92.4s. ** ** 0w 8g 02 
+Exploré 356000000 noeuds, trouvé 177999997 solutions, temps écoulé 92.6s. ** 9* fw 24 
+Exploré 357000000 noeuds, trouvé 178499997 solutions, temps écoulé 92.9s. ** 0* 0* 0* aw 
+Exploré 358000000 noeuds, trouvé 178999997 solutions, temps écoulé 93.1s. ** ** 0g 78 02 
+Exploré 359000000 noeuds, trouvé 179499997 solutions, temps écoulé 93.4s. ** 8* 5g 04 02 
+Exploré 360000000 noeuds, trouvé 179999998 solutions, temps écoulé 93.6s. ** ** 0w 0g 48 
+Exploré 361000000 noeuds, trouvé 180499997 solutions, temps écoulé 93.9s. ** U* 0* 6w 18 
+Exploré 362000000 noeuds, trouvé 180999997 solutions, temps écoulé 94.1s. ** 1* s* 1g 34 
+Exploré 363000000 noeuds, trouvé 181499998 solutions, temps écoulé 94.4s. ** ** 34 
+Exploré 364000000 noeuds, trouvé 181999997 solutions, temps écoulé 94.6s. ** t* 0g 08 14 
+Exploré 365000000 noeuds, trouvé 182499998 solutions, temps écoulé 94.9s. ** 0* ** 0g 78 
+Exploré 366000000 noeuds, trouvé 182999998 solutions, temps écoulé 95.1s. ** ** 38 12 
+Exploré 367000000 noeuds, trouvé 183499998 solutions, temps écoulé 95.3s. ** w* 04 
+Exploré 368000000 noeuds, trouvé 183999997 solutions, temps écoulé 95.6s. ** 3* 3w 08 04 
+Exploré 369000000 noeuds, trouvé 184499998 solutions, temps écoulé 95.9s. ** 0* 2* fg 
+Exploré 370000000 noeuds, trouvé 184999997 solutions, temps écoulé 96.2s. ** ** 5w 08 04 12 
+Exploré 371000000 noeuds, trouvé 185499997 solutions, temps écoulé 96.4s. ** o* eg 24 
+Exploré 372000000 noeuds, trouvé 185999997 solutions, temps écoulé 96.7s. ** c* 3w 08 24 
+Exploré 373000000 noeuds, trouvé 186499998 solutions, temps écoulé 97.0s. ** 0* C* cg 
+Exploré 374000000 noeuds, trouvé 186999999 solutions, temps écoulé 97.3s. ** ** 58 
+Exploré 375000000 noeuds, trouvé 187499998 solutions, temps écoulé 97.6s. ** V* 7g 34 
+Exploré 376000000 noeuds, trouvé 187999997 solutions, temps écoulé 97.9s. ** d* 9g 04 02 
+Exploré 377000000 noeuds, trouvé 188499998 solutions, temps écoulé 98.1s. ** 1* ew 
+Exploré 378000000 noeuds, trouvé 188999998 solutions, temps écoulé 98.4s. ** M* 18 02 
+Exploré 379000000 noeuds, trouvé 189499998 solutions, temps écoulé 98.9s. ** X* 34 
+Exploré 380000000 noeuds, trouvé 189999997 solutions, temps écoulé 99.4s. ** 0* 9w 04 02 
+Exploré 381000000 noeuds, trouvé 190499998 solutions, temps écoulé 100.0s. ** 1w 08 34 
+TOTAL. Trouvé 190899322 solutions en 102.3s
