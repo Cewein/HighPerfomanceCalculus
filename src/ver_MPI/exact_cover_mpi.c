@@ -482,8 +482,8 @@ struct instance_t * load_matrix(const char *filename)
 
 
         fclose(in);
-        fprintf(stderr, "Lu %d objets (%d principaux) et %d options\n", 
-                instance->n_items, instance->n_primary, instance->n_options);
+        //fprintf(stderr, "Lu %d objets (%d principaux) et %d options\n", 
+        //        instance->n_items, instance->n_primary, instance->n_options);
         return instance;
 }
 
@@ -632,7 +632,7 @@ int main(int argc, char **argv)
         struct context_t * ctx = backtracking_setup(instance);
         launchPara(instance, ctx, rank, p);
         double time = wtime() - start;
-        printf("FINI. Trouvé %lld solutions en %.1fs pour proc %d\n", ctx->solutions, time,rank);
+        //printf("FINI. Trouvé %lld solutions en %.1fs pour proc %d\n", ctx->solutions, time,rank);
         count += ctx->solutions;
         
 
@@ -651,7 +651,8 @@ int main(int argc, char **argv)
                         count += countTmp;
                 }
                 
-                printf("TOTAL : %lld for %.1fs\n", count, wtime() - countTime);
+                //printf("TOTAL : %lld for %.1fs\n", count, wtime() - countTime);
+                printf("%.3fs\n", wtime() - countTime);
         }
 
         MPI_Finalize();

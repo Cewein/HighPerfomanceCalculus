@@ -1,10 +1,16 @@
-Exploré 1000000 noeuds, trouvé 499997 solutions, temps écoulé 0.2s. 0* X* E* 0g 78 
-Exploré 2000000 noeuds, trouvé 999997 solutions, temps écoulé 0.5s. 3* ** aw 04 12 
-Exploré 3000000 noeuds, trouvé 1499996 solutions, temps écoulé 0.7s. 8* 0* r* 0* rw 04 02 
-Exploré 4000000 noeuds, trouvé 1999997 solutions, temps écoulé 1.0s. e* 0* ** 0w fg 14 
-Exploré 5000000 noeuds, trouvé 2499998 solutions, temps écoulé 1.2s. B* ** 7g 04 02 
-Exploré 6000000 noeuds, trouvé 2999996 solutions, temps écoulé 1.4s. Z* o* 0g 08 04 02 
-Exploré 7000000 noeuds, trouvé 3499998 solutions, temps écoulé 1.6s. ** f* eg 02 
-Exploré 8000000 noeuds, trouvé 3999997 solutions, temps écoulé 1.9s. ** c* 08 14 
-FINI. Trouvé 4213597 solutions en 2.1s pour proc 0
-TOTAL : 4213597 for 2.1s
+2: 0.861s
+4: 0.537s
+6: 0.432s
+8: 0.384s
+10: 0.395s
+12: 0.336s
+14: 0.341s
+16: 0.333s
+18: 0.329s
+20: 0.321s
+22: 0.340s
+24: 0.323s
+26: 0.340s
+28: 0.330s
+30: 0.358s
+32: 0.327s

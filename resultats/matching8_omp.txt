@@ -1,6 +1,33 @@
-Exploré 1000000 noeuds, trouvé 414818 solutions, temps écoulé 0.1s. df 0d 9b 89 47 25 23 
-FINI. Trouvé 405405 solutions en 0.1s pour proc 3
-FINI. Trouvé 540540 solutions en 0.1s pour proc 2
-FINI. Trouvé 540540 solutions en 0.1s pour proc 1
-FINI. Trouvé 540540 solutions en 0.1s pour proc 0
-TOTAL : 2027025 solutions in 0.1s
+FINI. Trouvé 0 solutions en 0.0s pour proc 24
+FINI. Trouvé 0 solutions en 0.0s pour proc 25
+FINI. Trouvé 0 solutions en 0.0s pour proc 22
+FINI. Trouvé 0 solutions en 0.0s pour proc 15
+FINI. Trouvé 0 solutions en 0.0s pour proc 17
+FINI. Trouvé 0 solutions en 0.0s pour proc 30
+FINI. Trouvé 0 solutions en 0.0s pour proc 18
+FINI. Trouvé 0 solutions en 0.0s pour proc 27
+FINI. Trouvé 0 solutions en 0.0s pour proc 21
+FINI. Trouvé 0 solutions en 0.0s pour proc 23
+FINI. Trouvé 0 solutions en 0.0s pour proc 28
+FINI. Trouvé 0 solutions en 0.0s pour proc 20
+FINI. Trouvé 0 solutions en 0.0s pour proc 26
+FINI. Trouvé 0 solutions en 0.0s pour proc 29
+FINI. Trouvé 0 solutions en 0.0s pour proc 31
+FINI. Trouvé 0 solutions en 0.0s pour proc 19
+FINI. Trouvé 0 solutions en 0.0s pour proc 16
+FINI. Trouvé 135135 solutions en 0.0s pour proc 12
+FINI. Trouvé 135135 solutions en 0.0s pour proc 11
+FINI. Trouvé 135135 solutions en 0.0s pour proc 10
+FINI. Trouvé 135135 solutions en 0.0s pour proc 13
+FINI. Trouvé 135135 solutions en 0.0s pour proc 5
+FINI. Trouvé 135135 solutions en 0.0s pour proc 14
+FINI. Trouvé 135135 solutions en 0.0s pour proc 3
+FINI. Trouvé 135135 solutions en 0.0s pour proc 6
+FINI. Trouvé 135135 solutions en 0.0s pour proc 0
+FINI. Trouvé 135135 solutions en 0.0s pour proc 1
+FINI. Trouvé 135135 solutions en 0.0s pour proc 7
+FINI. Trouvé 135135 solutions en 0.0s pour proc 8
+FINI. Trouvé 135135 solutions en 0.0s pour proc 2
+FINI. Trouvé 135135 solutions en 0.0s pour proc 9
+FINI. Trouvé 135135 solutions en 0.0s pour proc 4
+TOTAL : 2027025 solutions in 0.0s

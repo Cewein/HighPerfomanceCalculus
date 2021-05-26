@@ -1,6 +1,16 @@
-Exploré 1000000 noeuds, trouvé 414818 solutions, temps écoulé 0.1s. 3f 0d 9b 89 47 25 23 
-Exploré 2000000 noeuds, trouvé 829637 solutions, temps écoulé 0.2s. 6f 1d 8b 89 27 05 23 
-Exploré 3000000 noeuds, trouvé 1244457 solutions, temps écoulé 0.3s. 9f 2d 7b 79 67 45 03 
-Exploré 4000000 noeuds, trouvé 1659277 solutions, temps écoulé 0.4s. cf 3d 6b 79 47 25 13 
-FINI. Trouvé 2027025 solutions en 0.5s pour proc 0
-TOTAL : 2027025 for 0.5s
+2: 0.187s
+4: 0.106s
+6: 0.072s
+8: 0.061s
+10: 0.055s
+12: 0.054s
+14: 0.056s
+16: 0.049s
+18: 0.047s
+20: 0.040s
+22: 0.039s
+24: 0.049s
+26: 0.050s
+28: 0.057s
+30: 0.045s
+32: 0.046s

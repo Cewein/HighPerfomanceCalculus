@@ -1,29 +1,33 @@
-Exploré 1000000 noeuds, trouvé 414817 solutions, temps écoulé 0.1s. 1h 3f 0d 9b 89 47 25 13 
-Exploré 2000000 noeuds, trouvé 829637 solutions, temps écoulé 0.2s. 1h 6f 1d 8b 89 27 05 23 
-Exploré 3000000 noeuds, trouvé 1244457 solutions, temps écoulé 0.3s. 1h 9f 2d 7b 79 67 45 03 
-Exploré 4000000 noeuds, trouvé 1659276 solutions, temps écoulé 0.4s. 1h cf 3d 6b 79 47 25 03 
-Exploré 5000000 noeuds, trouvé 2074095 solutions, temps écoulé 0.5s. 5h 0f 4d 5b 79 27 05 03 
-Exploré 6000000 noeuds, trouvé 2488916 solutions, temps écoulé 0.5s. 5h 3f 5d 4b 69 67 35 23 
-Exploré 7000000 noeuds, trouvé 2903735 solutions, temps écoulé 0.6s. 5h 6f 6d 3b 69 47 15 23 
-Exploré 8000000 noeuds, trouvé 3318555 solutions, temps écoulé 0.7s. 5h 9f 7d 2b 69 27 05 
-Exploré 9000000 noeuds, trouvé 3733375 solutions, temps écoulé 0.8s. 5h cf 8d 1b 59 67 35 13 
-Exploré 10000000 noeuds, trouvé 4148194 solutions, temps écoulé 0.9s. 9h 0f 9d 0b 59 47 15 13 
-Exploré 11000000 noeuds, trouvé 4563014 solutions, temps écoulé 1.0s. ah 3f 9d ab 59 17 45 23 
-Exploré 12000000 noeuds, trouvé 4977834 solutions, temps écoulé 1.1s. ah 6f ad 9b 49 67 35 03 
-Exploré 13000000 noeuds, trouvé 5392653 solutions, temps écoulé 1.2s. ah 9f bd 8b 49 47 15 03 
-Exploré 14000000 noeuds, trouvé 5807473 solutions, temps écoulé 1.3s. 8h cf cd 7b 49 17 45 13 
-Exploré 15000000 noeuds, trouvé 6222292 solutions, temps écoulé 1.4s. eh 1f 0d 6b 39 67 25 13 
-Exploré 16000000 noeuds, trouvé 6637112 solutions, temps écoulé 1.5s. eh 4f 1d 5b 39 47 05 23 
-Exploré 17000000 noeuds, trouvé 7051932 solutions, temps écoulé 1.6s. ch 7f 2d 4b 39 17 45 
-Exploré 18000000 noeuds, trouvé 7466751 solutions, temps écoulé 1.6s. dh af 3d 3b 29 67 25 03 
-Exploré 19000000 noeuds, trouvé 7881571 solutions, temps écoulé 1.7s. dh df 4d 2b 29 47 05 13 
-FINI. Trouvé 8108100 solutions en 1.8s pour proc 1
-FINI. Trouvé 8108100 solutions en 1.8s pour proc 2
-FINI. Trouvé 8108100 solutions en 1.8s pour proc 3
-Exploré 20000000 noeuds, trouvé 8296390 solutions, temps écoulé 1.8s. gh 1f 5d 1b 29 17 35 13 
-Exploré 21000000 noeuds, trouvé 8711210 solutions, temps écoulé 1.9s. gh 4f 6d 0b 19 67 15 23 
-Exploré 22000000 noeuds, trouvé 9126030 solutions, temps écoulé 2.0s. gh 7f 6d ab 19 47 05 03 
-Exploré 23000000 noeuds, trouvé 9540850 solutions, temps écoulé 2.1s. gh af 7d 9b 19 17 35 13 
-Exploré 24000000 noeuds, trouvé 9955670 solutions, temps écoulé 2.2s. gh df 8d 8b 09 67 15 23 
-FINI. Trouvé 10135125 solutions en 2.2s pour proc 0
-TOTAL : 34459425 solutions in 2.2s
+FINI. Trouvé 0 solutions en 0.0s pour proc 18
+FINI. Trouvé 0 solutions en 0.0s pour proc 27
+FINI. Trouvé 0 solutions en 0.0s pour proc 29
+FINI. Trouvé 0 solutions en 0.0s pour proc 26
+FINI. Trouvé 0 solutions en 0.0s pour proc 24
+FINI. Trouvé 0 solutions en 0.0s pour proc 20
+FINI. Trouvé 0 solutions en 0.0s pour proc 28
+FINI. Trouvé 0 solutions en 0.0s pour proc 21
+FINI. Trouvé 0 solutions en 0.0s pour proc 19
+FINI. Trouvé 0 solutions en 0.0s pour proc 25
+FINI. Trouvé 0 solutions en 0.0s pour proc 23
+FINI. Trouvé 0 solutions en 0.0s pour proc 31
+FINI. Trouvé 0 solutions en 0.0s pour proc 30
+FINI. Trouvé 0 solutions en 0.0s pour proc 17
+FINI. Trouvé 0 solutions en 0.0s pour proc 22
+FINI. Trouvé 2027025 solutions en 0.4s pour proc 10
+FINI. Trouvé 2027025 solutions en 0.5s pour proc 0
+FINI. Trouvé 2027025 solutions en 0.5s pour proc 4
+FINI. Trouvé 2027025 solutions en 0.5s pour proc 1
+FINI. Trouvé 2027025 solutions en 0.6s pour proc 15
+FINI. Trouvé 2027025 solutions en 0.6s pour proc 7
+FINI. Trouvé 2027025 solutions en 0.7s pour proc 5
+FINI. Trouvé 2027025 solutions en 0.7s pour proc 9
+FINI. Trouvé 2027025 solutions en 0.7s pour proc 12
+FINI. Trouvé 2027025 solutions en 0.7s pour proc 6
+FINI. Trouvé 2027025 solutions en 0.7s pour proc 13
+FINI. Trouvé 2027025 solutions en 0.7s pour proc 3
+FINI. Trouvé 2027025 solutions en 0.7s pour proc 2
+FINI. Trouvé 2027025 solutions en 0.7s pour proc 16
+FINI. Trouvé 2027025 solutions en 0.7s pour proc 11
+FINI. Trouvé 2027025 solutions en 0.7s pour proc 8
+FINI. Trouvé 2027025 solutions en 0.7s pour proc 14
+TOTAL : 34459425 solutions in 0.7s

@@ -1,7 +1,33 @@
-Exploré 1000000 noeuds, trouvé 499997 solutions, temps écoulé 0.2s. 0* X* E* 0g 78 
-FINI. Trouvé 899639 solutions en 0.5s pour proc 3
-FINI. Trouvé 917357 solutions en 0.5s pour proc 1
-FINI. Trouvé 916646 solutions en 0.5s pour proc 2
-Exploré 2000000 noeuds, trouvé 999998 solutions, temps écoulé 0.5s. s* 6* T* 2g 
-FINI. Trouvé 1479955 solutions en 0.8s pour proc 0
-TOTAL : 4213597 solutions in 0.8s
+FINI. Trouvé 75731 solutions en 0.1s pour proc 19
+FINI. Trouvé 75730 solutions en 0.1s pour proc 23
+FINI. Trouvé 76442 solutions en 0.1s pour proc 12
+FINI. Trouvé 75720 solutions en 0.1s pour proc 28
+FINI. Trouvé 75720 solutions en 0.1s pour proc 25
+FINI. Trouvé 75717 solutions en 0.1s pour proc 30
+FINI. Trouvé 75717 solutions en 0.1s pour proc 31
+FINI. Trouvé 75720 solutions en 0.1s pour proc 26
+FINI. Trouvé 76405 solutions en 0.1s pour proc 17
+FINI. Trouvé 76405 solutions en 0.1s pour proc 15
+FINI. Trouvé 75730 solutions en 0.1s pour proc 22
+FINI. Trouvé 75720 solutions en 0.1s pour proc 27
+FINI. Trouvé 75720 solutions en 0.1s pour proc 24
+FINI. Trouvé 76442 solutions en 0.1s pour proc 13
+FINI. Trouvé 75730 solutions en 0.1s pour proc 20
+FINI. Trouvé 75717 solutions en 0.1s pour proc 29
+FINI. Trouvé 76405 solutions en 0.1s pour proc 16
+FINI. Trouvé 76405 solutions en 0.1s pour proc 14
+FINI. Trouvé 75731 solutions en 0.1s pour proc 18
+FINI. Trouvé 75730 solutions en 0.1s pour proc 21
+FINI. Trouvé 174533 solutions en 0.1s pour proc 3
+FINI. Trouvé 174533 solutions en 0.1s pour proc 4
+FINI. Trouvé 191540 solutions en 0.2s pour proc 1
+FINI. Trouvé 171270 solutions en 0.2s pour proc 8
+FINI. Trouvé 171270 solutions en 0.2s pour proc 9
+FINI. Trouvé 174533 solutions en 0.2s pour proc 6
+FINI. Trouvé 171270 solutions en 0.2s pour proc 11
+FINI. Trouvé 191540 solutions en 0.2s pour proc 2
+FINI. Trouvé 174533 solutions en 0.2s pour proc 7
+FINI. Trouvé 174533 solutions en 0.2s pour proc 5
+FINI. Trouvé 171270 solutions en 0.2s pour proc 10
+FINI. Trouvé 754135 solutions en 0.4s pour proc 0
+TOTAL : 4213597 solutions in 0.4s
