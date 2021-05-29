@@ -13,10 +13,14 @@ exact_cover_seq :
 exact_cover_mpi :
 	make -C ./src/ver_MPI
 
+exact_cover_mpi :
+	make -C ./src/ver_MPI_OMP
+
 clean :
 	make clean -C ./src/ver_OMP
 	make clean -C ./src/ver_MPI
 	make clean -C ./src/ver_seq
+	make clean -C ./src/ver_MPI_OMP
 
 .PHONY : clean all
 
