@@ -1,5 +1,5 @@
 
-all : exact_cover_omp exact_cover_seq exact_cover_mpi exact_cover_mpi_omp
+all : exact_cover_omp exact_cover_seq exact_cover_mpi
 
 test :
 	./launch_tests.sh
