@@ -550,48 +550,55 @@ void solve(const struct instance_t *instance, struct context_t *ctx)
         uncover(instance, ctx, chosen_item);                      /* backtrack */
 }
 
-struct context_t * deepCopy(struct context_t *ctx, const struct instance_t *instance)
+void freeContext(struct context_t *context)
 {
-        struct context_t * copy = malloc(sizeof(*ctx));
-        if (copy == NULL)
+        free(context->active_options);
+        free(context->chosen_options);
+        free(context->child_num);
+        free(context->num_children);
+        free(context);
+}
+
+struct context_t * deepCopy(struct context_t *context, const struct instance_t *instance)
+{
+        struct context_t *ctx = malloc(sizeof(*ctx));
+        if (ctx == NULL)
                 err(1, "impossible d'allouer un contexte");
-        
-        copy->level = ctx->level;
-        copy->nodes = ctx->nodes;
-        copy->solutions = ctx->solutions;
+        ctx->level = context->level;
+        ctx->nodes = context->nodes;
+        ctx->solutions = context->solutions;
 
         int n = instance->n_items;
         int m = instance->n_options;
-
-        copy->active_options    = malloc(n * sizeof(*copy->active_options));
-        copy->chosen_options    = malloc(n * sizeof(*copy->chosen_options));
-        copy->child_num         = malloc(n * sizeof(*copy->child_num));
-        copy->num_children      = malloc(n * sizeof(*copy->num_children));
-
-        if (copy->active_options == NULL || copy->chosen_options == NULL
-                || copy->child_num == NULL || copy->num_children == NULL)
+        ctx->active_options = malloc(n * sizeof(*ctx->active_options));
+        ctx->chosen_options = malloc(n * sizeof(*ctx->chosen_options));
+        ctx->child_num = malloc(n * sizeof(*ctx->child_num));
+        ctx->num_children = malloc(n * sizeof(*ctx->num_children));
+        
+        if (ctx->active_options == NULL || ctx->chosen_options == NULL
+                || ctx->child_num == NULL || ctx->num_children == NULL)
                 err(1, "impossible d'allouer le contexte");
-        
-        copy->active_items = sparse_array_init(n);
-        for (int item = 0; item < ctx->active_items->len; item++)
-                sparse_array_add(copy->active_items, ctx->active_items->p[item]);
 
-        for (int item = 0; item < n; item++)
+        ctx->active_items = sparse_array_init(n);
+        for(int i = 0; i < context->active_items->len; i++){ //copie du champs active_items
+                sparse_array_add(ctx->active_items, context->active_items->p[i]);
+
+        }
+
+        for (int item = 0; item < n; item++){
                 ctx->active_options[item] = sparse_array_init(m);
-        
-        for (int item = 0; item < m; item++){
-                if(sparse_array_empty(ctx->active_options[item])){
+        }
+        for (int item = 0; item < n; item++){ //copie du champs active_options
+                if(sparse_array_empty(context->active_options[item])){
                         continue;
                 }
-                for(int i = 0; i < ctx->active_options[item]->len; i++){
-                        sparse_array_add(copy->active_options[item], ctx->active_options[item]->p[i]);
+                for(int i = 0; i < context->active_options[item]->len; i++){
+                        sparse_array_add(ctx->active_options[item], context->active_options[item]->p[i]);
                 }
 
         }
 
-
-
-        return copy;
+        return ctx;
 }
 
 void launchPara(const struct instance_t *instance, struct context_t *ctx, int cpuRank,int nbCpu, bool useOMP);
@@ -605,8 +612,9 @@ long long launchParaOMP(const struct instance_t *instance, struct context_t *ctx
         for(int i = 0; i < nbCpu; i++)
         {
                 struct context_t * copy = deepCopy(ctx, instance);
-                launchPara(instance, copy, i, nbCpu, true);
+                launchPara(instance, copy, i, nbCpu, false);
                 count += copy->solutions;
+                //freeContext(copy);
         }
 
         return count;
@@ -632,7 +640,7 @@ void launchPara(const struct instance_t *instance, struct context_t *ctx, int cp
                 int option = active_options->p[k];
                 ctx->child_num[ctx->level] = k;
                 choose_option(instance, ctx, option, chosen_item);
-                if(useOMP)
+                if(!useOMP)
                         solve(instance, ctx);
                 else
                         ctx->solutions += launchParaOMP(instance,ctx);
@@ -695,7 +703,7 @@ int main(int argc, char **argv)
         
         start = wtime();
         struct context_t * ctx = backtracking_setup(instance);
-        launchPara(instance, ctx, rank, p, false);
+        launchPara(instance, ctx, rank, p, true);
         double time = wtime() - start;
         //printf("FINI. Trouvé %lld solutions en %.1fs pour proc %d\n", ctx->solutions, time,rank);
         count += ctx->solutions;
