@@ -594,6 +594,8 @@ struct context_t * deepCopy(struct context_t *ctx, const struct instance_t *inst
         return copy;
 }
 
+void launchPara(const struct instance_t *instance, struct context_t *ctx, int cpuRank,int nbCpu, bool useOMP);
+
 long long launchParaOMP(const struct instance_t *instance, struct context_t *ctx)
 {
         int nbCpu = omp_get_max_threads();
@@ -602,10 +604,8 @@ long long launchParaOMP(const struct instance_t *instance, struct context_t *ctx
         #pragma omp parallel for shared(instance, count)
         for(int i = 0; i < nbCpu; i++)
         {
-                start = wtime();
                 struct context_t * copy = deepCopy(ctx, instance);
                 launchPara(instance, copy, i, nbCpu, true);
-                double time = wtime() - start;
                 count += copy->solutions;
         }
 

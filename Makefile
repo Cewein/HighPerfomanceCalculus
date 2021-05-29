@@ -13,7 +13,7 @@ exact_cover_seq :
 exact_cover_mpi :
 	make -C ./src/ver_MPI
 
-exact_cover_mpi :
+exact_cover_mpi_omp :
 	make -C ./src/ver_MPI_OMP
 
 clean :
