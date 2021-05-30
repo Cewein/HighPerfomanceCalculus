@@ -675,7 +675,7 @@ int main(int argc, char **argv)
 		
 		if(rank == masterID)
 		{
-                        long long tmpCount = 0;
+      long long tmpCount = 0;
                         
 			//get any paquet sended to the master id
 			//status also get the source ID
@@ -695,11 +695,11 @@ int main(int argc, char **argv)
 		else
 		{
 			//compute the first paquet sended
-                        struct context_t * ctx = backtracking_setup(instance);
-                        launchPara(instance, ctx, chosenOpt);
-                        count += ctx->solutions;
+      struct context_t * ctx = backtracking_setup(instance);
+      launchPara(instance, ctx, chosenOpt);
+      count += ctx->solutions;
 
-			//fprintf(stderr, "sending paquet %d\n",chosenOpt);
+			//fprintf(stderr, "sending paquet %d from %d\n",chosenOpt, rank);
 			//send the data to master
 			MPI_Send(&count,1,MPI_LONG_LONG_INT,masterID,dataTag,MPI_COMM_WORLD);
 			//MPI_Send(&chosenOpt, sizeof(int), MPI_INT,masterID,paquetTag,MPI_COMM_WORLD);
@@ -707,16 +707,28 @@ int main(int argc, char **argv)
 			//fprintf(stderr, "paquet %d sended --- getting a new one from master\n",chosenOpt);
 
 			//ask for another packet
-			MPI_Recv(&chosenOpt,sizeof(int), MPI_INT,masterID,paquetTag,MPI_COMM_WORLD,&status);
+      //if(remaining >= (chosenOpt+1))
+ 		  MPI_Recv(&chosenOpt,sizeof(int), MPI_INT,masterID,paquetTag,MPI_COMM_WORLD,&status);      
+		}
+	}
+ 
+ if(rank == masterID)
+	{
+    chosenOpt=remaining*2;
+		//send to slave
+		for(int i = 1; i < p; i++)
+		{	
+			MPI_Send(&chosenOpt, sizeof(int), MPI_INT, i, paquetTag, MPI_COMM_WORLD);
+			chosenOpt++;
 		}
 	}
 
-        if(rank == masterID)
-        {
-                printf("%.3fs\n", wtime() - start);
-        }
+  if(rank == masterID)
+  {
+          printf("%.3fs for %lld\n", wtime() - start, count);
+  }
 
-        MPI_Finalize();
+  MPI_Finalize();
 }
 
 
