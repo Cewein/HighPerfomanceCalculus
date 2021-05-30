@@ -6,7 +6,7 @@ RM = rm -f
 
 all : exact_cover_mpi_omp
 
-exact_cover_mpi : $(OBJ_MPI)
+exact_cover_mpi_omp : $(OBJ_MPI)
 	$(MPI) $(CCFLAGS) -o $@ $^
 
 %.o: %.c
