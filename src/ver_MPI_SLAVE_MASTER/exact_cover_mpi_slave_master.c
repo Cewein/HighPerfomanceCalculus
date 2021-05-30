@@ -679,10 +679,10 @@ int main(int argc, char **argv)
                         
 			//get any paquet sended to the master id
 			//status also get the source ID
-			fprintf(stderr, "Attend un paquet des slaves worker\n");
+			//fprintf(stderr, "Attend un paquet des slaves worker\n");
 			MPI_Recv(&tmpCount, 1, MPI_LONG_LONG_INT,MPI_ANY_SOURCE,dataTag,MPI_COMM_WORLD,&status);
 
-			fprintf(stderr, "Paquet reçu de slave %d\n",status.MPI_SOURCE);
+			//fprintf(stderr, "Paquet reçu de slave %d\n",status.MPI_SOURCE);
 
 			//copy to the final image
 			count += tmpCount;
@@ -699,12 +699,12 @@ int main(int argc, char **argv)
                         launchPara(instance, ctx, chosenOpt);
                         count += ctx->solutions;
 
-			fprintf(stderr, "sending paquet %d\n",chosenOpt);
+			//fprintf(stderr, "sending paquet %d\n",chosenOpt);
 			//send the data to master
 			MPI_Send(&count,1,MPI_LONG_LONG_INT,masterID,dataTag,MPI_COMM_WORLD);
 			//MPI_Send(&chosenOpt, sizeof(int), MPI_INT,masterID,paquetTag,MPI_COMM_WORLD);
 
-			fprintf(stderr, "paquet %d sended --- getting a new one from master\n",chosenOpt);
+			//fprintf(stderr, "paquet %d sended --- getting a new one from master\n",chosenOpt);
 
 			//ask for another packet
 			MPI_Recv(&chosenOpt,sizeof(int), MPI_INT,masterID,paquetTag,MPI_COMM_WORLD,&status);
@@ -713,7 +713,7 @@ int main(int argc, char **argv)
 
         if(rank == masterID)
         {
-                printf("FINAL TIME: %.3fs\n", wtime() - start);
+                printf("%.3fs\n", wtime() - start);
         }
 
         MPI_Finalize();
